@@ -1,0 +1,55 @@
+$hgt: 34.7vw;
+
+.paper {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        height: $hgt;
+        max-width: 73vw;
+        margin: auto;
+        font-family: 'Raleway', sans-serif;
+    }
+    &__sidelogo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        background-image: url("../../assets/otros/bgPaper.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        background-position-x: left;
+        height: $hgt;
+        width: calc( $hgt * .67);
+        z-index: -1;
+    }
+    &__title {
+        margin-left: -5vw;
+        font-size: 5.5vw;
+        transform: rotate(90deg);
+    }
+    &__button {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        vertical-align: middle;
+        padding: .9vw 1.3vw;
+        border-style: none;
+        & span{
+            padding-left: 1.6vw;
+            font-size: 1.2vw;
+            text-transform: uppercase;
+        }
+    }
+    &__text{
+        font-size: 1.4vw;
+        line-height: 2.8vw;
+    }
+}
