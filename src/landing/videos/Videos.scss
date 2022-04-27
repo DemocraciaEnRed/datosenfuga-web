@@ -1,0 +1,32 @@
+.videos__container{
+    height: 70vw;
+    background-color: black;
+    .videos__title{
+        position: absolute;
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 1.6vw;
+        line-height: 2.5vw;
+        width: 130%;
+        left: -5%;
+        margin-top: 5vw;
+
+        span {
+            font-weight: 400;
+        }
+
+        &--white{
+            color: rgba(255, 255, 255, 0.5);
+            z-index: 2;
+        }
+        &--green{
+            color: rgba(0, 255, 71, 0.2);
+            transform: rotate(-1.43deg)
+        }
+        &--pink{
+            color: rgba(255, 0, 229, 0.2);
+            transform: rotate(1.63deg);
+        }
+    }
+}

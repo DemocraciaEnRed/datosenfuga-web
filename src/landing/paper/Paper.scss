@@ -1,4 +1,4 @@
-$hgt: 34.7vw;
+$paperHgt: 34.7vw;
 
 .paper {
     &__content {
@@ -7,7 +7,7 @@ $hgt: 34.7vw;
         text-align: center;
         align-items: center;
         justify-content: space-evenly;
-        height: $hgt;
+        height: $paperHgt;
         max-width: 73vw;
         margin: auto;
         font-family: 'Raleway', sans-serif;
@@ -23,8 +23,8 @@ $hgt: 34.7vw;
         background-repeat: no-repeat;
         background-position-y: top;
         background-position-x: left;
-        height: $hgt;
-        width: calc( $hgt * .67);
+        height: $paperHgt;
+        width: calc( $paperHgt * .67);
         z-index: -1;
     }
     &__title {
@@ -46,6 +46,9 @@ $hgt: 34.7vw;
             padding-left: 1.6vw;
             font-size: 1.2vw;
             text-transform: uppercase;
+        }
+        & img{
+            height: 1.5vw;
         }
     }
     &__text{
