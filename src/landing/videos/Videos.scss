@@ -8,9 +8,11 @@
         font-weight: 800;
         font-size: 1.6vw;
         line-height: 2.5vw;
-        width: 130%;
-        left: -5%;
+        width: 100%;
         margin-top: 5vw;
+        white-space: nowrap;
+        overflow: hidden;
+        user-select: none;
 
         span {
             font-weight: 400;
