@@ -1,0 +1,39 @@
+.app__organizaciones {
+  width: 100%;
+  height: 34.88px;
+}
+
+.app__logos {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.app__contacto {
+  background: #000;
+  height: 16vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app__contacto-redes {
+  img {
+    padding: 25px;
+  }
+}
+
+.app__contacto-email {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: regular;
+
+  a {
+    text-decoration: none;
+    color: #9E9D9C;
+  }
+}
