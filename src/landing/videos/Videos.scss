@@ -10,23 +10,26 @@
         line-height: 2.5vw;
         width: 100%;
         margin-top: 5vw;
-        white-space: nowrap;
-        overflow: hidden;
         user-select: none;
-
         span {
             font-weight: 400;
         }
-
+        & h2{
+            margin-left: -5vw;
+            overflow: hidden;
+            white-space: nowrap;
+        }
         &--white{
             color: rgba(255, 255, 255, 0.5);
             z-index: 2;
         }
         &--green{
+            margin-top:-3vw;
             color: rgba(0, 255, 71, 0.2);
             transform: rotate(-1.43deg)
         }
         &--pink{
+            margin-bottom: -1vw;
             color: rgba(255, 0, 229, 0.2);
             transform: rotate(1.63deg);
         }

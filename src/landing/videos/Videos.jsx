@@ -3,9 +3,11 @@ import "./Videos.scss"
 const Videos = () => {
   return (
     <div id="casos" className="videos__container">
-        <h2 className='videos__title videos__title--pink'>#datos<span>en</span>fuga #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga</h2>
-        <h2 className='videos__title videos__title--white'>#datos<span>en</span>fuga #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga</h2>
-        <h2 className='videos__title videos__title--green'>#datos<span>en</span>fuga #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga</h2>
+      <div className="videos__title">
+        <h2 className='videos__title--pink'>#datos<span>en</span>fuga #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga #datos<span>en</span>fuga</h2>
+        <h2 className='videos__title--white'>#datos<span>en</span>fuga #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga #datos<span>en</span>fuga</h2>
+        <h2 className='videos__title--green'>#datos<span>en</span>fuga #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga #datos<span>en</span>fuga</h2>
+      </div>
     </div>
   )
 }
