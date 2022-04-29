@@ -2,6 +2,7 @@ import "./Paper.scss";
 import dload from "../../assets/iconos/iconoDownload.svg";
 
 const Paper = () => {
+
   return (
     <div className="paper" id="paper">
       <div className="paper__sidelogo">
