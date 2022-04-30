@@ -5,9 +5,7 @@ const Paper = () => {
 
   return (
     <div className="paper" id="paper">
-      <div className="paper__sidelogo">
-        <h2 className="paper__title">PAPER</h2>
-      </div>
+      <h2 className="paper__title">PAPER</h2>
       <div className="paper__content">
         <p className="paper__text">
           <strong>
@@ -18,8 +16,9 @@ const Paper = () => {
           los <strong>tipos penales argentinos aplicados al reporte de vulnerabilidades</strong> con
            una <strong>propuesta de interpretación 
              de las normas vigentes</strong> que permita entender que el reporte de vulnerabilidades no se
-          encuentra dentro de las conductas punibles. Además, se analizan las
-          propuestas más salientes de reforma de la legislación actual, y se <strong>esboza una propuesta 
+          encuentra dentro de las conductas punibles.<br />
+          Además, se analizan las propuestas más salientes de reforma de la legislación actual, y se 
+          <strong>esboza una propuesta 
             de reforma propia.</strong> Tambien
           podras encontrar los conceptos relevantes para entender las
           vulnerabilidades informáticas y su reporte y un breve recorrido

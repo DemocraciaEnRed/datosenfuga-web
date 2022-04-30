@@ -1,3 +1,4 @@
+import "./Loader.scss";
 import gif from "../../assets/gifs/gifLoader.gif";
 const Loader = () => {
   return <img src={gif} alt="loader" className="loader" />;
