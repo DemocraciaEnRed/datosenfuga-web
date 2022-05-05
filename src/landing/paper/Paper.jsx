@@ -26,10 +26,16 @@ const Paper = () => {
           reporte de vulnerabilidades y legislación vigente y jurisprudencia
           existente en la región.
         </p>
-        <button className="paper__button">
-          <img src={dload} alt="download"/>
-          <span>Descarga el paper del Proyecto</span>
-        </button>
+        <div className="paper__download">
+          <button className="paper__button">
+            <img src={dload} alt="download"/>
+            <span>Descarga el paper del Proyecto</span>
+          </button>
+          <button className="paper__button">
+            <img src={dload} alt="download"/>
+            <span>Descarga el paper del Proyecto</span>
+          </button>
+        </div>
       </div>
     </div>
   );
