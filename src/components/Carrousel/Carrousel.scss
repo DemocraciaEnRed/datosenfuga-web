@@ -1,73 +1,160 @@
 .app__principal {
   background-color: #000;
   width: 100%;
-  height: 100vh;
+  height: 750px;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  background-image: url('../../assets/gifs/gifCanilla.gif');
+  background-repeat: no-repeat;
+  background-size: 452px 721px;
+  background-position-x: 1100px;
+  background-position-y: -160px;
 
-.app__principal-slider {
-  width: 1000px;
-  height: 412px;
-  margin: 0px 0 0 62px;
-  padding-left: 80px;
-  overflow: visible;
-  h1 {
+  &-container {
+    padding-left: 80px;
+    width: 50%;
+  }
 
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 42px;
-    line-height: 57.2px;
-
-    span {
-      font-family: 'Open Sans', sans-serif;
+  &-slider {
+    width: 100%;
+    height: 412px;
+    h2 {
+      font-family: 'Opens Sans', sans-serif;
+      font-style: italic;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 41px;
+      text-transform: uppercase;
+      color:rgba(255, 46, 0, 0.85);
+      margin: 21px 0 39px 0;
+    }
+  
+    p {
+      font-family: 'Opens sans', sans-serif;
       font-weight: 400;
       font-style: regular;
+      font-size: 20px;
+      line-height: 27.24px;
+      padding-bottom: 70px;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      line-height: 57.2px;
+
+      span {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-style: regular;
+      }
     }
   }
-
-  h2 {
-    font-family: 'Opens Sans', sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 41px;
-    text-transform: uppercase;
-    color:rgba(255, 46, 0, 0.85);
-    margin: 21px 0 39px 0;
-  }
-
-  p {
-    font-family: 'Opens sans', sans-serif;
-    font-weight: 400;
-    font-style: regular;
-    font-size: 20px;
-    line-height: 27.24px;
-    padding-bottom: 70px;
-  }
-}
-
-.app__principal-gif {
-  position: absolute;
-  left: 80%;
 }
 
 .swiper-pagination {
   text-align: left;
+
+  &-bullet {
+    background: #fff;
+    height: 22px;
+    width: 22px;
+    margin-left: 30px !important;
+    
+    &-active {
+      background-color: #000;
+      border: 2px solid;
+      border-color: #FF2E00;
+    }
+  }
 }
 
-.swiper-pagination-bullet {
-  background: #fff;
-  height: 22px;
-  width: 22px;
-  margin-left: 30px !important;
+@media screen and (min-width: 1920px) {
+  .app__principal {
+    background-position-x: 1530px;
+    background-position-y: -165px;
+    background-size: 452px 721px;
+  }
 }
 
-.swiper-pagination-bullet-active {
-  background-color: #000;
-  border: 2px solid;
-  border-color: #FF2E00;
+@media screen and (max-width: 1025px) {
+  .app__principal {
+    background-position-x: 800px;
+    background-position-y: -100px;
+    background-size: 278px 444px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .app__principal {
+    background-position-x: 730px;
+    background-position-y: -100px;
+    background-size: 278px 444px;
+
+    &-container {
+      font-size: 20px;
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .app__principal {
+    background-position-x: 573px;
+    background-position-y: -60px;
+    background-size: 224px 357px;
+
+    &-container {
+      font-size: 16px;
+      width: 80%;
+  
+      h1 {
+        font-size: 36px;
+      }
+  
+      h2 {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .app__principal {
+    background-position-x: 200px;
+    background-position-y: -70px;
+    background-size: 144px 226px;
+
+    &-container {
+      padding-left: 15px;
+      font-size: 16px;
+      width: 90%;
+      text-align: left;
+      line-height: 21.79px;
+  
+      h1 {
+        font-size: 26px;
+      }
+  
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .swiper-pagination {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .app__principal {
+    background-position-x: 300px;
+    background-position-y: -70px;
+    background-size: 144px 226px;
+  }
 }
