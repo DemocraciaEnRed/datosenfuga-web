@@ -7,7 +7,7 @@ const Navbar = () => {
       <ul className='app__navbar-links'>
         <li><a href="#proyecto">Proyecto</a></li>
         <li><a href="#paper">Paper</a></li>
-        <li><a href="#casos">Casos-Videos</a></li>
+        <li><a href="#casos">Casos</a></li>
         <li><a href="#organizaciones">Organizaciones</a></li>
       </ul>
     </nav>
