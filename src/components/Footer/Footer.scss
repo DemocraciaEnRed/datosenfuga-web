@@ -1,6 +1,7 @@
 .correo {
   text-decoration: none;
   color: #9E9D9C;
+  display: none;
 }
 
 .app__organizaciones {
@@ -82,6 +83,9 @@
     &-redes {
       a {
         padding: 0 10px 0 10px;
+      }
+      .correo {
+        display: block;
       }
     }
 
