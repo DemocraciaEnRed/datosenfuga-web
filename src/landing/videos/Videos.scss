@@ -1,6 +1,8 @@
 .videos__container{
     height: 100vh;
     background-color: black;
+    display: flex;
+    justify-content: center;
     .videos__title{
         position: absolute;
         text-transform: uppercase;
@@ -32,6 +34,33 @@
             margin-bottom: -1vw;
             color: rgba(255, 0, 229, 0.2);
             transform: rotate(1.63deg);
+        }
+    }
+
+    .videos__box {
+        padding-top: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .videos__button {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        color: #000;
+        border-radius: 8px;
+        padding: 11px 18px;
+        border-style: none;
+        & span{
+            padding-left: 20px;
+            font-size: 17px;
+            text-transform: uppercase;
+        }
+        & img{
+            height: 25px;
+            width: 25px;
         }
     }
 }
