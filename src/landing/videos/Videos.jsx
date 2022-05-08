@@ -9,7 +9,7 @@ const Videos = () => {
         <h2 className='videos__title--green'>#datos<span>en</span>fuga #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga  #datos<span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga</h2>
       </div>
       <div className='videos__box'>
-        <iframe src="https://www.youtube.com/embed/FIMkE6u9pqs" title="Datos en fuga" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/FIMkE6u9pqs" title="Datos en fuga" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <button className="videos__button">
           <img src={videoIcon} alt="download"/>
           <span>Conoce otros casos como este</span>
