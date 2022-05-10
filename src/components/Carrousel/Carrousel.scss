@@ -1,3 +1,4 @@
+
 .app__principal {
   background-color: #000;
   width: 100%;
@@ -73,10 +74,34 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 2560px) {
+  .app__principal {
+    background-position-x: 2170px;
+    background-position-y: -185px;
+    background-size: 452px 721px;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .app__principal {
+    background-position-x: 1610px;
+    background-position-y: -185px;
+    background-size: 452px 721px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
   .app__principal {
     background-position-x: 1530px;
-    background-position-y: -165px;
+    background-position-y: -185px;
+    background-size: 452px 721px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .app__principal {
+    background-position-x: 1050px;
+    background-position-y: -185px;
     background-size: 452px 721px;
   }
 }
@@ -156,5 +181,14 @@
     background-position-x: 300px;
     background-position-y: -70px;
     background-size: 144px 226px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .app__principal {
+    background-position-x: 210px;
+    background-position-y: -60px;
+    background-size: 144px 226px;
+    height: 110vh;
   }
 }

@@ -43,3 +43,11 @@
     }
   }
 }
+
+@media screen and (max-width: 320px) {
+  .app__navbar-links {
+    li {
+      font-size: 12px;
+    }
+  }
+}
