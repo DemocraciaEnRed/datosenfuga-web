@@ -6,10 +6,10 @@ const Footer = () => {
     <>
       <div id='organizaciones' className='app__organizaciones'>
         <div className='app__organizaciones-logos'>
-          <img src={logos.odia} alt='Logo O.D.I.A' />
-          <img src={logos.der} alt='Logo Democracia en Red' />
-          <img src={logos.vialibre} alt='Logo Fundación Vía Libre' />
-          <img src={logos.indela} alt='Logo Indela' />
+          <a href='https://odia.legal/' target='_blank' rel='noreferrer'><img src={logos.odia} alt='Logo O.D.I.A' /></a>
+          <a href='https://democraciaenred.org/' target='_blank' rel='noreferrer'><img src={logos.der} alt='Logo Democracia en Red' /></a>
+          <a href='https://www.vialibre.org.ar/' target='_blank' rel='noreferrer'><img src={logos.vialibre} alt='Logo Fundación Vía Libre' /></a>
+          <a href='https://indela.fund/' target='_blank' rel='noreferrer'><img src={logos.indela} alt='Logo Indela' /></a>
         </div>
       </div>
       <footer className='app__footer'>

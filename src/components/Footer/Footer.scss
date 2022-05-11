@@ -20,22 +20,22 @@
     display: flex;
     justify-content: space-around;
 
-    img:first-child {
+    a:first-child {
       height: 2.7vw;
       width: 12.45vw;
     }
 
-    img:nth-child(2) {
+    a:nth-child(2) {
       height: 4.6vw;
       width: 13.3vw;
     }
 
-    img:nth-child(3) {
+    a:nth-child(3) {
       height: 4.8vw;
       width: 10.4vw;
     }
 
-    img:last-child {
+    a:last-child {
       height: 1.8vw;
       width: 12.2vw;
     }
