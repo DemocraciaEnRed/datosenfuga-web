@@ -22,6 +22,7 @@ const Carrousel = () => {
                   <h2>¿Que queremos?</h2>
                   <p> 
                     Queremos que el <strong>Estado</strong> asegure <strong>estándares de ciberseguridad</strong> y que atienda a las alarmas que suenan por todos lados.<br /> 
+                    <br />
                     Queremos que el <strong>Estado</strong> deje de <strong>perseguir penalmente</strong> a quienes identifican, denuncian y <strong>reportan vulnerabilidades informáticas.</strong>
                   </p>
                 </SwiperSlide>

@@ -106,6 +106,14 @@
   }
 }
 
+@media screen and (max-width: 1500px) {
+  .app__principal {
+    background-position-x: 1100px;
+    background-position-y: -190px;
+    background-size: 452px 721px;
+  }
+}
+
 @media screen and (max-width: 1025px) {
   .app__principal {
     background-position-x: 800px;
@@ -181,6 +189,12 @@
     background-position-x: 300px;
     background-position-y: -70px;
     background-size: 144px 226px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .app__principal {
+    height: 100vh;
   }
 }
 
