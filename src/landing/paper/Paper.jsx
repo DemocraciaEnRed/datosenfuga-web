@@ -8,7 +8,10 @@ const Paper = () => {
       <h2 className="paper__title">PAPER</h2>
       <div className="paper__content">
         <p className="paper__text">
-          <strong>
+        <strong>Panorama general sobre la seguridad de la información, las vulnerabilidades y los incidentes en Argentina</strong><br/>
+        La palabra vulnerabilidad se usa en muchos contextos, ¿qué significa cuando hablamos de tecnologías de la información? ¿Qué pasa si no atendemos las debilidades de los sistemas en los que operamos todos los días? ¿Qué hace el Estado argentino para garantizar sistemas seguros y qué hacen otros países?
+Acá, un panorama actualizado.<br/>
+          {/* <strong>
             Informe sobre la cobertura legal de los reportes de vulnerabilidades
           </strong>
           <br />
@@ -24,18 +27,27 @@ const Paper = () => {
           vulnerabilidades informáticas y su reporte y un breve recorrido
           histórico de los hechos y legislaciones más relevantes en materia de
           reporte de vulnerabilidades y legislación vigente y jurisprudencia
-          existente en la región.
+          existente en la región. */}
         </p>
-        <div className="paper__download">
-          <button className="paper__button">
+
+        <button className="paper__button">
             <img src={dload} alt="download"/>
-            <span>Descarga el paper del Proyecto</span>
-          </button>
-          <button className="paper__button">
+            <span>DESCARGA EL PDF</span>
+        </button>
+        
+        <p className="paper__text">
+        <strong>Reportantes de vulnerabilidades en sistemas digitales ante la ley penal argentina</strong><br/>
+        En un mundo rodeado de código digital, ¿cómo responde el Estado argentino ante una persona informa sobre una debilidad en los sistemas informáticos?  ¿Atiende esa alarma? ¿Le agradece? No, le cae con todo el peso del sistema penal. 
+Esto puede cambiar, conocé cómo.
+        </p>
+
+        <button className="paper__button">
             <img src={dload} alt="download"/>
-            <span>Descarga el paper del Proyecto</span>
+            <span>DESCARGA EL PDF</span>
           </button>
-        </div>
+
+        {/* <div className="paper__download"> */}
+        {/* </div> */}
       </div>
     </div>
   );

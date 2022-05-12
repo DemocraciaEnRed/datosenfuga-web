@@ -21,12 +21,12 @@
         top: 25%;
         font-size: 90px;
     }
-    &__download {
-        display: grid;
-        min-width: 820px;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2vw ;
-    }
+    // &__download {
+    //     display: grid;
+    //     min-width: 820px;
+    //     grid-template-columns: 1fr 1fr;
+    //     grid-gap: 2vw ;
+    // }
     &__button {
         display: flex;
         align-items: center;
@@ -36,10 +36,14 @@
         border-radius: 8px;
         padding: 11px 18px;
         border-style: none;
+        margin: 2.5vw;
+        font-family: 'Open Sans', sans-serif;
         & span{
             padding-left: 20px;
             font-size: 17px;
+            line-height: 23px;
             text-transform: uppercase;
+            vertical-align: middle;
         }
         & img{
             height: 25px;
@@ -49,7 +53,6 @@
     &__text{
         font-size: 20px;
         line-height: 40px;
-        margin-bottom: 5vw;
     }
 }
 
@@ -59,12 +62,12 @@
             left: -20px;
             top: 30%;
         }
-        &__download {
-            min-width: 380px;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
-            grid-gap: 2vw ;
-        }
+        // &__download {
+        //     min-width: 380px;
+        //     grid-template-columns: 1fr;
+        //     grid-template-rows: 1fr 1fr;
+        //     grid-gap: 2vw ;
+        // }
     }
 }
 @media screen and (max-width: 744px) {
@@ -103,14 +106,15 @@
         &__button {
             & span{
                 font-size: 14px;
+                line-height: 19px;
             }
         }
         &__text{
             font-size: 16px;
             line-height: 25px;
         }
-        &__download {
-            min-width: 315px;
-        }
+        // &__download {
+        //     min-width: 315px;
+        // }
     }
 }
