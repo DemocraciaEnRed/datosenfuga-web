@@ -1,53 +1,31 @@
 import "./Paper.scss";
 import dload from "../../assets/iconos/iconoDownload.svg";
+import pgPaper from '../../assets/papers/DATOS EN FUGA _ Panorama General.pdf'
+import rvPaper from '../../assets/papers/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf'
 
 const Paper = () => {
-
   return (
     <div className="paper" id="paper">
       <h2 className="paper__title">PAPER</h2>
       <div className="paper__content">
         <p className="paper__text">
-        <strong>Panorama general sobre la seguridad de la información, las vulnerabilidades y los incidentes en Argentina</strong><br/>
-        La palabra vulnerabilidad se usa en muchos contextos, ¿qué significa cuando hablamos de tecnologías de la información? ¿Qué pasa si no atendemos las debilidades de los sistemas en los que operamos todos los días? ¿Qué hace el Estado argentino para garantizar sistemas seguros y qué hacen otros países?
-Acá, un panorama actualizado.<br/>
-          {/* <strong>
-            Informe sobre la cobertura legal de los reportes de vulnerabilidades
-          </strong>
-          <br />
-          Este informe <strong>analiza</strong> con profundidad la aplicación de
-          los <strong>tipos penales argentinos aplicados al reporte de vulnerabilidades</strong> con
-           una <strong>propuesta de interpretación 
-             de las normas vigentes</strong> que permita entender que el reporte de vulnerabilidades no se
-          encuentra dentro de las conductas punibles.<br />
-          Además, se analizan las propuestas más salientes de reforma de la legislación actual, y se 
-          <strong>esboza una propuesta 
-            de reforma propia.</strong> Tambien
-          podras encontrar los conceptos relevantes para entender las
-          vulnerabilidades informáticas y su reporte y un breve recorrido
-          histórico de los hechos y legislaciones más relevantes en materia de
-          reporte de vulnerabilidades y legislación vigente y jurisprudencia
-          existente en la región. */}
+          <strong>Panorama general sobre la seguridad de la información, las vulnerabilidades y los incidentes en Argentina</strong><br/>
+          La palabra vulnerabilidad se usa en muchos contextos, ¿qué significa cuando hablamos de tecnologías de la información? ¿Qué pasa si no atendemos las debilidades de los sistemas en los que operamos todos los días? ¿Qué hace el Estado argentino para garantizar sistemas seguros y qué hacen otros países?
+          Acá, un panorama actualizado.<br/>
         </p>
-
         <button className="paper__button">
             <img src={dload} alt="download"/>
-            <span>DESCARGA EL PDF</span>
+            <a href={pgPaper} target='_blank' rel='noreferrer' download><span>DESCARGA EL PDF</span></a>
         </button>
-        
         <p className="paper__text">
-        <strong>Reportantes de vulnerabilidades en sistemas digitales ante la ley penal argentina</strong><br/>
-        En un mundo rodeado de código digital, ¿cómo responde el Estado argentino ante una persona informa sobre una debilidad en los sistemas informáticos?  ¿Atiende esa alarma? ¿Le agradece? No, le cae con todo el peso del sistema penal. 
-Esto puede cambiar, conocé cómo.
+          <strong>Reportantes de vulnerabilidades en sistemas digitales ante la ley penal argentina</strong><br/>
+          En un mundo rodeado de código digital, ¿cómo responde el Estado argentino ante una persona informa sobre una debilidad en los sistemas informáticos?  ¿Atiende esa alarma? ¿Le agradece? No, le cae con todo el peso del sistema penal. 
+          Esto puede cambiar, conocé cómo.
         </p>
-
         <button className="paper__button">
             <img src={dload} alt="download"/>
-            <span>DESCARGA EL PDF</span>
+            <a href={rvPaper} target='_blank' rel='noreferrer' download><span>DESCARGA EL PDF</span></a>         
           </button>
-
-        {/* <div className="paper__download"> */}
-        {/* </div> */}
       </div>
     </div>
   );

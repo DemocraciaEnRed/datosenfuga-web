@@ -21,12 +21,6 @@
         top: 25%;
         font-size: 90px;
     }
-    // &__download {
-    //     display: grid;
-    //     min-width: 820px;
-    //     grid-template-columns: 1fr 1fr;
-    //     grid-gap: 2vw ;
-    // }
     &__button {
         display: flex;
         align-items: center;
@@ -38,6 +32,10 @@
         border-style: none;
         margin: 2.5vw;
         font-family: 'Open Sans', sans-serif;
+        & a {
+            text-decoration: none;
+            color: #fff;
+        }
         & span{
             padding-left: 20px;
             font-size: 17px;
@@ -62,14 +60,9 @@
             left: -20px;
             top: 30%;
         }
-        // &__download {
-        //     min-width: 380px;
-        //     grid-template-columns: 1fr;
-        //     grid-template-rows: 1fr 1fr;
-        //     grid-gap: 2vw ;
-        // }
     }
 }
+
 @media screen and (max-width: 744px) {
     .paper {
         display: flex;
@@ -94,6 +87,7 @@
         }
     }
 }
+
 @media screen and (max-width: 428px) {
     .paper {
         background-position-x: center;
@@ -113,8 +107,5 @@
             font-size: 16px;
             line-height: 25px;
         }
-        // &__download {
-        //     min-width: 315px;
-        // }
     }
 }
