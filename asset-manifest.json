@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.38b0f9b3.css",
-    "main.js": "/static/js/main.2749ddbd.js",
+    "main.css": "/static/css/main.17f5b01d.css",
+    "main.js": "/static/js/main.02b45fb9.js",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
+    "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.e4eecaa33d40bc70e746.pdf",
+    "static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf": "/static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.0b322580d2b49ccca675.pdf",
     "static/media/gifCanilla.gif": "/static/media/gifCanilla.e5783cfde313a8d2a7a2.gif",
     "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.0009c8fdd42b9f5766b20f0efae9bbd8.svg",
     "index.html": "/index.html",
@@ -11,11 +13,11 @@
     "static/media/iconoYoutube.svg": "/static/media/iconoYoutube.ae9f77d90da2b20c7c9fde79548a1c3c.svg",
     "static/media/arrowNext.svg": "/static/media/arrowNext.597c93a3bfcf2c0512a5.svg",
     "static/media/iconoDownload.svg": "/static/media/iconoDownload.4bf3df57347450a8a21a9d33d9015124.svg",
-    "main.38b0f9b3.css.map": "/static/css/main.38b0f9b3.css.map",
-    "main.2749ddbd.js.map": "/static/js/main.2749ddbd.js.map"
+    "main.17f5b01d.css.map": "/static/css/main.17f5b01d.css.map",
+    "main.02b45fb9.js.map": "/static/js/main.02b45fb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.38b0f9b3.css",
-    "static/js/main.2749ddbd.js"
+    "static/css/main.17f5b01d.css",
+    "static/js/main.02b45fb9.js"
   ]
 }
