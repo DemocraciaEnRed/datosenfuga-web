@@ -1,181 +1,187 @@
 .videos {
-  min-height: 70vw;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  overflow: hidden;
-
-  &__title {
-    text-transform: uppercase;
-    font-style: italic;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 33px;
-    margin-top: 5vw;
-    user-select: none;
-
-    span {
-      font-weight: 400;
-    }
-
-    h2 {
-      overflow: hidden;
-      white-space: nowrap;
-    }
-
-    &--white {
-      color: rgba(255, 255, 255, 0.5);
-      z-index: 2;
-    }
-
-    &--green {
-      margin-top: -3vw;
-      color: rgba(0, 255, 71, 0.2);
-      transform: rotate(-1.43deg);
-    }
-
-    &--pink {
-      margin-bottom: -1vw;
-      color: rgba(255, 0, 229, 0.2);
-      transform: rotate(1.63deg);
-    }
-  }
-
-  &__box {
+    min-height: 70vw;
+    background-color: black;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    margin: 10% 0;
-    width: 100%;
-    height: 50vw;
-
-    h2 {
-      color: #fff;
-      font-style: italic;
-      font-weight: 800;
-      text-transform: uppercase;
-    }
-
-    iframe {
-      margin-top: 5vw;
-      width: 70vw;
-      height: 39.5vw;
-      //QUITAR MARGIN-BOTTOM AL AGREGAR BOTON DE OTROS CASOS
-      margin-bottom: 10%;
-    }
-  }
-
-  &__button {
-    // display: flex;
-    //CAMBIAR DISPLAY NONE AL AGREGAR VIDEOS DE CASOS
-    display: none;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    color: #000;
-    border-radius: 8px;
-    margin-top: 6vw;
-    margin-bottom: 20%;
-    padding: 11px 18px;
-    border-style: none;
+    overflow: hidden;
 
-    span {
-      padding-left: 20px;
-      font-size: 17px;
-      text-transform: uppercase;
+    &__title {
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        margin-top: 5vw;
+        user-select: none;
+
+        span {
+            font-weight: 400;
+        }
+
+        h2 {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        &--white {
+            color: rgba(255, 255, 255, 0.5);
+            z-index: 2;
+        }
+
+        &--green {
+            margin-top: -3vw;
+            color: rgba(0, 255, 71, 0.2);
+            transform: rotate(-1.43deg);
+        }
+
+        &--pink {
+            margin-bottom: -1vw;
+            color: rgba(255, 0, 229, 0.2);
+            transform: rotate(1.63deg);
+        }
     }
 
-    img {
-      height: 25px;
-      width: 25px;
+    &__box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10% 0;
+        width: 100%;
+        height: 50vw;
+
+        h3 {
+            color: #fff;
+            font-style: italic;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        iframe {
+            margin-top: 5vw;
+            width: 70vw;
+            height: 39.5vw;
+            // QUITAR MARGIN-BOTTOM AL AGREGAR BOTON DE OTROS CASOS
+            margin-bottom: 10%;
+        }
+
+        .videos__swiper{
+            width: 80%;
+        }
+        .swiper-slide{
+            display: flex;
+            justify-content: center;
+        }
+        .swiper-button-next {
+            content: url('../../assets/iconos/arrowNext.svg');
+        }
+    
+        .swiper-button-prev {
+            content: url('../../assets/iconos/arrowPrev.svg');
+        }
+    
     }
-  }
-  .swiper-pagination {
-    text-align: left;
-  
-    &-bullet {
-      background: #fff;
-      height: 22px;
-      width: 22px;
-      margin:auto;
-      // margin-left: 30px !important;
-  
-      &-active {
-        background-color: #000;
-        border: 2px solid;
-        border-color: #ff2e00;
-      }
-    }
-  }
+
+    // &__button {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     background-color: #fff;
+    //     color: #000;
+    //     border-radius: 8px;
+    //     margin-top: 6vw;
+    //     margin-bottom: 20%;
+    //     padding: 11px 18px;
+    //     border-style: none;
+
+    //     span {
+    //         padding-left: 20px;
+    //         font-size: 17px;
+    //         text-transform: uppercase;
+    //     }
+
+    //     img {
+    //         height: 25px;
+    //         width: 25px;
+    //     }
+    // }
+
 }
 
 
 @media screen and (min-width: 1542px) {
-  .videos {
-    &__title {
-      font-size: 1.6vw;
-      line-height: 2.5vw;
-    }
+    .videos {
+        &__title {
+            font-size: 1.6vw;
+            line-height: 2.5vw;
+        }
 
-    &__button {
-      margin-top: 93px;
-    }
+        &__button {
+            margin-top: 93px;
+        }
 
-    &__box {
-      iframe {
-        margin-top: 5vw;
-        width: 1080px;
-        height: 609px;
-      }
+        &__box {
+            iframe {
+                margin-top: 5vw;
+                width: 1080px;
+                height: 609px;
+            }
+        }
     }
-  }
 }
 
 @media screen and (max-width: 960px) {
-  .videos {
-    &__title {
-      h2 {
-        margin-left: -25%;
-      }
+    .videos {
+        &__title {
+            h2 {
+                margin-left: -25%;
+            }
+        }
+
+        &__box {
+            
+            .videos__swiper{
+                width: 100%;
+            }
+
+            iframe {
+                $width: 83vw;
+                width: $width;
+                height: calc($width * 0.5625);
+            }
+        }
     }
-    &__box {
-      iframe {
-        $width: 90vw;
-        width: $width;
-        height: calc($width * 0.5625);
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 744px) {
-  .videos {
-    &__title {
-      font-size: 18px;
-      line-height: 25px;
-    }
-    &__button {
-      padding: 2vw 3vw;
+    .videos {
+        &__title {
+            font-size: 18px;
+            line-height: 25px;
+        }
 
-      span {
-        padding-left: 1.3vw;
-      }
+        &__button {
+            padding: 2vw 3vw;
+
+            span {
+                padding-left: 1.3vw;
+            }
+        }
     }
-  }
 }
 
 @media screen and (max-width: 428px) {
-  .videos {
-    h2 {
-      margin-left: -38%;
+    .videos {
+        h2 {
+            margin-left: -38%;
+        }
+
+        &__button {
+            & span {
+                font-size: 14px;
+            }
+        }
     }
-    &__button {
-      & span {
-        font-size: 14px;
-      }
-    }
-  }
 }
