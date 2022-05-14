@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.17f5b01d.css",
-    "main.js": "/static/js/main.02b45fb9.js",
+    "main.css": "/static/css/main.19045049.css",
+    "main.js": "/static/js/main.34c990cb.js",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
     "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.e4eecaa33d40bc70e746.pdf",
     "static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf": "/static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.0b322580d2b49ccca675.pdf",
@@ -13,11 +13,11 @@
     "static/media/iconoYoutube.svg": "/static/media/iconoYoutube.ae9f77d90da2b20c7c9fde79548a1c3c.svg",
     "static/media/arrowNext.svg": "/static/media/arrowNext.597c93a3bfcf2c0512a5.svg",
     "static/media/iconoDownload.svg": "/static/media/iconoDownload.4bf3df57347450a8a21a9d33d9015124.svg",
-    "main.17f5b01d.css.map": "/static/css/main.17f5b01d.css.map",
-    "main.02b45fb9.js.map": "/static/js/main.02b45fb9.js.map"
+    "main.19045049.css.map": "/static/css/main.19045049.css.map",
+    "main.34c990cb.js.map": "/static/js/main.34c990cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.17f5b01d.css",
-    "static/js/main.02b45fb9.js"
+    "static/css/main.19045049.css",
+    "static/js/main.34c990cb.js"
   ]
 }
