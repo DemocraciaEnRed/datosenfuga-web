@@ -19,7 +19,7 @@ const Paper = () => {
         </button>
         <p className="paper__text">
           <strong>Reportantes de vulnerabilidades en sistemas digitales ante la ley penal argentina</strong><br/>
-          En un mundo rodeado de código digital, ¿cómo responde el Estado argentino ante una persona informa sobre una debilidad en los sistemas informáticos?  ¿Atiende esa alarma? ¿Le agradece? No, le cae con todo el peso del sistema penal. 
+          En un mundo rodeado de código digital, ¿cómo responde el Estado argentino ante una persona que informa sobre una debilidad en los sistemas informáticos?  ¿Atiende esa alarma? ¿Le agradece? No, le cae con todo el peso del sistema penal. 
           Esto puede cambiar, conocé cómo.
         </p>
         <button className="paper__button">
