@@ -29,7 +29,7 @@ const Carrousel = () => {
                 <SwiperSlide>
                   <h2>¿Por que nos interesa?</h2>
                   <p>
-                    Porque las <strong>filtraciones que sufrieron diversas reparticiones del Estado</strong> en el último tiempo nos hace temer que <strong>sus sistemas son vulnerables.</strong><br />
+                    Porque las <strong>filtraciones que sufrieron diversas reparticiones del Estado</strong> en el último tiempo nos hacen temer que <strong>sus sistemas son vulnerables.</strong><br />
                     Porque <strong>nos sentimos cada  vez más expuestos al mal uso de nuestros datos para distintos fines, ninguno bueno.</strong><br />
                     Porque <strong>se persigue penalmente a activistas de la comunidad</strong> de seguridad informática, que podrían ayudar.<br />
                     Porque <strong>se legitima una “cultura del miedo” que silencia el debate</strong> en materia de seguridad informática.<br />
@@ -39,7 +39,7 @@ const Carrousel = () => {
                   <h2>¿Que es la ciberseguridad?</h2>
                   <p>
                     La ciberseguridad es el conjunto de prácticas, políticas y herramientas para proteger los datos de quienes operamos en Internet.<br />
-                    Es lo que podemos hacer para cuidar nuestros datos de las ciberamenzas.
+                    Es lo que podemos hacer para cuidar nuestros datos de las ciberamenazas.
                   </p>
                 </SwiperSlide>
           </Swiper> 
