@@ -19,7 +19,7 @@ const Carrousel = () => {
                 autoplay={{delay: 6000}}
               >
                 <SwiperSlide>
-                  <h2>¿Que queremos?</h2>
+                  <h2>¿Qué queremos?</h2>
                   <p> 
                     Queremos que el <strong>Estado</strong> asegure <strong>estándares de ciberseguridad</strong> y que atienda a las alarmas que suenan por todos lados.<br /> 
                     <br />
@@ -27,7 +27,7 @@ const Carrousel = () => {
                   </p>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <h2>¿Por que nos interesa?</h2>
+                  <h2>¿Por qué nos interesa?</h2>
                   <p>
                     Porque las <strong>filtraciones que sufrieron diversas reparticiones del Estado</strong> en el último tiempo nos hacen temer que <strong>sus sistemas son vulnerables.</strong><br />
                     Porque <strong>nos sentimos cada  vez más expuestos al mal uso de nuestros datos para distintos fines, ninguno bueno.</strong><br />
@@ -36,7 +36,7 @@ const Carrousel = () => {
                   </p>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <h2>¿Que es la ciberseguridad?</h2>
+                  <h2>¿Qué es la ciberseguridad?</h2>
                   <p>
                     La ciberseguridad es el conjunto de prácticas, políticas y herramientas para proteger los datos de quienes operamos en Internet.<br />
                     Es lo que podemos hacer para cuidar nuestros datos de las ciberamenazas.
