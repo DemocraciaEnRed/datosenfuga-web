@@ -15,7 +15,7 @@ const Paper = () => {
         </p>
         <button className="paper__button">
             <img src={dload} alt="download"/>
-            <a href={pgPaper} target='_blank' rel='noreferrer' download><span>DESCARGA EL PDF</span></a>
+            <a onclick="ga('send','event','Download','PDF', this.href]);" href={pgPaper} target='_blank' rel='noreferrer' download><span>DESCARGA EL PDF</span></a>
         </button>
         <p className="paper__text">
           <strong>Reportantes de vulnerabilidades en sistemas digitales ante la ley penal argentina</strong><br/>
@@ -24,7 +24,7 @@ const Paper = () => {
         </p>
         <button className="paper__button">
             <img src={dload} alt="download"/>
-            <a href={rvPaper} target='_blank' rel='noreferrer' download><span>DESCARGA EL PDF</span></a>         
+            <a onclick="ga('send','event','Download','PDF', this.href]);" href={rvPaper} target='_blank' rel='noreferrer' download ><span>DESCARGA EL PDF</span></a>         
           </button>
       </div>
     </div>
