@@ -50,6 +50,12 @@ const Videos = () => {
                   '{"event":"command","func":"pauseVideo","args":""}',
                   "*"
                 );
+              document
+              .getElementById("video3")
+              .contentWindow.postMessage(
+                '{"event":"command","func":"pauseVideo","args":""}',
+                "*"
+              );
             }}
           >
             <SwiperSlide>
@@ -67,6 +73,16 @@ const Videos = () => {
                 id="video2"
                 src="https://www.youtube.com/embed/7neHhi_cpsc?enablejsapi=1"
                 title="¿Qué es la #CiberSeguridad?"
+                frameBorder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </SwiperSlide>
+            <SwiperSlide>
+              <iframe
+                id="video3"
+                src="https://www.youtube.com/embed/c5uOX2G2NGw?enablejsapi=1"
+                title="Vulnerabilidad informática"
                 frameBorder="0"
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
