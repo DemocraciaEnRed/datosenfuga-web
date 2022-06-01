@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.19045049.css",
-    "main.js": "/static/js/main.fed4bae2.js",
+    "main.css": "/static/css/main.962883bb.css",
+    "main.js": "/static/js/main.b5164f49.js",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
-    "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.e4eecaa33d40bc70e746.pdf",
-    "static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf": "/static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.0b322580d2b49ccca675.pdf",
+    "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.4c30d71445169daa071d.pdf",
+    "static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf": "/static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.cc8440b556c836af3ef7.pdf",
     "static/media/gifCanilla.gif": "/static/media/gifCanilla.e5783cfde313a8d2a7a2.gif",
-    "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.0009c8fdd42b9f5766b20f0efae9bbd8.svg",
+    "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.cd7494042048adc9f7b25dac38fb86b1.svg",
     "index.html": "/index.html",
-    "static/media/iconoTwiter.svg": "/static/media/iconoTwiter.d1ba8cd7640d9f564897902db51199ff.svg",
-    "static/media/arrowPrev.svg": "/static/media/arrowPrev.1afd1826945b50694cd2.svg",
-    "static/media/iconoYoutube.svg": "/static/media/iconoYoutube.ae9f77d90da2b20c7c9fde79548a1c3c.svg",
-    "static/media/arrowNext.svg": "/static/media/arrowNext.597c93a3bfcf2c0512a5.svg",
-    "static/media/iconoDownload.svg": "/static/media/iconoDownload.4bf3df57347450a8a21a9d33d9015124.svg",
-    "main.19045049.css.map": "/static/css/main.19045049.css.map",
-    "main.fed4bae2.js.map": "/static/js/main.fed4bae2.js.map"
+    "static/media/iconoTwiter.svg": "/static/media/iconoTwiter.6f9a9d4c38185ad7acd716adad0ecf1a.svg",
+    "static/media/arrowPrev.svg": "/static/media/arrowPrev.8cca523bf2ae9b60196e.svg",
+    "static/media/iconoYoutube.svg": "/static/media/iconoYoutube.bb4f5499d7f619b32bcf30291fd60cdc.svg",
+    "static/media/arrowNext.svg": "/static/media/arrowNext.8ae0f9355c55a1a4c59a.svg",
+    "static/media/iconoDownload.svg": "/static/media/iconoDownload.3f7540160d64185660e24b44ac0336f1.svg",
+    "main.962883bb.css.map": "/static/css/main.962883bb.css.map",
+    "main.b5164f49.js.map": "/static/js/main.b5164f49.js.map"
   },
   "entrypoints": [
-    "static/css/main.19045049.css",
-    "static/js/main.fed4bae2.js"
+    "static/css/main.962883bb.css",
+    "static/js/main.b5164f49.js"
   ]
 }
