@@ -56,6 +56,12 @@ const Videos = () => {
                 '{"event":"command","func":"pauseVideo","args":""}',
                 "*"
               );
+              document
+              .getElementById("video4")
+              .contentWindow.postMessage(
+                '{"event":"command","func":"pauseVideo","args":""}',
+                "*"
+              );
             }}
           >
             <SwiperSlide>
@@ -87,6 +93,9 @@ const Videos = () => {
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
+            </SwiperSlide>
+            <SwiperSlide>
+              <iframe id="video4" width="560" height="315" src="https://www.youtube.com/embed/dF2jmBf8Tko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </SwiperSlide>
           </Swiper>
         </div>
