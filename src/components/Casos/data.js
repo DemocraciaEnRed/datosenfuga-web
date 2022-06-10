@@ -7,8 +7,8 @@ export const casos = [
     mouseOver: avatars.caso1,
     name: "Caso de Joaquín Sorianello",
     tooltip:
-      "Denunciado por reportar vulnerabilidades en el sistema de votación con Boleta Única Electrónica"
-  }
+      "Denunciado por reportar vulnerabilidades en el sistema de votación con Boleta Única Electrónica",
+  },
   // {
   //   id: 2,
   //   avatar: avatars.anon,
