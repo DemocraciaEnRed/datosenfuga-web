@@ -1,0 +1,58 @@
+.casos__brief {
+  background: #fff;
+  width: 100%;
+  height: 50vh;
+  padding-top: 20px;
+
+  &-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  &-datos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  &-contenedor {
+    padding: 0 60px;
+  }
+
+  &-informacion {
+    text-align: center;
+
+    &_title {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+      margin: 20px 0;
+    }
+
+    &_subtitle {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    &_text {
+      width: 100%;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+}
+
+.spacer {
+  border-top: 1px solid black;
+  height: 2px;
+  max-width: 95%;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
