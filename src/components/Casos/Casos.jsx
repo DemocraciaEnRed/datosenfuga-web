@@ -69,7 +69,7 @@ const Casos = () => {
               (event.target.nextSibling.style.visibility = "hidden")
             }
           />
-          <span class="casos__tooltiptext">Caso aún no desbloqueado</span>
+          <span class="casos__tooltiptext">Próximamente podrás conocer este caso</span>
         </div>
 {/* CASO 3 */}
         <div className="casos__tooltip">
@@ -83,7 +83,7 @@ const Casos = () => {
               (event.target.nextSibling.style.visibility = "hidden")
             }
           />
-          <span class="casos__tooltiptext">Caso aún no desbloqueado</span>
+          <span class="casos__tooltiptext">Próximamente podrás conocer este caso</span>
         </div>
 {/* CASO 4 */}
         <div className="casos__tooltip">
@@ -97,7 +97,7 @@ const Casos = () => {
               (event.target.nextSibling.style.visibility = "hidden")
             }
           />
-          <span class="casos__tooltiptext">Caso aún no desbloqueado</span>
+          <span class="casos__tooltiptext">Próximamente podrás conocer este caso</span>
         </div>
 {/* CASO 5 */}
         <div className="casos__tooltip">
@@ -111,7 +111,7 @@ const Casos = () => {
               (event.target.nextSibling.style.visibility = "hidden")
             }
           />
-          <span class="casos__tooltiptext">Caso aún no desbloqueado</span>
+          <span class="casos__tooltiptext">Próximamente podrás conocer este caso</span>
         </div>
 {/* CASO 6 */}
         <div className="casos__tooltip">
@@ -125,7 +125,7 @@ const Casos = () => {
               (event.target.nextSibling.style.visibility = "hidden")
             }
           />
-          <span class="casos__tooltiptext">Caso aún no desbloqueado</span>
+          <span class="casos__tooltiptext">Próximamente podrás conocer este caso</span>
         </div>
       </div>
     </div>
