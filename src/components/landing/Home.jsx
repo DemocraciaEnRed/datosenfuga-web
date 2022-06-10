@@ -1,6 +1,7 @@
 import Carrousel from "./Carrousel/Carrousel";
 import Paper from "./paper/Paper";
 import Videos from "./videos/Videos";
+import Organizaciones from "./Organizaciones/Organizaciones";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Carrousel />
       <Paper />
       <Videos />
+      <Organizaciones />
     </>
   );
 };
