@@ -1,0 +1,53 @@
+.casos{
+    background: #000;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    &__title{
+      color: #FF2E00;
+      font-family: 'Opens Sans', sans-serif;
+      font-weight: 800;
+      font-style: italic;
+      line-height: 40.85px;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    &__avatars{
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      img{
+        cursor: pointer;
+        height: 80px;
+        width: 80px;
+      }
+    }
+    &__tooltip{
+      position: relative;
+    }
+    &__tooltiptext{
+      background: rgba($color: #FFFFFF, $alpha: .5);
+      color: #000;
+      visibility: hidden;
+      opacity: .5;
+      border: 1px solid #FFFFFF;
+      backdrop-filter: blur(4px);
+      border-radius: 5px;
+      text-align: center;
+      position: absolute;
+      z-index: 1;
+      //Posicionamiento
+      $W:300px;
+      width: $W;
+      top: 100%;
+      left: 50%;
+      margin-left: calc($W / -2)
+    }
+  }
+  
+  .blur{
+    filter: blur(2px);
+  }

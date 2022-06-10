@@ -1,11 +1,7 @@
 import "./App.scss";
 import { useState } from "react";
 import Loader from "./components/loader/Loader";
-import Navbar from "./components/Navbar/Navbar";
-import Carrousel from "./components/Carrousel/Carrousel";
-import Paper from "./landing/paper/Paper";
-import Videos from "./landing/videos/Videos";
-import Footer from "./components/Footer/Footer";
+import AppRouter from "./components/AppRouter";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -23,15 +19,10 @@ function App() {
   } else {
     return (
       <div className="App">
-        <Navbar />
-        <Carrousel />
-        <Paper />
-        <Videos />
-        <Footer />
+        <AppRouter />
       </div>
     );
   }
-
 }
 
 export default App;
