@@ -16,7 +16,7 @@
     &__avatars{
       margin-top: 60px;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
       flex-direction: row;
       flex-wrap: nowrap;
@@ -24,6 +24,7 @@
         cursor: pointer;
         height: 80px;
         width: 80px;
+        padding: 0 30px;
       }
     }
     &__tooltip{
