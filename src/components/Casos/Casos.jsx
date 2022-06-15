@@ -4,6 +4,7 @@ import { casos } from "./data";
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Brief from "./Brief/Brief";
+import Timeline from "./Timeline/Timeline";
 const Casos = () => {
   const [caso, setCaso] = useState(1);
   let { id } = useParams();
@@ -22,6 +23,7 @@ const Casos = () => {
           Conocé mas sobre los casos y <br /> consecuencias de los #Datosenfuga
         </h2>
         <div className="casos__avatars">
+
           {casos.map((c) => {
             const handleMouseOver = (event) => {
               event.currentTarget.classList.add("blur");
@@ -65,6 +67,7 @@ const Casos = () => {
               );
             }
           })}
+
   {/*/////////////////////////////////////////////////// CASOS NO DESBLOQUEADOS PENDIENTES DE MAPEO */}
   {/* CASO 2 */}
           <div className="casos__tooltip">
@@ -139,6 +142,8 @@ const Casos = () => {
         </div>
       </div>
       <Brief />
+      <Timeline id={caso}/>
+      
     </>
   ); 
 };
