@@ -1,16 +1,20 @@
 import React from 'react'
 import './Brief.scss'
+import { casos } from "../data";
 
-const Brief = ({id}) => {
+const Brief = ({ id }) => {
+
+  let caso = casos.find((c) => c.id === id)
+  console.log(caso.name + ' HOLA')
   return (
     <div className="casos__brief">
       <div className="casos__brief-contenedor">
         <div className='casos__brief-title'>
-          <p>Joaquín Sorianello</p>
+          <p>{caso.name}</p>
         </div>
         <div className="casos__brief-datos">
-          <p>Desarrollador de Software</p>
-          <span>Año: 2015</span>
+          <p>{caso.occupation}</p>
+          <span>Año: {caso.year}</span>
         </div>
       </div>
       <div className="spacer"></div>
@@ -18,11 +22,11 @@ const Brief = ({id}) => {
         <div className="casos__brief-informacion">
           <p className="casos__brief-informacion_title">Caso</p>
           <p className="casos__brief-informacion_subtitle">
-            Quiso alertar sobre la facilidad de cometer un fraude informático con el sistema de votación con Boleta Única Electrónica y lo denunciaron penalmente. Botón de Ver más para desglosar más información que aparecería de la siguiente manera:
+            {caso.subtitle}
           </p>
           <br />
           <p className="casos__brief-informacion_text">
-            Dos días antes de las elecciones, la división de cibercrimen de la Policía Metropolitana allanó su casa y le secuestró una computadora, cuatro discos rígidos, pendrives y memorias. Lo acusaron de ingresar al sistema de la empresa para “causar daño”, es decir, con intenciones de generar fallas en la transparencia electoral. En 2016, un año después, Sorianello fue sobreseído del proceso judicial porque se determinó que había entrado al sistema, pero no de manera indebida ni causando daño alguno, sino que actuó con la (buena) intención de alertar sobre la facilidad de ejecutar un fraude informático.
+            {caso.content}
           </p>
         </div>
       </div>

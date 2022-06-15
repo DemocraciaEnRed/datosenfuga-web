@@ -141,7 +141,7 @@ const Casos = () => {
           </div> */}
         </div>
       </div>
-      <Brief />
+      <Brief id={caso} />
       <Timeline id={caso}/>
       
     </>
