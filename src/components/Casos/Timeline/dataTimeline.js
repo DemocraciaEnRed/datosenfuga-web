@@ -12,6 +12,6 @@ export const dataTimeline =
                 '→  “Hubo accesos ilegítimos antes de que yo ingresara”.',
                 '→ “Me tocó poner el cuerpo para que no nos roben la democracia”.'
             ],
-            button: {title:"Te contamos los hechos en primera persona", label:"Charla TEDx de Joaquín" ,url:""},
+            button: {title:"Te contamos los hechos en primera persona", label:"Charla TEDx de Joaquín" ,url:"https://www.youtube.com/watch?v=mVNzL0l5U3k&ab_channel=TEDxTalks"},
         }
     ]
