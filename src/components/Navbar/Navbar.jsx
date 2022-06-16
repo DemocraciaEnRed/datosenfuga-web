@@ -19,10 +19,10 @@ const Navbar = () => {
           <Link to="/casos">Casos</Link>
         </li>
         <li>
-          <a href="#casos">Muestra</a>
+          <a href="#casos">Exhibición</a>
         </li>
         <li>
-          <a href="#organizaciones">Organizaciones</a>
+          <a href="#organizaciones">Quiénes somos</a>
         </li>
       </ul>
     </nav>

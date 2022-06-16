@@ -11,6 +11,7 @@ export const dataTimeline =
                 '→ “Entre los manuales de operación detecté que había prácticas de seguridad pésimas. El punto cúlmine decía que los centros de cómputos de las escuelas estaban almacenados en un servidor con clave. Estas claves no estaban filtradas en la web. El sistema de gestión del día de la votación no protegía esas claves. Con el nombre de la escuela, el distrito y otras informaciones podías ingresar”',
                 '→  “Hubo accesos ilegítimos antes de que yo ingresara”.',
                 '→ “Me tocó poner el cuerpo para que no nos roben la democracia”.'
-            ]
+            ],
+            button: {title:"Te contamos los hechos en primera persona", label:"Charla TEDx de Joaquín" ,url:""},
         }
     ]

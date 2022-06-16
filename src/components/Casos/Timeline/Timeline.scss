@@ -1,48 +1,107 @@
-.timeline{
-    background-color: #222;
-    padding: 5%;
-}
+.timeline {
+  //
+  $lineColor: #ffffff;
+  $avatar-size: min(max(3vw, 50px), 70px);
+  $grid-row-gap: 60px;
+  $text-color: #ffffff;
+  //
 
-.timeline__grid {
+  background-color: #000;
+  color: $text-color;
+  padding: 5%;
+  z-index: -2;
+
+  &__grid {
     display: grid;
     width: 90%;
     grid-template-columns: auto 1fr;
-    gap: 3vw 1vw;
-    margin:auto;
+    grid-auto-rows: auto;
+    row-gap: $grid-row-gap;
+    column-gap: 1vw;
+    max-width: 1000px;
+    margin: 0 auto;
   }
 
-.timeline__column {
-  position: relative;
+  &__column {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      margin: 0 auto;
+      background-color: $lineColor;
+      width: 1px;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: calc($grid-row-gap * -1);
+      z-index: -1;
+    }
+
+    &:nth-last-child(2)::after {
+      display: none;
+    }
+  }
+
+  &__quote {
+    color: $text-color;
+    font-size: 20px;
+    line-height: 23.5px;
+    
+    p {
+      padding-top: 15px;
+
+      &:first-child {
+        margin-left: 1vw;
+        border-bottom: 1px solid $lineColor;
+        padding-bottom: 15px;
+        padding-top:0;
+      }
+    }
+  }
+
+  img {
+    width: $avatar-size;
+    height: $avatar-size;
+    border-radius: 100%;
+  }
 }
 
-.timeline__column img {
-  width: 4vw;
-  height: 4vw;
-  border-radius: 100%;
-}
+.tlineButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5%;
+  background-color: #000;
+  &__title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 20px 0;
+    color: #fff;
+  }
 
-.timeline__column::before {
-  content: "";
-  position: absolute;
-  margin: auto;
-  background-color: #fff;
-  width: 1px;
-  grid-column: 1;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    padding: 11px 18px;
+    border-style: none;
 
-.timeline__quote {
-  color: #fff;
-}
+    span {
+      padding-left: 20px;
+      font-size: 17px;
+      text-transform: uppercase;
+    }
 
-.timeline__quote h3 {
-  margin-left: 1vw;
-  border-bottom: 1px solid #fff;
-  padding-bottom: 1vw;
-}
-
-.timeline__quote p {
-  padding-top: 1vw;
+    img {
+      height: 25px;
+      width: 25px;
+    }
+  }
 }
