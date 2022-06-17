@@ -39,7 +39,7 @@ const Faq = () => {
             cualquier otro detalle relacionado a la muestra y/o convocatoria,
             escribinos a:
           </p>
-          <p><a href="mailto:adatosenfuga@gmail.com">adatosenfuga@gmail.com</a></p>
+          <p><a href="mailto:datosenfuga@gmail.com">datosenfuga@gmail.com</a></p>
         </div>
       </div>
     </div>
