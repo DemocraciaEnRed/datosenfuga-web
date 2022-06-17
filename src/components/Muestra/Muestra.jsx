@@ -1,12 +1,7 @@
 import React from 'react'
 import './Muestra.scss'
-import convocatoria from "../../../assets/iconos/convocatoria.svg"
-import postulaciones from "../../../assets/iconos/postulaciones.svg"
-import publicacion from "../../../assets/iconos/publicacion.svg"
-import evento from "../../../assets/iconos/evento.svg"
-import spacer from "../../../assets/iconos/spacer.svg"
-import spacerCircle from "../../../assets/iconos/spacerCircle.svg"
-
+import { logos }  from '../../constants'
+import Faq from './Faq/Faq'
 
 const Muestra = () => {
   return (
@@ -20,10 +15,10 @@ const Muestra = () => {
         </div>
         <div className="app__muestra-header_lista">
           <ul>
-            <li><img src={convocatoria} alt={`Icono de ${convocatoria}`}></img>Convocatoria Abierta</li>
-            <li><img src={postulaciones} alt={`Icono de ${postulaciones}`}></img>Postulaciones: <b>17/06/2022</b> al<b> 10/07/2022</b></li>
-            <li><img src={publicacion} alt={`Icono de ${publicacion}`}></img>Publicación de obras: <b>22/07/2022</b></li>
-            <li><img src={evento} alt={`Icono de ${evento}`}></img>Evento: <b>19 y 20 de Agosto 2022</b></li>
+            <li><img src={logos.convocatoria} alt="Convocatoria"></img>Convocatoria Abierta</li>
+            <li><img src={logos.postulaciones} alt="Postulaciones"></img>Postulaciones: <b>17/06/2022</b> al<b> 10/07/2022</b></li>
+            <li><img src={logos.publicacion} alt="Publicación"></img>Publicación de obras: <b>22/07/2022</b></li>
+            <li><img src={logos.evento} alt="Evento"></img>Evento: <b>19 y 20 de Agosto 2022</b></li>
           </ul>
         </div>
       </div>
@@ -39,7 +34,9 @@ const Muestra = () => {
         </p>
         
         {/* spacer */}
-        <img src={spacer} alt="" /> <img src={spacerCircle} alt="" /> <img src={spacer} alt="" /> <br />
+        <div className="spacer">
+          <img src={logos.spacer} alt="" /> <img src={logos.spacerCircle} alt="" id="spacer_circle" /> <img src={logos.spacer} alt="" /> <br />
+        </div>
         
         <p className="contenido__title">POSTULÁ TU OBRA</p>
         <p className="contenido__text">
@@ -53,8 +50,10 @@ const Muestra = () => {
           <a href="https://forms.gle/CNvzabMjvgZ3TWeDA" target="_blank" rel="noopener noreferrer">Inscribí tu obra</a>
         </button>
         {/* spacer */}
-        <br /> <img src={spacer} alt="" /> <img src={spacerCircle} alt="" /> <img src={spacer} alt="" /> <br />
-
+        <div className='spacer'>
+          <br /> <img src={logos.spacer} alt="" /> <img src={logos.spacerCircle} alt="" id="spacer_circle"/> <img src={logos.spacer} alt="" /> <br />
+        </div>
+        
         <p className="contenido__title">EVENTO</p>
         <p className="contenido__subtitle">
           <b>El evento será desde el día xx de julio hasta el xxx de julio.</b>
@@ -68,6 +67,10 @@ const Muestra = () => {
           <a href="" target="_blank" rel="noopener noreferrer">Anotate</a>
         </button>
       </div>
+      <div className='app__muestra-sticky'>
+
+      </div>
+      <Faq/>
     </div>
   )
 }

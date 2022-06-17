@@ -8,8 +8,17 @@ import instagram from '../assets/iconos/iconoInstagram.svg'
 import video from '../assets/iconos/iconoVideo.svg'
 import youtube from '../assets/iconos/iconoYoutube.svg'
 import descarga from '../assets/iconos/iconoDownload.svg'
+import convocatoria from "../assets/iconos/convocatoria.svg"
+import minus from "../assets/iconos/minus.svg"
+import plus from "../assets/iconos/plus.svg"
+import postulaciones from "../assets/iconos/postulaciones.svg"
+import publicacion from "../assets/iconos/publicacion.svg"
+import evento from "../assets/iconos/evento.svg"
+import spacer from "../assets/iconos/spacer.svg"
+import spacerCircle from "../assets/iconos/spacerCircle.svg"
 
-export default {
+
+export const logos = {
   odia,
   der,
   vialibre,
@@ -19,5 +28,13 @@ export default {
   instagram,
   video,
   youtube,
-  descarga
+  descarga,
+  convocatoria,
+  minus,
+  plus,
+  postulaciones,
+  publicacion,
+  evento,
+  spacer,
+  spacerCircle
 }

@@ -9,7 +9,7 @@ const Videos = () => {
   // const nextbtn = document.querySelector(".swiper-button-next").addEventListener(onclick, () => {console.log("next")});
   // const prevbtn = document.querySelector(".swiper-button-prev").addEventListener(onclick, () => {console.log("prev")});
   return (
-    <div id="casos" className="videos">
+    <div id="ABC" className="videos">
       <div className="videos__title">
         <h2 className="videos__title--pink">
           #datos<span>en</span>fuga #datos<span>en</span>fuga #datos
@@ -95,7 +95,7 @@ const Videos = () => {
               ></iframe>
             </SwiperSlide>
             <SwiperSlide>
-              <iframe id="video4" width="560" height="315" src="https://www.youtube.com/embed/dF2jmBf8Tko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe id="video4" width="560" height="315" src="https://www.youtube.com/embed/dF2jmBf8Tko" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </SwiperSlide>
           </Swiper>
         </div>
