@@ -20,7 +20,7 @@ const Faq = () => {
         {
           faqs.map(faq => {
             return (
-              <div className="faq__box">
+              <div className="faq__box" key={faq.id}>
                 <button className="faq__accordion" onClick={handleClick}>
                   {faq.title}
                 </button>
