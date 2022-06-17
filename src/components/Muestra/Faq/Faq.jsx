@@ -1,4 +1,5 @@
 import "./Faq.scss";
+import { faqs } from "./textFaqs"
 // import { logos } from "../../../constants";
 const Faq = () => {
   const handleClick = (e) => {
@@ -16,42 +17,20 @@ const Faq = () => {
     <div className="faq">
       <div className="faq__wrapper">
         <p className="faq__title">Preguntas frecuentes</p>
-        <div className="faq__box">
-          <button className="faq__accordion" onClick={handleClick}>
-            1. ¿Qué tengo que presentar para aplicar?
-          </button>
-          <div className="faq__panel">
-            <p>Lorem ipsum...</p>
-          </div>
-
-          <button className="faq__accordion" onClick={handleClick}>
-            2. ¿Qué tengo que presentar para aplicar?
-          </button>
-          <div className="faq__panel">
-            <p>Lorem ipsum...</p>
-          </div>
-
-          <button className="faq__accordion" onClick={handleClick}>
-            3. ¿Hasta cuándo se pueden enviar propuestas?
-          </button>
-          <div className="faq__panel">
-            <p>Lorem ipsum...</p>
-          </div>
-
-          <button className="faq__accordion" onClick={handleClick}>
-            4. ¿Cómo se realiza la inscripción?
-          </button>
-          <div className="faq__panel">
-            <p>Lorem ipsum...</p>
-          </div>
-
-          <button className="faq__accordion" onClick={handleClick}>
-            5. ¿Cuál es el cronograma de la convocatoria?
-          </button>
-          <div className="faq__panel">
-            <p>Lorem ipsum...</p>
-          </div>
-        </div>
+        {
+          faqs.map(faq => {
+            return (
+              <div className="faq__box">
+                <button className="faq__accordion" onClick={handleClick}>
+                  {faq.title}
+                </button>
+                <div className="faq__panel">
+                  <p>{faq.text}</p>
+                </div>
+              </div>
+            )
+          })
+        }
         <button className="faq__legal">BASES Y CONDICIONES</button>
         <div className="faq__contact">
           <p className="faq__contact__title">Contacto</p>
@@ -60,7 +39,7 @@ const Faq = () => {
             cualquier otro detalle relacionado a la muestra y/o convocatoria,
             escribinos a:
           </p>
-          <p>datosenfuga@gmail.com</p>
+          <p><a href="mailto:adatosenfuga@gmail.com">adatosenfuga@gmail.com</a></p>
         </div>
       </div>
     </div>

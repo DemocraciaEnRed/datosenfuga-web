@@ -64,7 +64,7 @@ const Muestra = () => {
         </p>
 
         <button className='muestra_button'>
-          <a href="" target="_blank" rel="noopener noreferrer">Anotate</a>
+          <a href="https://forms.gle/2TC4MJHvryLK4BDw7" target="_blank" rel="noopener noreferrer">Anotate</a>
         </button>
       </div>
       <div className='app__muestra-sticky'>
