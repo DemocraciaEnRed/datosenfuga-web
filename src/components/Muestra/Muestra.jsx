@@ -35,7 +35,7 @@ const Muestra = () => {
         
         {/* spacer */}
         <div className="spacer">
-          <img src={logos.spacer} alt="" /> <img src={logos.spacerCircle} alt="" id="spacer_circle" /> <img src={logos.spacer} alt="" /> <br />
+          <img src={logos.spacer} alt="" /> <img src={logos.spacerCircle} alt="" id="spacer_circle" /> <img src={logos.spacer} alt="" />
         </div>
         
         <p className="contenido__title">POSTULÁ TU OBRA</p>
@@ -51,7 +51,7 @@ const Muestra = () => {
         </button>
         {/* spacer */}
         <div className='spacer'>
-          <br /> <img src={logos.spacer} alt="" /> <img src={logos.spacerCircle} alt="" id="spacer_circle"/> <img src={logos.spacer} alt="" /> <br />
+          <img src={logos.spacer} alt="" /> <img src={logos.spacerCircle} alt="" id="spacer_circle"/> <img src={logos.spacer} alt="" />
         </div>
         
         <p className="contenido__title">EVENTO</p>
