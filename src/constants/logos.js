@@ -15,8 +15,6 @@ import postulaciones from "../assets/iconos/postulaciones.svg"
 import publicacion from "../assets/iconos/publicacion.svg"
 import evento from "../assets/iconos/evento.svg"
 import spacer from "../assets/iconos/spacer.svg"
-import spacerCircle from "../assets/iconos/spacerCircle.svg"
-
 
 export const logos = {
   odia,
@@ -35,6 +33,5 @@ export const logos = {
   postulaciones,
   publicacion,
   evento,
-  spacer,
-  spacerCircle
+  spacer
 }

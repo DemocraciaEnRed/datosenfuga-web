@@ -9,7 +9,7 @@ const Muestra = () => {
       {/* Header naranja */}
       <div className="app__muestra-header">
         <div className="app__muestra-header_textos">
-          <h2>CONVOCAMOS ARTISTAS</h2>
+          <span id="title-convocatorias">CONVOCAMOS ARTISTAS</span> <br />
           <span>PARA POP-UP JULIO</span>
           <p>Te invitamos a inscribirte como artista o participante</p>
         </div>
@@ -35,7 +35,7 @@ const Muestra = () => {
         
         {/* spacer */}
         <div className="spacer">
-          <img src={logos.spacer} alt="" /> <img src={logos.spacerCircle} alt="" id="spacer_circle" /> <img src={logos.spacer} alt="" />
+          <img src={logos.spacer} alt="" />
         </div>
         
         <p className="contenido__title">POSTULÁ TU OBRA</p>
@@ -51,7 +51,7 @@ const Muestra = () => {
         </button>
         {/* spacer */}
         <div className='spacer'>
-          <img src={logos.spacer} alt="" /> <img src={logos.spacerCircle} alt="" id="spacer_circle"/> <img src={logos.spacer} alt="" />
+          <img src={logos.spacer} alt="" /> 
         </div>
         
         <p className="contenido__title">EVENTO</p>
@@ -66,9 +66,6 @@ const Muestra = () => {
         <button className='muestra_button'>
           <a href="https://forms.gle/2TC4MJHvryLK4BDw7" target="_blank" rel="noopener noreferrer">Anotate</a>
         </button>
-      </div>
-      <div className='app__muestra-sticky'>
-
       </div>
       <Faq/>
     </div>
