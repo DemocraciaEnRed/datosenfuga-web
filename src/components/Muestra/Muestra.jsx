@@ -34,7 +34,7 @@ const Muestra = () => {
         </p>
         
         {/* spacer */}
-        <div className="spacer">
+        <div className="spacer_muestra">
           <img src={logos.spacer} alt="" />
         </div>
         
@@ -50,7 +50,7 @@ const Muestra = () => {
           <a href="https://forms.gle/CNvzabMjvgZ3TWeDA" target="_blank" rel="noopener noreferrer">Inscribí tu obra</a>
         </button>
         {/* spacer */}
-        <div className='spacer'>
+        <div className="spacer_muestra">
           <img src={logos.spacer} alt="" /> 
         </div>
         
