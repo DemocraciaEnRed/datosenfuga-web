@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7deabf29.css",
-    "main.js": "/static/js/main.485f75dc.js",
+    "main.js": "/static/js/main.d8164095.js",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
     "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.4c30d71445169daa071d.pdf",
     "static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf": "/static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.cc8440b556c836af3ef7.pdf",
@@ -24,10 +24,10 @@
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
     "main.7deabf29.css.map": "/static/css/main.7deabf29.css.map",
-    "main.485f75dc.js.map": "/static/js/main.485f75dc.js.map"
+    "main.d8164095.js.map": "/static/js/main.d8164095.js.map"
   },
   "entrypoints": [
     "static/css/main.7deabf29.css",
-    "static/js/main.485f75dc.js"
+    "static/js/main.d8164095.js"
   ]
 }
