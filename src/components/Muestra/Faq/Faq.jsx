@@ -34,7 +34,7 @@ const Faq = () => {
         <div id="contactoMuestra" className="faq__contact">
           <p className="faq__contact__title">Contacto</p>
           <p>
-            Si tenes alguna duda, queres ampliar algún tipo de información, o
+            Si tenés alguna duda, querés ampliar algún tipo de información, o
             cualquier otro detalle relacionado a la muestra y/o convocatoria,
             escribinos a:
           </p>

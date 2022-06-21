@@ -8,12 +8,12 @@ import Timeline from "./Timeline/Timeline";
 const Casos = () => {
   const [caso, setCaso] = useState(0);
   let { id } = useParams();
-
+  
   useEffect(() => {
-    if (id) {
+    if(id) {
       let casoID = Number(id)
       setCaso(casoID)
-    }
+    } 
   }, [id]);
 
   return (
@@ -45,31 +45,31 @@ const Casos = () => {
                       alt={c.name}
                       onMouseOver={handleMouseOver}
                       onMouseOut={handleMouseOut}
-                    />
+                      />
                     <span className="casos__tooltiptext">{c.tooltip}</span>
                   </Link>
-                </div>
+                  </div>
               );
             } else {
               return (
                 <div key={c.id} className="casos__tooltip">
-                  <img
-                    src={c.mouseOver}
-                    alt={c.name}
-                    onMouseOver={handleMouseOver}
-                    onMouseOut={(event) => {
-                      event.currentTarget.classList.remove("blur");
-                      event.target.nextSibling.style.visibility = "hidden";
-                    }}
-                  />
-                  <span className="casos__tooltiptext">{c.tooltip}</span>
-                </div>
+                    <img
+                      src={c.mouseOver}
+                      alt={c.name}
+                      onMouseOver={handleMouseOver}
+                      onMouseOut={(event) => {
+                        event.currentTarget.classList.remove("blur");
+                        event.target.nextSibling.style.visibility = "hidden";
+                      }}
+                    />
+                    <span className="casos__tooltiptext">{c.tooltip}</span>
+                  </div>
               );
             }
           })}
 
-          {/*/////////////////////////////////////////////////// CASOS NO DESBLOQUEADOS PENDIENTES DE MAPEO */}
-          {/* CASO 2 */}
+  {/*/////////////////////////////////////////////////// CASOS NO DESBLOQUEADOS PENDIENTES DE MAPEO */}
+  {/* CASO 2 */}
           <div className="casos__tooltip">
             <img
               src={avatars.locked}
@@ -83,7 +83,7 @@ const Casos = () => {
             />
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
           </div>
-          {/* CASO 3 */}
+  {/* CASO 3 */}
           <div className="casos__tooltip">
             <img
               src={avatars.locked}
@@ -97,7 +97,7 @@ const Casos = () => {
             />
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
           </div>
-          {/* CASO 4 */}
+  {/* CASO 4 */}
           <div className="casos__tooltip">
             <img
               src={avatars.locked}
@@ -111,7 +111,7 @@ const Casos = () => {
             />
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
           </div>
-          {/* CASO 5 */}
+  {/* CASO 5 */}
           <div className="casos__tooltip">
             <img
               src={avatars.locked}
@@ -125,7 +125,7 @@ const Casos = () => {
             />
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
           </div>
-          {/* CASO 6 */}
+  {/* CASO 6 */}
           <div className="casos__tooltip">
             <img
               src={avatars.locked}
@@ -141,16 +141,14 @@ const Casos = () => {
           </div>
         </div>
       </div>
-      {caso !== 0 && (
+      {caso!==0 &&(
         <>
-          <Brief id={caso} />
-          <Timeline id={caso} />
-        </>
+      <Brief id={caso} />
+      <Timeline id={caso}/>
+      </>
       )}
-
-
     </>
-  );
+  ); 
 };
 
 export default Casos;
