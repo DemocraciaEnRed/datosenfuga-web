@@ -4,17 +4,18 @@ import Footer from "./Footer/Footer";
 import Home from "./landing/Home";
 import Casos from "./Casos/Casos";
 import Muestra from "./Muestra/Muestra";
+import NotFound from "./landing/NotFound/NotFound";
 
 const AppRouter = () => {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/casos" element={<Casos />} />
         <Route path="/casos/:id" element={<Casos />} />
         <Route path="/muestra" element={<Muestra />}/>
-        <Route path="*" />
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

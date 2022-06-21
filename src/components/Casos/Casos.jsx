@@ -126,7 +126,7 @@ const Casos = () => {
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
           </div>
   {/* CASO 6 */}
-          {/* <div className="casos__tooltip">
+          <div className="casos__tooltip">
             <img
               src={avatars.locked}
               alt="caso bloqueado"
@@ -138,7 +138,7 @@ const Casos = () => {
               }
             />
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
-          </div> */}
+          </div>
         </div>
       </div>
       <Brief id={caso} />

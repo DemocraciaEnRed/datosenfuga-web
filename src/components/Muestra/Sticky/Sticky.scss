@@ -1,0 +1,23 @@
+.app__muestra__sticky {
+  float: right;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 10%;
+  left: calc(100% - 283px);
+  width: 283px;
+  height: 639px;
+  border-left: 1px solid #cfcfcf;
+  ul {
+    padding-top: 20%;
+    margin-left: 10%;
+    margin-bottom: auto;
+    li {
+      list-style: none;
+      margin: 20px 0;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}

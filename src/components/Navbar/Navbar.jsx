@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link to="/muestra">Muestra</Link>
         </li>
         <li>
-          <a href="#organizaciones">Quiénes somos</a>
+          <a href="/#organizaciones">Quiénes somos</a>
         </li>
       </ul>
     </nav>

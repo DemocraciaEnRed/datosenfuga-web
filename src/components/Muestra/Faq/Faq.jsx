@@ -1,6 +1,5 @@
 import "./Faq.scss";
 import { faqs } from "./textFaqs"
-// import { logos } from "../../../constants";
 const Faq = () => {
   const handleClick = (e) => {
     e.stopPropagation();
@@ -14,7 +13,7 @@ const Faq = () => {
     }
   };
   return (
-    <div className="faq">
+    <div id="faqMuestra" className="faq">
       <div className="faq__wrapper">
         <p className="faq__title">Preguntas frecuentes</p>
         {
@@ -31,8 +30,8 @@ const Faq = () => {
             )
           })
         }
-        <button className="faq__legal">BASES Y CONDICIONES</button>
-        <div className="faq__contact">
+        <a id="basesCondiciones" href="#"><button className="faq__legal">BASES Y CONDICIONES</button></a>
+        <div id="contactoMuestra" className="faq__contact">
           <p className="faq__contact__title">Contacto</p>
           <p>
             Si tenes alguna duda, queres ampliar algún tipo de información, o

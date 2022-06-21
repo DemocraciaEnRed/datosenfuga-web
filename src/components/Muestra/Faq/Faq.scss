@@ -60,7 +60,9 @@
   .active:after {
     content: "\2796";
   }
-  &__legal {
+  &__legal{
+    color: #000;
+    text-decoration: none;
     width: max-content;
     text-align: center;
     background-color: #fff;
@@ -69,6 +71,11 @@
     padding: 8px 15px;
     margin: 30px 0;
     font-weight: 800;
+    cursor: pointer;
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
   }
   &__contact {
     display: flex;

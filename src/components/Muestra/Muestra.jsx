@@ -1,6 +1,7 @@
 import React from 'react'
 import './Muestra.scss'
 import { logos }  from '../../constants'
+import Sticky from './Sticky/Sticky'
 import Faq from './Faq/Faq'
 
 const Muestra = () => {
@@ -22,9 +23,10 @@ const Muestra = () => {
           </ul>
         </div>
       </div>
+      <Sticky/>
       {/* Información de la muestra */}
       <div className="app__muestra-contenido">
-        <p className="contenido__title">SOBRE LA MUESTRA</p>
+        <p id="sobreLaMuestra" className="contenido__title">SOBRE LA MUESTRA</p>
         <p className="contenido__text">
           Vivimos rodeados de datos: los utilizamos, los producimos y se los entregamos a un sin fin de aplicaciones y plataformas aún sin darnos cuenta pero sabiendo que el resultado de todo ese conjunto de datos servirá para que nos envíen publicidades cada vez más precisas y específicas sobre nuestros intereses. Pero ¿qué sucede cuando nuestros datos son gestionados por plataformas del Estado? ¿Sabemos qué tan seguros se encuentran nuestros datos personales?
           <br /> <br />
@@ -38,7 +40,7 @@ const Muestra = () => {
           <img src={logos.spacer} alt="" />
         </div>
         
-        <p className="contenido__title">POSTULÁ TU OBRA</p>
+        <p id="postulaTuObra"className="contenido__title">POSTULÁ TU OBRA</p>
         <p className="contenido__text">
           Datos en Fuga recibe postulaciones de obras en todos los formatos y medios, siendo algunos ejemplos: 
           <br /> <br />
@@ -54,7 +56,7 @@ const Muestra = () => {
           <img src={logos.spacer} alt="" /> 
         </div>
         
-        <p className="contenido__title">EVENTO</p>
+        <p id="eventoInscripciones" className="contenido__title">EVENTO</p>
         <p className="contenido__subtitle">
           <b>El evento será desde el día xx de julio hasta el xxx de julio.</b>
         </p>
