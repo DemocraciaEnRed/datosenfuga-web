@@ -20,7 +20,7 @@ const Casos = () => {
     <>
       <div className="casos">
         <h2 className="casos__title">
-          Conocé mas sobre los casos y <br /> consecuencias de los #Datosenfuga
+          Conocé más sobre los casos y <br /> consecuencias de los #Datosenfuga
         </h2>
         <div className="casos__avatars">
 

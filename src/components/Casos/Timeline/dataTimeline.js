@@ -3,7 +3,7 @@ export const dataTimeline =
     [
         {
             id: 1,
-            title: "Joaquin Sorianello",
+            title: "Joaquín Sorianello",
             avatar: avatars.timeline1,
             quotes: [
                 '→ “Quise comprobar si el sistema era seguro. Entré y era una fiesta, no podía creer lo fácil que era”, declaró Joaquín y aseguró que el voto electrónico “es un curro”',

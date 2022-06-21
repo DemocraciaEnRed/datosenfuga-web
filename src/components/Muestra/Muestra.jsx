@@ -11,7 +11,7 @@ const Muestra = () => {
       <div className="app__muestra-header">
         <div className="app__muestra-header_textos">
           <span id="title-convocatorias">CONVOCAMOS ARTISTAS</span> <br />
-          <span>PARA POP-UP JULIO</span>
+          <span>PARA POP-UP AGOSTO</span>
           <p>Te invitamos a inscribirte como artista o participante</p>
         </div>
         <div className="app__muestra-header_lista">
@@ -28,7 +28,7 @@ const Muestra = () => {
       <div className="app__muestra-contenido">
         <p id="sobreLaMuestra" className="contenido__title">SOBRE LA MUESTRA</p>
         <p className="contenido__text">
-          Vivimos rodeados de datos: los utilizamos, los producimos y se los entregamos a un sin fin de aplicaciones y plataformas aún sin darnos cuenta pero sabiendo que el resultado de todo ese conjunto de datos servirá para que nos envíen publicidades cada vez más precisas y específicas sobre nuestros intereses. Pero ¿qué sucede cuando nuestros datos son gestionados por plataformas del Estado? ¿Sabemos qué tan seguros se encuentran nuestros datos personales?
+          Vivimos rodeados de datos: los utilizamos, los producimos y se los entregamos a un sin fín de aplicaciones y plataformas aún sin darnos cuenta pero sabiendo que el resultado de todo ese conjunto de datos servirá para que nos envíen publicidades cada vez más precisas y específicas sobre nuestros intereses. Pero ¿qué sucede cuando nuestros datos son gestionados por plataformas del Estado? ¿Sabemos qué tan seguros se encuentran nuestros datos personales?
           <br /> <br />
           Esta experiencia multidisciplinaria invita a observar el vínculo inevitable entre infraestructuras, sistemas de información, plataformas y datos personales a través de una serie de preguntas: ¿quiénes tienen acceso a nuestros datos? ¿cómo funcionan los sistemas de protección de estos sistemas? ¿es posible desde la ciudadanía contribuir a la protección de estos sistemas bajo un marco legal que no penalice a quienes detectan y reportan vulnerabilidades? 
           <br /> <br />
