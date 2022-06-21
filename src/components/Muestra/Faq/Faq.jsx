@@ -30,7 +30,7 @@ const Faq = () => {
             )
           })
         }
-        <a id="basesCondiciones" href="#"><button className="faq__legal">BASES Y CONDICIONES</button></a>
+        <a id="basesCondiciones" href="https://drive.google.com/file/d/1_nsZ417zLXd4hYnFPGRruOnvwBWG4Lz0/view?usp=sharing"><button className="faq__legal">BASES Y CONDICIONES</button></a>
         <div id="contactoMuestra" className="faq__contact">
           <p className="faq__contact__title">Contacto</p>
           <p>

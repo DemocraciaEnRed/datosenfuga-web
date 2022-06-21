@@ -5,7 +5,6 @@ import { casos } from "../data";
 const Brief = ({ id }) => {
 
   let caso = casos.find((c) => c.id === id)
-  console.log(caso.name + ' HOLA')
   return (
     <div className="casos__brief">
       <div className="casos__brief-contenedor">
@@ -26,7 +25,7 @@ const Brief = ({ id }) => {
           </p>
           <br />
           <p className="casos__brief-informacion_text">
-            {caso.content}
+            {`${caso.content}`}
           </p>
         </div>
       </div>
