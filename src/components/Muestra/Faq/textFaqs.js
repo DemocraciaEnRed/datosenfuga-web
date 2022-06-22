@@ -22,7 +22,7 @@ export const faqs = [
   {
     id: 5,
     title: "5. ¿Cómo se realiza la inscripción?",
-    text: "Todas las postulaciones se realizan a través del <a>formulario</a>, no se recibirán propuestas por correo ni por ningún otro medio."
+    text: "Todas las postulaciones se realizan a través del formulario, no se recibirán propuestas por correo ni por ningún otro medio."
   },
   {
     id: 6,

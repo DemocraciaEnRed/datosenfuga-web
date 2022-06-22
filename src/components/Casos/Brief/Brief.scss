@@ -1,13 +1,12 @@
 .casos__brief {
   background: #fff;
-  width: 70%;
+  width: 100%;
   padding: 50px 0;
-  margin: auto;
-
   &-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 25px;
+    text-align: left;
   }
 
   &-datos {
@@ -21,7 +20,7 @@
   }
 
   &-contenedor {
-    padding: 0 60px;
+    padding: 0 13%;
   }
 
   &-informacion {
@@ -55,7 +54,7 @@
 .spacer {
   border-top: 1px solid black;
   height: 2px;
-  max-width: 95%;
+  max-width: 76%;
   padding: 0;
   margin: 20px auto 0 auto;
 }

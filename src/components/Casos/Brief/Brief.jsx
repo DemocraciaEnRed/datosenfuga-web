@@ -25,7 +25,7 @@ const Brief = ({ id }) => {
           </p>
           <br />
           <p className="casos__brief-informacion_text">
-            {`${caso.content}`}
+            {caso.content}
           </p>
         </div>
       </div>
