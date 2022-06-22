@@ -51,7 +51,7 @@ const Muestra = () => {
         <button className='muestra_button'>
           <a href="https://forms.gle/CNvzabMjvgZ3TWeDA" target="_blank" rel="noopener noreferrer">Inscribí tu obra</a>
         </button>
-        {/* spacer */}
+        {/* spacer
         <div className="spacer_muestra">
           <img src={logos.spacer} alt="" /> 
         </div>
@@ -67,7 +67,7 @@ const Muestra = () => {
 
         <button className='muestra_button'>
           <a href="https://forms.gle/2TC4MJHvryLK4BDw7" target="_blank" rel="noopener noreferrer">Anotate</a>
-        </button>
+        </button> */}
       </div>
       <Faq/>
     </div>
