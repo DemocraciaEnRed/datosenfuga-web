@@ -1,5 +1,6 @@
 import "./Faq.scss";
 // import { faqs } from "./textFaqs"
+import basescondiciones from "../../../assets/papers/BasesyCondiciones-DatosEnFuga.pdf"
 
 const Faq = () => {
   const handleClick = (e) => {
@@ -72,7 +73,7 @@ const Faq = () => {
             <p>Exhibición: 19 y 20 de agosto de 2022</p>
           </div>
         </div>
-        <a id="basesCondiciones" href="https://drive.google.com/file/d/1_nsZ417zLXd4hYnFPGRruOnvwBWG4Lz0/view?usp=sharing"><button className="faq__legal">BASES Y CONDICIONES</button></a>
+        <a id="basesCondiciones" href={basescondiciones} target="_blank" rel="noreferrer" download><button className="faq__legal">BASES Y CONDICIONES</button></a>
         <div id="contactoMuestra" className="faq__contact">
           <p className="faq__contact__title">Contacto</p>
           <p>
