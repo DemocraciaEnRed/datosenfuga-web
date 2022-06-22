@@ -1,5 +1,6 @@
 import './Footer.scss'
 import { logos } from '../../constants'
+import Boton from "../Boton/Boton"
 
 const Footer = () => {
   return (
@@ -17,6 +18,7 @@ const Footer = () => {
         <div className='app__footer-email'>
           <a href='mailto:contacto@democraciaenred.org' target='_blank' rel='noreferrer'>contacto@democraciaenred.org</a>
         </div>
+        <Boton />
       </footer>
     </>
   )

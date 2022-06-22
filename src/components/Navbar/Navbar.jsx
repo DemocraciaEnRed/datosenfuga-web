@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar" id="navbar">
       <ul className="app__navbar-links">
         <li>
           <Link to="/">Proyecto</Link>
