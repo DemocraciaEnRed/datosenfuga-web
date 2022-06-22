@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7deabf29.css",
-    "main.js": "/static/js/main.d8164095.js",
+    "main.css": "/static/css/main.e5a85ca7.css",
+    "main.js": "/static/js/main.92fa6758.js",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
     "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.4c30d71445169daa071d.pdf",
     "static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf": "/static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.cc8440b556c836af3ef7.pdf",
@@ -12,6 +12,7 @@
     "static/media/locked.png": "/static/media/locked.aaa3e19a9c392cce500c.png",
     "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.0009c8fdd42b9f5766b20f0efae9bbd8.svg",
     "index.html": "/index.html",
+    "static/media/button.svg": "/static/media/button.42ee749ecdd9c83b54eb860ee075d4b8.svg",
     "static/media/postulaciones.svg": "/static/media/postulaciones.c28aa203f3d28398b072e5350d72be04.svg",
     "static/media/iconoTwiter.svg": "/static/media/iconoTwiter.d1ba8cd7640d9f564897902db51199ff.svg",
     "static/media/evento.svg": "/static/media/evento.b69d1a1cbd900c7526684ccf24976ac1.svg",
@@ -23,11 +24,11 @@
     "static/media/iconoDownload.svg": "/static/media/iconoDownload.4bf3df57347450a8a21a9d33d9015124.svg",
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
-    "main.7deabf29.css.map": "/static/css/main.7deabf29.css.map",
-    "main.d8164095.js.map": "/static/js/main.d8164095.js.map"
+    "main.e5a85ca7.css.map": "/static/css/main.e5a85ca7.css.map",
+    "main.92fa6758.js.map": "/static/js/main.92fa6758.js.map"
   },
   "entrypoints": [
-    "static/css/main.7deabf29.css",
-    "static/js/main.d8164095.js"
+    "static/css/main.e5a85ca7.css",
+    "static/js/main.92fa6758.js"
   ]
 }
