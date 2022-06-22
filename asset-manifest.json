@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e5a85ca7.css",
-    "main.js": "/static/js/main.953fa854.js",
+    "main.js": "/static/js/main.7811c070.js",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
     "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.4c30d71445169daa071d.pdf",
     "static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf": "/static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.cc8440b556c836af3ef7.pdf",
@@ -9,6 +9,7 @@
     "static/media/gifCanilla.gif": "/static/media/gifCanilla.e5783cfde313a8d2a7a2.gif",
     "static/media/sorianello.png": "/static/media/sorianello.b93b9be3ed8ec9c77660.png",
     "static/media/timelineSorianello.png": "/static/media/timelineSorianello.d976358c5421a5343e1f.png",
+    "static/media/BasesyCondiciones-DatosEnFuga.pdf": "/static/media/BasesyCondiciones-DatosEnFuga.99ae72877b73bbb281b9.pdf",
     "static/media/locked.png": "/static/media/locked.aaa3e19a9c392cce500c.png",
     "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.0009c8fdd42b9f5766b20f0efae9bbd8.svg",
     "index.html": "/index.html",
@@ -25,10 +26,10 @@
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
     "main.e5a85ca7.css.map": "/static/css/main.e5a85ca7.css.map",
-    "main.953fa854.js.map": "/static/js/main.953fa854.js.map"
+    "main.7811c070.js.map": "/static/js/main.7811c070.js.map"
   },
   "entrypoints": [
     "static/css/main.e5a85ca7.css",
-    "static/js/main.953fa854.js"
+    "static/js/main.7811c070.js"
   ]
 }
