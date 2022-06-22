@@ -3,7 +3,7 @@ const Sticky = () => {
   return (
     <div className="app__muestra__sticky">
         <ul>
-          <li><a href='#sobreLaMuestra'>Sobre la Muestra</a></li>
+          <li><a href='#sobreLaMuestra'>Sobre la muestra</a></li>
           <li><a href='#postulaTuObra'>Postulá tu obra</a></li>
           {/* <li><a href='#eventoInscripciones'>Evento - inscripción</a></li> */}
           <li><a href='#faqMuestra'>Preguntas frecuentes</a></li>
