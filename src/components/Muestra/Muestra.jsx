@@ -11,15 +11,15 @@ const Muestra = () => {
       <div className="app__muestra-header">
         <div className="app__muestra-header_textos">
           <span id="title-convocatorias">CONVOCAMOS ARTISTAS</span> <br />
-          <span>PARA POP-UP AGOSTO</span>
+          <span>PARA POP-UP EN AGOSTO</span>
           <p>Te invitamos a inscribirte como artista o participante</p>
         </div>
         <div className="app__muestra-header_lista">
           <ul>
-            <li><img src={logos.convocatoria} alt="Convocatoria"></img>Convocatoria Abierta</li>
-            <li><img src={logos.postulaciones} alt="Postulaciones"></img>Postulaciones: <b>22/06/2022</b> al<b> 10/07/2022</b></li>
-            <li><img src={logos.publicacion} alt="Publicación"></img>Publicación de obras: <b>22/07/2022</b></li>
-            <li><img src={logos.evento} alt="Evento"></img>Evento: <b>19 y 20 de Agosto 2022</b></li>
+            <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria Abierta</p></li>
+            <li><img src={logos.postulaciones} alt="Postulaciones"></img><p>Postulaciones: <b>22/06/2022</b> al<b> 10/07/2022</b></p></li>
+            <li><img src={logos.publicacion} alt="Publicación"></img> <p>Publicación de obras: <b>22/07/2022</b></p> </li>
+            <li><img src={logos.evento} alt="Evento"></img> <p>Evento: <b>19 y 20 de Agosto 2022</b></p> </li>
           </ul>
         </div>
       </div>

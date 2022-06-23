@@ -4,7 +4,7 @@
   background-color: rgba(0, 0, 0, 0.4);
   top: 10%;
   left: calc(100% - 283px);
-  width: 283px;
+  width: 265px;
   height: 350px;
   border-left: 1px solid #cfcfcf;
   ul {
@@ -22,9 +22,36 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 630px) {
+@media screen and (max-width: 768px) {
   .app__muestra__sticky {
-    width: 100px;
-    height: 430px;
+    float: none;
+    background-color: #222222;
+    top: 0;
+    left: auto;
+    width: auto;
+    height: auto;
+    border-left: none;
+    border-bottom: 1px solid #cfcfcf;
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-top: 0;
+      margin-left: 0;
+      li {
+        white-space: nowrap;
+        margin: 20px 5px;
+      }
+    }
   }
+
+  #sobreLaMuestra{
+    scroll-margin-top: 150px;
+  }
+  #postulaTuObra{
+    scroll-margin-top: 150px;
+  }
+
 }

@@ -1,17 +1,17 @@
 .app__muestra {
   width: 100%;
   background: #000;
-
   &-header {
-    width: 100%;
-    height: 50vh;
+    // width: 100%;
+    // height: 50vh;
+    padding: 5vw;
     background: #FF2E00;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
     &_textos {
-      width: 50%;
+      max-width: 50%;
       #title-convocatorias {
         color: rgba(0, 0, 0, 0.85);
         font-weight: 800;
@@ -35,9 +35,11 @@
 
     &_lista {
       ul li {
+        display: flex;
         list-style: none;
+        align-items: center;
         color: #fff;
-        line-height: 40px;
+        // line-height: 40px;
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
         padding: 5px 0;
@@ -54,7 +56,7 @@
 
   &-contenido {
     width: 50%;
-    text-align: justify;
+    text-align: left;
     margin-top: 80px;
     margin-bottom: 80px;
     margin-left: 100px;
@@ -86,6 +88,7 @@
   background: rgba(255, 46, 0, 0.85);
   border-radius: 10px;
   text-transform: uppercase;
+  border: none;
   a {
     color: #fff;
     font-weight: 800;
@@ -103,14 +106,16 @@
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .app__muestra {
     &-header {
-      height: 72vh;
+      flex-direction: column;
       &_textos {
+        max-width: 100%;
+        padding-bottom: 20px;
         #title-convocatorias {
           font-size: 30px;
         }
 
         span {
-          font-size: 30px;
+          font-size: 26px;
         }
       }
 
@@ -121,7 +126,8 @@
     }
     
     &-contenido {
-      margin-left: 30px;
+      width: 80%;
+      margin: 5vw auto;
     }
   }
 }
@@ -129,9 +135,11 @@
 @media screen and (min-width: 320px) and (max-width: 425px) { 
   .app__muestra {
     &-header {
-      height: 80vh;
-
+      // height: 80vh;
+      flex-direction: column;
       &_textos {
+        max-width: 100%;
+        padding-bottom: 20px;
         #title-convocatorias {
           font-size: 25px;
         }
@@ -147,8 +155,8 @@
     }
 
     &-contenido {
-      margin-left: 30px;
-      text-align: left;
+      width: 80%;
+      margin: 5vw auto;
     }
   }
 }

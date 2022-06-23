@@ -6,7 +6,7 @@
   background-color: #fff;
 
   &__box {
-    padding-left: 20px;
+    padding: 0 20px;
   }
 
   &__wrapper {
@@ -95,6 +95,20 @@
     a {
       text-decoration: none;
       color: #000;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq {
+    &__wrapper {
+      width: 80%;
+      margin: auto;
+    }
+    &__box{
+      padding: 0;
+      width: 100vw;
+      margin-left: -13%;
     }
   }
 }
