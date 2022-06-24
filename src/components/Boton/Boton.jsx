@@ -1,13 +1,14 @@
 import React from 'react'
 import './Boton.scss'
 import { otherImages } from '../../constants'
+import { HashLink } from 'react-router-hash-link'
 
 const Boton = () => {
   return (
     <div className="Boton">
-      <a href="#navbar">
+      <HashLink to="#navbar">
         <img src={otherImages.buttonToTop} alt="Botón ir hacia arriba" />
-      </a>
+      </HashLink>
     </div>
   )
 }
