@@ -40,9 +40,6 @@ const Navbar = () => {
             <img src={closeMenuIcon} alt="" className="menu-icon" onClick={() => setShowMenu(false)} />
             <ul className="app__navbar-mobile-links" onClick={() => setShowMenu(false)}>
               <li>
-                <HashLink to="/">#DATOS<span>EN</span>FUGA</HashLink>
-              </li>
-              <li>
                 <HashLink to="/">Proyecto</HashLink>
               </li>
               <li>
