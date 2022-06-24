@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 import Home from "./landing/Home";
@@ -8,7 +8,7 @@ import NotFound from "./landing/NotFound/NotFound";
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -18,7 +18,7 @@ const AppRouter = () => {
         <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

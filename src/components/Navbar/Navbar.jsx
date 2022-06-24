@@ -1,19 +1,20 @@
 import React from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
     <nav className="app__navbar" id="navbar">
       <ul className="app__navbar-links">
         <li>
-          <Link to="/">Proyecto</Link>
+          <HashLink to="/">Proyecto</HashLink>
         </li>
         <li>
-          <a href="/#paper">Paper</a>
+          <HashLink to="/#paper">Paper</HashLink>
         </li>
         <li>
-          <a href="/#ABC">ABC</a>
+          <HashLink to="/#ABC">ABC</HashLink>
         </li>
         <li>
           <Link to="/casos">Casos</Link>
@@ -22,7 +23,7 @@ const Navbar = () => {
           <Link to="/muestra">Muestra</Link>
         </li>
         <li>
-          <a href="/#organizaciones">Quiénes somos</a>
+          <HashLink to="/#organizaciones">Quiénes somos</HashLink>
         </li>
       </ul>
     </nav>
