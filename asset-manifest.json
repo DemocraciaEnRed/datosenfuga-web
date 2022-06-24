@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea772d6e.css",
-    "main.js": "/static/js/main.e9e90883.js",
+    "main.css": "/static/css/main.af089be0.css",
+    "main.js": "/static/js/main.f22806bc.js",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
     "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.4c30d71445169daa071d.pdf",
     "static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf": "/static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.cc8440b556c836af3ef7.pdf",
@@ -23,13 +23,15 @@
     "static/media/iconoYoutube.svg": "/static/media/iconoYoutube.ae9f77d90da2b20c7c9fde79548a1c3c.svg",
     "static/media/arrowNext.svg": "/static/media/arrowNext.597c93a3bfcf2c0512a5.svg",
     "static/media/iconoDownload.svg": "/static/media/iconoDownload.4bf3df57347450a8a21a9d33d9015124.svg",
+    "static/media/closeMenu.svg": "/static/media/closeMenu.5215a46305629c005de1a7ea493e43a5.svg",
+    "static/media/burgerMenu.svg": "/static/media/burgerMenu.e074d0825ca9743fb97d8c0cddc96621.svg",
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
-    "main.ea772d6e.css.map": "/static/css/main.ea772d6e.css.map",
-    "main.e9e90883.js.map": "/static/js/main.e9e90883.js.map"
+    "main.af089be0.css.map": "/static/css/main.af089be0.css.map",
+    "main.f22806bc.js.map": "/static/js/main.f22806bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea772d6e.css",
-    "static/js/main.e9e90883.js"
+    "static/css/main.af089be0.css",
+    "static/js/main.f22806bc.js"
   ]
 }
