@@ -1,26 +1,28 @@
 import { dataTimeline } from "./dataTimeline";
 import "./Timeline.scss";
-import TlineButton from "./TlineButton/TlineButton";
+// import TlineButton from "./TlineButton/TlineButton";
 
 const Timeline = ({ id }) => {
   let caso = dataTimeline.find((c) => c.id === id);
   if (!caso) {
     return null;
   } else {
+    let quoteKey = 0;
     return (
       <>
-        <div className="timeline">
-        {caso.button ? <TlineButton caso={caso.button} /> : <></>}
-          <div className="timeline__grid">
+        <div className="casos__timeline">
+        {/* {caso.button ? <TlineButton caso={caso.button} /> : <></>} */}
+          <div className="casos__timeline-grid">
             {caso.quotes.map((q) => {
+              quoteKey ++
               return (
                 <>
-                  <div key={caso.id} className="timeline__column">
+                  <div className="casos__timeline-column">
                     <img src={caso.avatar} alt={`avatar${caso.title}`} />
                   </div>
-                  <div className="timeline__quote">
+                  <div className="casos__timeline-quote">
                     <p>{caso.title}</p>
-                    <p>{q}</p>
+                    <p key={"timeline"+caso.id+quoteKey}>{q}</p>
                   </div>
                 </>
               );

@@ -1,4 +1,4 @@
-.timeline {
+.casos__timeline {
   //
   $lineColor: #ffffff;
   $avatar-size: min(max(3vw, 50px), 70px);
@@ -11,7 +11,7 @@
   padding: 5% 5% 10% 5%;
   z-index: -2;
 
-  &__grid {
+  &-grid {
     display: grid;
     width: 90%;
     grid-template-columns: auto 1fr;
@@ -22,7 +22,7 @@
     margin: 0 auto;
   }
 
-  &__column {
+  &-column {
     position: relative;
     z-index: 1;
 
@@ -44,7 +44,7 @@
     }
   }
 
-  &__quote {
+  &-quote {
     color: $text-color;
     font-size: 20px;
     line-height: 23.5px;
@@ -68,45 +68,45 @@
   }
 }
 
-.tlineButton {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-bottom: 5%;
-  background-color: #000;
-  &__title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    margin: 20px 0;
-    color: #fff;
-  }
+// .tlineButton {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   text-align: center;
+//   padding-bottom: 5%;
+//   background-color: #000;
+//   &__title {
+//     font-family: "Raleway", sans-serif;
+//     font-weight: 700;
+//     font-size: 25px;
+//     margin: 20px 0;
+//     color: #fff;
+//   }
 
-  &__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    color: #000;
-    border-radius: 8px;
-    padding: 11px 18px;
-    border-style: none;
+//   &__button {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: #fff;
+//     color: #000;
+//     border-radius: 8px;
+//     padding: 11px 18px;
+//     border-style: none;
 
-    span {
-      padding-left: 20px;
-      font-size: 17px;
-      text-transform: uppercase;
-    }
+//     span {
+//       padding-left: 20px;
+//       font-size: 17px;
+//       text-transform: uppercase;
+//     }
 
-    a {
-      text-decoration: none;
-      color: #000;
-    }
+//     a {
+//       text-decoration: none;
+//       color: #000;
+//     }
 
-    img {
-      height: 25px;
-      width: 25px;
-    }
-  }
-}
+//     img {
+//       height: 25px;
+//       width: 25px;
+//     }
+//   }
+// }

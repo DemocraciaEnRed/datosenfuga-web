@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Brief from "./Brief/Brief";
 import Timeline from "./Timeline/Timeline";
+import CasosVideo from "./CasosVideo/CasosVideo";
 const Casos = () => {
   const [caso, setCaso] = useState(0);
   let { id } = useParams();
@@ -143,6 +144,7 @@ const Casos = () => {
       {caso !== 0 && 
         <>
           <Brief id={caso} />
+          <CasosVideo id={caso} />
           <Timeline id={caso} />
         </>
         }
