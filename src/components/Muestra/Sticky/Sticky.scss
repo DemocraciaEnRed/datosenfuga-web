@@ -1,15 +1,18 @@
 .app__muestra__sticky {
+  $bgwidth: 300px;
   float: right;
   position: sticky;
-  background-color: rgba(0, 0, 0, 0.4);
   top: 10%;
-  left: calc(100% - 283px);
-  width: 265px;
-  height: 350px;
-  border-left: 1px solid #cfcfcf;
+  display: flex;
+  justify-content: flex-end;
+  width: $bgwidth;
+  // canilla height + positioning hardcoded
+  min-height: calc(($bgwidth*1.59) + 40px);
   ul {
-    padding-top: 20%;
-    margin-left: 10%;
+    width: fit-content;
+    border-left: 1px solid #cfcfcf;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 21% 5% ;
     margin-bottom: auto;
     li {
       list-style: none;
@@ -20,7 +23,28 @@
       }
     }
   }
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('../../../assets/gifs/gifCanilla2.gif');
+    opacity: .5;
+    content: "";
+    pointer-events: none;
+    background-repeat: no-repeat;
+    //translate to negative ul width
+    transform: translate(-190px);
+    //bg position to cut 13% from canilla right side
+    background-position-x: calc($bgwidth*.13);
+    //height position
+    background-position-y: 40px;
+    //maintain gif scale with calc
+    background-size: $bgwidth calc($bgwidth * 1.59);
+  }
 }
+
 
 @media screen and (max-width: 768px) {
   .app__muestra__sticky {
@@ -30,20 +54,26 @@
     left: auto;
     width: auto;
     height: auto;
-    border-left: none;
+    min-height: auto;
     border-bottom: 1px solid #cfcfcf;
+    z-index: 1;
     ul {
+      background: none;
+      border-left: none;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       flex-wrap: wrap;
       align-items: center;
-      padding-top: 0;
+      padding: 0 5%;
       margin-left: 0;
       li {
         white-space: nowrap;
         margin: 20px 5px;
       }
+    }
+    &::before {
+      display: none;
     }
   }
 
