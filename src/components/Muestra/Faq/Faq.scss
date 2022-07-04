@@ -16,6 +16,7 @@
   }
 
   &__title {
+    position: relative;
     font-size: 35px;
     line-height: 48px;
     font-weight: 800;
@@ -111,6 +112,9 @@
       padding: 0;
       width: 100vw;
       margin-left: -13%;
+    }
+    &__accordion{
+      padding: 18px 10%;
     }
   }
 }
