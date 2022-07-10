@@ -9,6 +9,7 @@ import video from '../assets/iconos/iconoVideo.svg'
 import youtube from '../assets/iconos/iconoYoutube.svg'
 import descarga from '../assets/iconos/iconoDownload.svg'
 import convocatoria from "../assets/iconos/convocatoria.svg"
+import prorroga from '../assets/iconos/prorroga.svg'
 import postulaciones from "../assets/iconos/postulaciones.svg"
 import publicacion from "../assets/iconos/publicacion.svg"
 import evento from "../assets/iconos/evento.svg"
@@ -26,6 +27,7 @@ export const logos = {
   youtube,
   descarga,
   convocatoria,
+  prorroga,
   postulaciones,
   publicacion,
   evento,
