@@ -18,6 +18,7 @@ const Muestra = () => {
           <ul>
             <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria Abierta</p></li>
             <li><img src={logos.postulaciones} alt="Postulaciones"></img><p>Postulaciones: <b>22/06/2022</b> al<b> 10/07/2022</b></p></li>
+            <li><img src={logos.prorroga} alt="prorroga" /><p><b>PRÓRROGA POSTULACIONES </b>hasta <b>22/07/2022</b></p></li>
             <li><img src={logos.publicacion} alt="Publicación"></img> <p>Publicación de obras: <b>22/07/2022</b></p> </li>
             <li><img src={logos.evento} alt="Evento"></img> <p>Evento: <b>19 y 20 de Agosto 2022</b></p> </li>
           </ul>
@@ -41,6 +42,7 @@ const Muestra = () => {
         </div>
         
         <p id="postulaTuObra"className="contenido__title">POSTULÁ TU OBRA</p>
+        <p className="contenido__postergacion"><b>PRÓRROGA para POSTULACIÓN de obras </b>hasta <b>22/07/2022</b></p>
         <p className="contenido__text">
           Datos en Fuga recibe postulaciones de obras en todos los formatos y medios, siendo algunos ejemplos: 
           <br /> <br />
