@@ -41,7 +41,7 @@ export const casos = [
     content:{
       child1:"El 3 de septiembre de 2019, Gaspar ingresó como cualquiera de nosotros/as a su homebanking del Banco de la Nación Argentina -desarrollada y operada por la firma Red Link S.A.- pero con una pequeña gran diferencia: ",
       child2: <b>mediante técnicas específicas para detectar vulnerabilidades en sistemas informáticos, descubrió que podía modificar el valor del dólar, corriendo la coma en los valores</b>,
-      child3:".\n\n Una vez modificada la cotización, ",
+      child3:".\n\nUna vez modificada la cotización, ",
       child4: <b>realizó múltiples operaciones de compraventa de dólares adquiriendo los mismos a $5,695</b>,
       child5: " (cuando la cotización real era de $56,95) ",
       child6: <b>y luego vendiéndolos a $530,50</b>,
