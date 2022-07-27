@@ -33,7 +33,7 @@ export const casos = [
     id: 2,
     avatar: avatars.anon,
     mouseOver: avatars.caso2,
-    name: "Gaspar Ortmann",
+    name: "Gaspar Ariel Ortmann",
     tooltip: "Procesado penalmente por identificar\nvulnerabilidades en el sistema de Home\nBanking de Banco Nación.",
     occupation: "",
     year:"2019",
