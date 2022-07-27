@@ -70,7 +70,7 @@ const Casos = () => {
           })}
 
           {/*/////////////////////////////////////////////////// CASOS NO DESBLOQUEADOS PENDIENTES DE MAPEO */}
-          {/* CASO 2 */}
+          {/* CASO 2
           <div className="casos__tooltip">
             <img
               src={avatars.locked}
@@ -83,7 +83,7 @@ const Casos = () => {
               }
             />
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
-          </div>
+          </div> */}
           {/* CASO 3 */}
           <div className="casos__tooltip">
             <img

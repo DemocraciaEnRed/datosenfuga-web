@@ -1,5 +1,5 @@
 import caso1 from "./sorianello.png";
-import caso2 from "./sorianello.png";
+import caso2 from "./ortmann.png";
 import caso3 from "./sorianello.png";
 import caso4 from "./sorianello.png";
 import caso5 from "./sorianello.png";
