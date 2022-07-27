@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8aae8f9.css",
-    "main.js": "/static/js/main.a250e993.js",
+    "main.css": "/static/css/main.dc82220a.css",
+    "main.js": "/static/js/main.d3c6c5b7.js",
     "static/media/gifCanilla2.gif": "/static/media/gifCanilla2.5ff775e3163cf58b9a73.gif",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
     "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.4c30d71445169daa071d.pdf",
@@ -13,28 +13,28 @@
     "static/media/BasesyCondiciones-DatosEnFuga.pdf": "/static/media/BasesyCondiciones-DatosEnFuga.99ae72877b73bbb281b9.pdf",
     "static/media/locked.png": "/static/media/locked.aaa3e19a9c392cce500c.png",
     "static/media/ortmann.png": "/static/media/ortmann.8c45dc404e91f57b8978.png",
-    "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.cd7494042048adc9f7b25dac38fb86b1.svg",
+    "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.0009c8fdd42b9f5766b20f0efae9bbd8.svg",
     "index.html": "/index.html",
-    "static/media/button.svg": "/static/media/button.b01ad5505943471f6b658b82e5767d1c.svg",
-    "static/media/postulaciones.svg": "/static/media/postulaciones.dfd0dbc4e0919b30cd7fd949a656dac5.svg",
-    "static/media/iconoTwiter.svg": "/static/media/iconoTwiter.6f9a9d4c38185ad7acd716adad0ecf1a.svg",
-    "static/media/evento.svg": "/static/media/evento.98445cf8d32cb2d20299c8f8ac4ee362.svg",
-    "static/media/publicacion.svg": "/static/media/publicacion.c7642632367a3c7f75a04852c03193fa.svg",
-    "static/media/convocatoria.svg": "/static/media/convocatoria.3f6b81aad8f184e2d6520f015553c39f.svg",
-    "static/media/arrowPrev.svg": "/static/media/arrowPrev.8cca523bf2ae9b60196e.svg",
-    "static/media/iconoYoutube.svg": "/static/media/iconoYoutube.bb4f5499d7f619b32bcf30291fd60cdc.svg",
-    "static/media/arrowNext.svg": "/static/media/arrowNext.8ae0f9355c55a1a4c59a.svg",
-    "static/media/iconoDownload.svg": "/static/media/iconoDownload.3f7540160d64185660e24b44ac0336f1.svg",
-    "static/media/closeMenu.svg": "/static/media/closeMenu.e6042815115b60542530e3b4c21a9eff.svg",
-    "static/media/prorroga.svg": "/static/media/prorroga.8b0d05dd85c0be5f84e67d8abf43019d.svg",
-    "static/media/burgerMenu.svg": "/static/media/burgerMenu.960ea56d715866396e989ebacf45ebde.svg",
-    "static/media/iconoVideo.svg": "/static/media/iconoVideo.1bea2f8e42ba71b72f6817e01e3506a2.svg",
-    "static/media/spacer.svg": "/static/media/spacer.2c1f15abf0fca6399745276f7c72adc5.svg",
-    "main.d8aae8f9.css.map": "/static/css/main.d8aae8f9.css.map",
-    "main.a250e993.js.map": "/static/js/main.a250e993.js.map"
+    "static/media/button.svg": "/static/media/button.42ee749ecdd9c83b54eb860ee075d4b8.svg",
+    "static/media/postulaciones.svg": "/static/media/postulaciones.c28aa203f3d28398b072e5350d72be04.svg",
+    "static/media/iconoTwiter.svg": "/static/media/iconoTwiter.d1ba8cd7640d9f564897902db51199ff.svg",
+    "static/media/evento.svg": "/static/media/evento.b69d1a1cbd900c7526684ccf24976ac1.svg",
+    "static/media/publicacion.svg": "/static/media/publicacion.05b9c67e0ced1174a962a713040840ec.svg",
+    "static/media/convocatoria.svg": "/static/media/convocatoria.145bac470d20986ecc061caa46eadf7a.svg",
+    "static/media/arrowPrev.svg": "/static/media/arrowPrev.1afd1826945b50694cd2.svg",
+    "static/media/iconoYoutube.svg": "/static/media/iconoYoutube.ae9f77d90da2b20c7c9fde79548a1c3c.svg",
+    "static/media/arrowNext.svg": "/static/media/arrowNext.597c93a3bfcf2c0512a5.svg",
+    "static/media/iconoDownload.svg": "/static/media/iconoDownload.4bf3df57347450a8a21a9d33d9015124.svg",
+    "static/media/closeMenu.svg": "/static/media/closeMenu.5215a46305629c005de1a7ea493e43a5.svg",
+    "static/media/prorroga.svg": "/static/media/prorroga.c4c01910cbeb76927f87a0a57fba2e1f.svg",
+    "static/media/burgerMenu.svg": "/static/media/burgerMenu.e074d0825ca9743fb97d8c0cddc96621.svg",
+    "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
+    "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
+    "main.dc82220a.css.map": "/static/css/main.dc82220a.css.map",
+    "main.d3c6c5b7.js.map": "/static/js/main.d3c6c5b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8aae8f9.css",
-    "static/js/main.a250e993.js"
+    "static/css/main.dc82220a.css",
+    "static/js/main.d3c6c5b7.js"
   ]
 }
