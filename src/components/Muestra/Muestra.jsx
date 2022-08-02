@@ -85,7 +85,7 @@ const Muestra = () => {
         {/* Header naranja */}
         <div className="app__muestra-header">
           <div className="app__muestra-header_textos">
-            <span id="title-convocatorias">CONVOCAMOS ARTISTAS</span> <br />
+            <span className="title-convocatorias">CONVOCAMOS ARTISTAS</span> <br />
             <span>PARA POP-UP EN AGOSTO</span>
             <p>Te invitamos a inscribirte como artista o participante</p>
           </div>
