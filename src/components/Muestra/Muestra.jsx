@@ -91,7 +91,7 @@ const Muestra = () => {
           </div>
           <div className="app__muestra-header_lista">
             <ul>
-              <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria cerrada</p></li>
+              <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria Cerrada</p></li>
               <li><img src={logos.publicacion} alt="Publicación"></img> <p className="textShadow">Próximamente anunciaremos las obras seleccionadas.</p> </li>
               <li><img src={logos.evento} alt="Evento"></img> <p>Evento: <b>19 y 20 de Agosto 2022</b></p> </li>
             </ul>
