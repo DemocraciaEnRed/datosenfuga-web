@@ -23,7 +23,7 @@ const Obras = () => {
                   <p className="obra__autor">
                     <a href={obra.links?.linkAutor1} target="_blank" rel="noreferrer">{obra.autors?.autor1}</a>, 
                     <a href={obra.links?.linkAutor2} target="_blank" rel="noreferrer"> {obra.autors?.autor2}</a>, 
-                    <a href={obra.links?.linkAutor3} target="_blank" rel="noreferrer"> {obra.autors?.autor3}</a>, 
+                    <a href={obra.links?.linkAutor3} target="_blank" rel="noreferrer"> {obra.autors?.autor3}</a> 
                   </p>
                   <p className="obra__descripcion">{obra.description}</p>
                 </>
