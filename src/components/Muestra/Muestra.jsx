@@ -65,7 +65,7 @@ const Muestra = () => {
           
           <p id="eventoInscripciones" className="contenido__title">EVENTO</p>
           <p className="contenido__subtitle">
-            <b>El evento será desde el día 19 de julio hasta el 20 de julio.</b>
+            <b>El evento será desde el día 19 de agosto hasta el 20 de agosto.</b>
           </p>
           <p className="contenido__text">
             ¡Te invitamos a que te inscribas para asistir al evento! <br /> <br />
@@ -115,7 +115,7 @@ const Muestra = () => {
           
           <p id="eventoInscripciones" className="contenido__title">EVENTO</p>
           <p className="contenido__subtitle">
-            <b>El evento será desde el día 19 de julio hasta el 20 de julio.</b>
+            <b>El evento será desde el día 19 de agosto hasta el 20 de agosto.</b>
           </p>
           <p className="contenido__text">
             ¡Te invitamos a que te inscribas para asistir al evento! <br /> <br />
@@ -180,7 +180,7 @@ const Muestra = () => {
           
           <p id="eventoInscripciones" className="contenido__title">EVENTO</p>
           <br />
-          <p className="contenido__subtitle-obras">El evento será los días 19 y 20 de julio</p>
+          <p className="contenido__subtitle-obras">El evento será los días 19 y 20 de Agosto</p>
           <br />
           <p className="contenido__subtitle-obras">Detalles del evento</p>
           <p className="contenido__text">
