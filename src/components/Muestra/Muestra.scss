@@ -47,6 +47,11 @@
           margin: 0 15px 0 0;
           vertical-align: middle;
         }
+        .textShadow {
+          font-family: 'Raleway', sans-serif;
+          font-weight: 700;
+          text-shadow: -1px -1px 0px #000000, 1px 1px 0px #0094FF;
+        }
       }
 
       &_obras{
@@ -73,6 +78,11 @@
     .contenido__subtitle {
       font-size: 25px;
       color: #fff;
+      &-obras {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 700;
+      }
     }
 
     .contenido__text {
@@ -91,6 +101,25 @@
         font-size:24px;
         margin-top: auto;
       }
+    }
+
+    #extensionObras-title {
+      color: #FF0000;
+      font-size: 26.8px;
+      line-height: 30px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+    }
+  }
+
+  &-obra-cerrada {
+    .title__cerrada {
+      color: rgba(255, 46, 0, 0.85);
+      font-style: italic;
+      font-size: 30px;
+      line-height: 41px;
+      font-weight: 800;
+      text-transform: uppercase;
     }
   }
 }
@@ -134,7 +163,6 @@
       }
 
       &_lista ul li{
-
           font-size: 15px;
       }
     }

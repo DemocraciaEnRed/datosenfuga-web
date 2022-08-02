@@ -1,0 +1,28 @@
+.app__obras {
+
+  &-container {
+    .obra__title {
+      color: #FF0000;
+      font-size: 26px;
+      line-height: 35px;
+      font-weight: 700;
+      padding-top: 40px;
+    }
+
+    .obra__autor {
+      color: #fff;
+      font-size: 20px;
+      line-height: 27px;
+      font-weight: 700;
+    }
+
+    .obra__descripcion {
+      color: #fff;
+      font-size: 20px;
+      line-height: 27px;
+      font-weight: 400;
+      text-align: justify;
+      padding-top: 22px;
+    }
+  }
+}
