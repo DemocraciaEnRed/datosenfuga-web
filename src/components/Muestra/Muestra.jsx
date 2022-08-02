@@ -187,8 +187,8 @@ const Muestra = () => {
             Emplazado en <a href="https://g.page/multiespaciokorova?share" target="_blank" rel="noreferrer" >Multiespacio Korova</a>, Paraguay 4667, Buenos Aires
             <br />
             <br />
-            <li><b>Día 1</b>: 19hs a 02hs</li>
-            <li><b>Día 2</b>: 19hs a 02hs</li>
+            <li><b>Día 1</b>: 18:30hs a 02hs</li>
+            <li><b>Día 2</b>: 18:30hs a 02hs</li>
             <br />
             ¡Te invitamos a que te inscribas para asistir al evento! <br /> <br />
             La <b>inscripcion</b> para asistir <b>no es obligatoria</b> podes presentarte al evento sin inscripcion previa, pero <b>nos ayuda a preparar las instalaciones sabiendo la cantidad de participantes</b>. Puedes incribirte aunque luego no puedas asistir o no estes seguro. 
