@@ -8,7 +8,7 @@ import Obras from './Obras/Obras'
 const Muestra = () => {
 
   // 0 postulaciones no habilitadas, 1 habilitadas, 2 expositor muestras
-  let display = 2
+  let display = 0
 
   if (display === 1) {
     return (
@@ -16,14 +16,15 @@ const Muestra = () => {
         {/* Header naranja */}
         <div className="app__muestra-header">
           <div className="app__muestra-header_textos">
-            <span id="title-convocatorias">CONVOCAMOS ARTISTAS</span> <br />
+            <span className="title-convocatorias">CONVOCAMOS ARTISTAS</span> <br />
             <span>PARA POP-UP EN AGOSTO</span>
             <p>Te invitamos a inscribirte como artista o participante</p>
           </div>
           <div className="app__muestra-header_lista">
             <ul>
-              <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria Abierta</p></li>
+              <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria abierta</p></li>
               <li><img src={logos.postulaciones} alt="Postulaciones"></img><p>Postulaciones: <b>22/06/2022</b> al<b> 10/07/2022</b></p></li>
+              <li><img src={logos.prorroga} alt="Publicación"></img> <p><b className="textShadow">PRÓRROGA POSTULACIONES</b> hasta <b className="textShadow">22/07/2022</b></p> </li>
               <li><img src={logos.publicacion} alt="Publicación"></img> <p>Publicación de obras: <b>22/07/2022</b></p> </li>
               <li><img src={logos.evento} alt="Evento"></img> <p>Evento: <b>19 y 20 de Agosto 2022</b></p> </li>
             </ul>
@@ -45,7 +46,8 @@ const Muestra = () => {
             <img src={logos.spacer} alt="" />
           </div>
           
-          <p id="postulaTuObra"className="contenido__title">POSTULÁ TU OBRA</p>
+          <p id="postulaTuObra" className="contenido__title">POSTULÁ TU OBRA</p>
+          <p id="extensionObras-title">PRÓRROGA para POSTULACIÓN de obras hasta 22/07/2022</p>
           <p className="contenido__text">
             Datos en Fuga recibe postulaciones de obras en todos los formatos y medios, siendo algunos ejemplos: 
             <br /> <br />
@@ -63,11 +65,11 @@ const Muestra = () => {
           
           <p id="eventoInscripciones" className="contenido__title">EVENTO</p>
           <p className="contenido__subtitle">
-            <b>El evento será desde el día xx de julio hasta el xxx de julio.</b>
+            <b>El evento será desde el día 19 de julio hasta el 20 de julio.</b>
           </p>
           <p className="contenido__text">
             ¡Te invitamos a que te inscribas para asistir al evento! <br /> <br />
-            La <b>inscripcion</b> para asistir <b>no es obligatoria</b> podes presentarte al evento sin inscripcion previa, pero <b>nos ayuda a preparar las instalaciones sabiendo la cantidad de participantes</b>. Puedes incribirte aunque luego no puedas asistir o no estes seguro. 
+            La <b>inscripción</b> para asistir <b>no es obligatoria</b>, podés presentarte al evento sin inscripción previa, pero <b>nos ayuda a preparar las instalaciones sabiendo la cantidad de participantes</b>. Puedes inscribirte aunque luego no puedas asistir o no estés seguro. 
           </p>
   
           <button className='muestra_button'>
@@ -89,9 +91,8 @@ const Muestra = () => {
           </div>
           <div className="app__muestra-header_lista">
             <ul>
-              <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria Abierta</p></li>
-              <li><img src={logos.postulaciones} alt="Postulaciones"></img><p>Postulaciones: <b>22/06/2022</b> al<b> 10/07/2022</b></p></li>
-              <li><img src={logos.publicacion} alt="Publicación"></img> <p>Publicación de obras: <b>22/07/2022</b></p> </li>
+              <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria cerrada</p></li>
+              <li><img src={logos.publicacion} alt="Publicación"></img> <p className="textShadow">Próximamente anunciaremos las obras seleccionadas.</p> </li>
               <li><img src={logos.evento} alt="Evento"></img> <p>Evento: <b>19 y 20 de Agosto 2022</b></p> </li>
             </ul>
           </div>
@@ -114,7 +115,7 @@ const Muestra = () => {
           
           <p id="eventoInscripciones" className="contenido__title">EVENTO</p>
           <p className="contenido__subtitle">
-            <b>El evento será desde el día xx de julio hasta el xxx de julio.</b>
+            <b>El evento será desde el día 19 de julio hasta el 20 de julio.</b>
           </p>
           <p className="contenido__text">
             ¡Te invitamos a que te inscribas para asistir al evento! <br /> <br />
@@ -131,7 +132,10 @@ const Muestra = () => {
 
           <p id="postulaTuObra"className="contenido__title">POSTULÁ TU OBRA</p>
           <div className="app__muestra-obra-cerrada">
-            <h2>¡MUCHAS GRACIAS POR TU INTERÉS Y PARTICIPACIÓN!</h2>
+            <p className="title__cerrada">
+              La convocatoria esta cerrada <br />
+              ¡Muchas gracias por tu interés y participación!
+            </p>
             <p className="contenido__text">
               La inscripción de obras se encuentra cerrada, próximamente podrás conocer las obras seleccionadas y más información sobre ellas.
             </p>
@@ -146,15 +150,14 @@ const Muestra = () => {
         {/* Header naranja */}
         <div className="app__muestra-header">
           <div className="app__muestra-header_textos">
-            <span id="title-convocatorias">CONVOCAMOS ARTISTAS</span> <br />
+            <span className="title-convocatorias">CONVOCAMOS ARTISTAS</span> <br />
             <span>PARA POP-UP EN AGOSTO</span>
-            <p>Te invitamos a inscribirte como artista o participante</p>
+            <p>Te invitamos a inscribirte y asistir a la muestra</p>
           </div>
           <div className="app__muestra-header_lista">
             <ul>
-              <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria Abierta</p></li>
-              <li><img src={logos.postulaciones} alt="Postulaciones"></img><p>Postulaciones: <b>22/06/2022</b> al<b> 10/07/2022</b></p></li>
-              <li><img src={logos.publicacion} alt="Publicación"></img> <p>Publicación de obras: <b>22/07/2022</b></p> </li>
+              <li><img src={logos.convocatoria} alt="Convocatoria"></img> <p>Convocatoria Cerrada</p></li>
+              <li><img src={logos.publicacion} alt="Publicación"></img> <p className="textShadow">Obras seleccionadas</p> </li>
               <li><img src={logos.evento} alt="Evento"></img> <p>Evento: <b>19 y 20 de Agosto 2022</b></p> </li>
             </ul>
           </div>
@@ -176,10 +179,17 @@ const Muestra = () => {
           </div>
           
           <p id="eventoInscripciones" className="contenido__title">EVENTO</p>
-          <p className="contenido__subtitle">
-            <b>El evento será desde el día xx de julio hasta el xxx de julio.</b>
-          </p>
+          <br />
+          <p className="contenido__subtitle-obras">El evento será los días 19 y 20 de julio</p>
+          <br />
+          <p className="contenido__subtitle-obras">Detalles del evento</p>
           <p className="contenido__text">
+            Emplazado en Multiespacio Korova, Paraguay 4667, Buenos Aires
+            <br />
+            <br />
+            <li><b>Día 1</b>: 19hs a 02hs</li>
+            <li><b>Día 2</b>: 19hs a 02hs</li>
+            <br />
             ¡Te invitamos a que te inscribas para asistir al evento! <br /> <br />
             La <b>inscripcion</b> para asistir <b>no es obligatoria</b> podes presentarte al evento sin inscripcion previa, pero <b>nos ayuda a preparar las instalaciones sabiendo la cantidad de participantes</b>. Puedes incribirte aunque luego no puedas asistir o no estes seguro. 
           </p>
