@@ -8,7 +8,7 @@ import Obras from './Obras/Obras'
 const Muestra = () => {
 
   // 0 postulaciones no habilitadas, 1 habilitadas, 2 expositor muestras
-  let display = 0
+  let display = 2
 
   if (display === 1) {
     return (
