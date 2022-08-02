@@ -8,13 +8,27 @@ const Obras = () => {
       <div className="app__obras-container">
         {
           obras.map(obra => {
-            return (
-              <>
-                <p className="obra__title">{obra.title}</p>
-                <p className="obra__autor">{obra.autor}</p>
-                <p className="obra__descripcion">{obra.description}</p>
-              </>
-            )
+            if(obra.autor) {
+              return (
+                <>
+                  <p className="obra__title">{obra.title}</p>
+                  <p className="obra__autor"><a href={obra.link} target="_blank" rel="noreferrer">{obra.autor}</a></p>
+                  <p className="obra__descripcion">{obra.description}</p>
+                </>
+              )
+            } else {
+              return (
+                <>
+                  <p className="obra__title">{obra.title}</p>
+                  <p className="obra__autor">
+                    <a href={obra.links?.linkAutor1} target="_blank" rel="noreferrer">{obra.autors?.autor1}</a>, 
+                    <a href={obra.links?.linkAutor2} target="_blank" rel="noreferrer"> {obra.autors?.autor2}</a>, 
+                    <a href={obra.links?.linkAutor3} target="_blank" rel="noreferrer"> {obra.autors?.autor3}</a>, 
+                  </p>
+                  <p className="obra__descripcion">{obra.description}</p>
+                </>
+              )
+            }
           })
         }
       </div>
