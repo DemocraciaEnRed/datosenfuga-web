@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0771c0f6.css",
-    "main.js": "/static/js/main.74c6bb56.js",
+    "main.js": "/static/js/main.fdc5a754.js",
     "static/media/gifCanilla2.gif": "/static/media/gifCanilla2.5ff775e3163cf58b9a73.gif",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
     "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.4c30d71445169daa071d.pdf",
@@ -31,10 +31,10 @@
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
     "main.0771c0f6.css.map": "/static/css/main.0771c0f6.css.map",
-    "main.74c6bb56.js.map": "/static/js/main.74c6bb56.js.map"
+    "main.fdc5a754.js.map": "/static/js/main.fdc5a754.js.map"
   },
   "entrypoints": [
     "static/css/main.0771c0f6.css",
-    "static/js/main.74c6bb56.js"
+    "static/js/main.fdc5a754.js"
   ]
 }
