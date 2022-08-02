@@ -1,52 +1,24 @@
 import React from 'react'
+import { obras } from "./dataObras";
 import './Obras.scss'
-import icon from "../../../assets/iconos/iconObra.svg"
 
 const Obras = () => {
   return (
-      <div className="app__obras">
-        <div className="app__obras-container">
-          <div className="app__obras-container-cuadro">
-            <img src={icon} alt="" id="icon"/>
-          </div>
-          <p>Datos en Fuga invita a artistas, investigadores, activistas y tecnólogos de Argentina a participar de la exhibición con obras que propongan miradas, metáforas y acciones en relación a estos interrogantes.</p>
-        </div>
-
-        <div className="app__obras-container">
-          <div className="app__obras-container-cuadro">
-            <img src={icon} alt="" id="icon"/>
-          </div>
-          <p>Datos en Fuga invita a artistas, investigadores, activistas y tecnólogos de Argentina a participar de la exhibición con obras que propongan miradas, metáforas y acciones en relación a estos interrogantes.</p>
-        </div>
-
-        <div className="app__obras-container">
-          <div className="app__obras-container-cuadro">
-            <img src={icon} alt="" id="icon"/>
-          </div>
-          <p>Datos en Fuga invita a artistas, investigadores, activistas y tecnólogos de Argentina a participar de la exhibición con obras que propongan miradas, metáforas y acciones en relación a estos interrogantes.</p>
-        </div>
-
-        <div className="app__obras-container">
-          <div className="app__obras-container-cuadro">
-            <img src={icon} alt="" id="icon"/>
-          </div>
-          <p>Datos en Fuga invita a artistas, investigadores, activistas y tecnólogos de Argentina a participar de la exhibición con obras que propongan miradas, metáforas y acciones en relación a estos interrogantes.</p>
-        </div>
-
-        <div className="app__obras-container">
-          <div className="app__obras-container-cuadro">
-            <img src={icon} alt="" id="icon"/>
-          </div>
-          <p>Datos en Fuga invita a artistas, investigadores, activistas y tecnólogos de Argentina a participar de la exhibición con obras que propongan miradas, metáforas y acciones en relación a estos interrogantes.</p>
-        </div>
-
-        <div className="app__obras-container">
-          <div className="app__obras-container-cuadro">
-            <img src={icon} alt="" id="icon"/>
-          </div>
-          <p>Datos en Fuga invita a artistas, investigadores, activistas y tecnólogos de Argentina a participar de la exhibición con obras que propongan miradas, metáforas y acciones en relación a estos interrogantes.</p>
-        </div>
+    <div className="app__obras">
+      <div className="app__obras-container">
+        {
+          obras.map(obra => {
+            return (
+              <>
+                <p className="obra__title">{obra.title}</p>
+                <p className="obra__autor">{obra.autor}</p>
+                <p className="obra__descripcion">{obra.description}</p>
+              </>
+            )
+          })
+        }
       </div>
+    </div>
   )
 }
 
