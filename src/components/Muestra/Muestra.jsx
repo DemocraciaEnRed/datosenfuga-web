@@ -184,7 +184,7 @@ const Muestra = () => {
           <br />
           <p className="contenido__subtitle-obras">Detalles del evento</p>
           <p className="contenido__text">
-            Emplazado en Multiespacio Korova, Paraguay 4667, Buenos Aires
+            Emplazado en <a href="https://g.page/multiespaciokorova?share" target="_blank" rel="noreferrer" >Multiespacio Korova</a>, Paraguay 4667, Buenos Aires
             <br />
             <br />
             <li><b>Día 1</b>: 19hs a 02hs</li>
