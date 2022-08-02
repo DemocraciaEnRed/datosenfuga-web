@@ -100,7 +100,7 @@ const Faq = () => {
             9. ¿Dónde se realizará la muestra?
           </button>
           <div className="faq__panel">
-            <p>Aunque el lugar no está confirmado aún, podemos confirmar que será en la Ciudad Autónoma de Buenos Aires.</p>
+            <p>Emplazado en <a href="https://g.page/multiespaciokorova?share" target="_blank" rel="noreferrer" >Multiespacio Korova</a>, Paraguay 4667, Buenos Aires</p>
           </div>
         </div>
 
