@@ -15,13 +15,13 @@ export const obras = [
     description: 'Esta obra conforma tres piezas generativas, entramados entre diferentes tipos de datos que producen un hecho estético, una manifestación visual de ese cruce arbitrario o caprichoso que representa el recorte posible de la subjetividad particular de un individuo frente a la complejidad. El proyecto consiste en un sistema de tres obras en torno a la pandemia, como tema que atravesó diferentes esferas de la experiencia. En un ejercicio pensado desde la tríada, se presentan tres órdenes dentro del mismo tema, en representación de las diferentes perspectivas: DATA / MOOD / SELF.'
   },
   {
-    title: '"El sol es mi pantalla" / capturas de la privacidad',
+    title: 'El sol es mi pantalla / capturas de la privacidad',
     autor: 'Carla Beatriz Tortul',
     description: 'Es una obra generativa de procesos vinculados con la “memoria digital” desde la investigación biográfica de archivos y la privacidad de datos personales. Expone una revisión de los actos cotidianos, la ética de las relaciones interpersonales, la crisis biopolítica y la carencia de derechos tecnodigitales. ¿El Sol? ¿Cuál sol? Es la retórica que imprime el bordeamiento de una sociedad dormida sin manifestarse, excedida de virtualidad, de pantallas, en la distancia impuesta por lo digital. ¿Qué guarda la memoria digital de un teléfono? Información y recorridos sensibles que actúan como caso de estudio en situaciones sociales trazadas por una curaduría de la vida misma. En estas tensiones se indica un sol que “no” existe, reemplazado por los dispositivos móviles que capturan tiempo, emociones y memorias íntimas, por lo tanto, privadas y vulnerables."'
   },
   {
     title: 'Calle Vista',
     autor: 'Maximiliano Parlagreco, Juan Leguizamón, Sofia Paz Basail',
-    description: '“Calle Vista” es una obra de net art que subvierte los usos estandarizados de Google Street View al poner en evidencia la inteligencia artificial que la empresa utiliza para reconocer y difuminar los rostros de las personas que fotografía. El proceso informático que este dispositivo de representación cartográfica ejecuta es resignificado para imprimir una huella local de aquellos sujetos quienes nunca fueron consultados, en primera instancia, si deseaban formar parte de una base de datos masiva y privada.'
+    description: 'Es una obra de net art que subvierte los usos estandarizados de Google Street View al poner en evidencia la inteligencia artificial que la empresa utiliza para reconocer y difuminar los rostros de las personas que fotografía. El proceso informático que este dispositivo de representación cartográfica ejecuta es resignificado para imprimir una huella local de aquellos sujetos quienes nunca fueron consultados, en primera instancia, si deseaban formar parte de una base de datos masiva y privada.'
   }
 ]
