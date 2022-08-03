@@ -6,7 +6,7 @@ export const obras = [
     link: 'https://www.instagram.com/florvva/'
   }, 
   {
-    title: 'La luz del vacio',
+    title: 'La luz del vacío',
     autor: 'María Florencia Sanchez Aquino',
     description: '"La luz del vacío" es una instalación electrónica que intenta exponer de forma lumínica, una visualización de datos alternativa respecto de aquellas estadísticas que se presentan de forma banalizada en muchos medios de comunicación. Si bien es claro que cada víctima de violencia de género representa más que un dato expresado en una instalación electrónica, es en cada Luz que se enciende en que está obra intenta gritar un continuo #Niunamenos por todas y cada una de las víctimas que hoy no están.',
     link: 'https://www.instagram.com/flordemanija/?hl=es'

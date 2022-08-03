@@ -40,7 +40,7 @@ const Muestra = () => {
             <br /> <br />
             Esta experiencia multidisciplinaria invita a observar el vínculo inevitable entre infraestructuras, sistemas de información, plataformas y datos personales a través de una serie de preguntas: ¿quiénes tienen acceso a nuestros datos? ¿cómo funcionan los sistemas de protección de estos sistemas? ¿es posible desde la ciudadanía contribuir a la protección de estos sistemas bajo un marco legal que no penalice a quienes detectan y reportan vulnerabilidades? 
             <br /> <br />
-            Datos en Fuga invita a artistas, investigadores, activistas y tecnólogos de Argentina a participar de la exhibición con obras que propongan miradas, metáforas y acciones en relación a estos interrogantes. 
+            Datos en Fuga es una exhibición que reúne las obras de cinco artistas contemporáneos que abordan, de forma poética y crítica, el vínculo que como sociedad desarrollamos con los archivos.
           </p>
           
           <div className="spacer_muestra">
@@ -70,7 +70,7 @@ const Muestra = () => {
           </p>
           <p className="contenido__text">
             ¡Te invitamos a que te inscribas para asistir al evento! <br /> <br />
-            La <b>inscripción</b> para asistir <b>no es obligatoria</b>, podés presentarte al evento sin inscripción previa, pero <b>nos ayuda a preparar las instalaciones sabiendo la cantidad de participantes</b>. Puedes inscribirte aunque luego no puedas asistir o no estés seguro. 
+            La <b>inscripcion no es obligatoria</b>. Podés presentarte en el evento sin inscripcion previa, pero <b>necesitamos calcular la cantidad de personas interesadas en asistir para preparar las instalaciones</b>. Podés inscribirte aunque luego no puedas asistir. 
           </p>
   
           <button className='muestra_button'>
@@ -107,7 +107,7 @@ const Muestra = () => {
             <br /> <br />
             Esta experiencia multidisciplinaria invita a observar el vínculo inevitable entre infraestructuras, sistemas de información, plataformas y datos personales a través de una serie de preguntas: ¿quiénes tienen acceso a nuestros datos? ¿cómo funcionan los sistemas de protección de estos sistemas? ¿es posible desde la ciudadanía contribuir a la protección de estos sistemas bajo un marco legal que no penalice a quienes detectan y reportan vulnerabilidades? 
             <br /> <br />
-            Datos en Fuga invita a artistas, investigadores, activistas y tecnólogos de Argentina a participar de la exhibición con obras que propongan miradas, metáforas y acciones en relación a estos interrogantes. 
+            Datos en Fuga es una exhibición que reúne las obras de cinco artistas contemporáneos que abordan, de forma poética y crítica, el vínculo que como sociedad desarrollamos con los archivos. 
           </p>
           
           <div className="spacer_muestra">
@@ -164,7 +164,7 @@ const Muestra = () => {
           </div>
         </div>
         <Sticky/>
-        {/* Información de la muestra */}
+
         <div className="app__muestra-contenido">
           <p id="sobreLaMuestra" className="contenido__title">SOBRE LA MUESTRA</p>
           <p className="contenido__text">
@@ -172,7 +172,7 @@ const Muestra = () => {
             <br /> <br />
             Esta experiencia multidisciplinaria invita a observar el vínculo inevitable entre infraestructuras, sistemas de información, plataformas y datos personales a través de una serie de preguntas: ¿quiénes tienen acceso a nuestros datos? ¿cómo funcionan los sistemas de protección de estos sistemas? ¿es posible desde la ciudadanía contribuir a la protección de estos sistemas bajo un marco legal que no penalice a quienes detectan y reportan vulnerabilidades? 
             <br /> <br />
-            Datos en Fuga invita a artistas, investigadores, activistas y tecnólogos de Argentina a participar de la exhibición con obras que propongan miradas, metáforas y acciones en relación a estos interrogantes. 
+            Datos en Fuga es una exhibición que reúne las obras de cinco artistas contemporáneos que abordan, de forma poética y crítica, el vínculo que como sociedad desarrollamos con los archivos.
           </p>
           
           <div className="spacer_muestra">
@@ -181,30 +181,29 @@ const Muestra = () => {
           
           <p id="eventoInscripciones" className="contenido__title">EVENTO</p>
           <br />
-          <p className="contenido__subtitle-obras">El evento será los días 19 y 20 de Agosto</p>
+          <p className="contenido__subtitle-obras">El evento será los días viernes 19 y sábado 20 de Agosto</p>
           <br />
           <p className="contenido__subtitle-obras">Detalles del evento</p>
           <p className="contenido__text">
-            Emplazado en <a href="https://g.page/multiespaciokorova?share" target="_blank" rel="noreferrer" >Multiespacio Korova</a>, Paraguay 4667, Buenos Aires
+            Emplazado en <a href="https://g.page/multiespaciokorova?share" target="_blank" rel="noreferrer" >Multiespacio Korova</a> | Paraguay 4667, Buenos Aires
             <br />
             <br />
-            <li><b>Día 1</b>: 18:30hs a 02hs</li>
-            <li><b>Día 2</b>: 18:30hs a 02hs</li>
+            <li><b>Día 1: 18:30hs a 02hs</b></li>
+            <li><b>Día 2: 18:30hs a 02hs</b></li>
             <br />
-            ¡Te invitamos a que te inscribas para asistir al evento! <br /> <br />
-            La <b>inscripcion</b> para asistir <b>no es obligatoria</b> podes presentarte al evento sin inscripcion previa, pero <b>nos ayuda a preparar las instalaciones sabiendo la cantidad de participantes</b>. Puedes incribirte aunque luego no puedas asistir o no estes seguro. 
+            ¡Te invitamos a confirmar asistencia en el evento! <br /> <br />
+            La <b>inscripcion no es obligatoria</b>. Podés presentarte en el evento sin inscripcion previa, pero <b>necesitamos calcular la cantidad de personas interesadas en asistir para preparar las instalaciones</b>. Podés inscribirte aunque luego no puedas asistir. 
           </p>
           
-          <Typeform title={'ANOTATE'} formID={'ypi6aKLF'}/>
+          <Typeform title={'CONFIRMAR ASISTENCIA'} formID={'ypi6aKLF'}/>
 
           <div className="spacer_muestra">
             <img src={logos.spacer} alt="" /> 
           </div>
 
           <p id="eventoObras" className="contenido__title">OBRAS</p>
-          <p className="contenido__text">
-            ¡Estas son las obras seleccionadas!<br /><br />Si presentaste la obra, ya te hemos contactado. En caso de no haber sido contactado aun te pedimos que nos escribas.
-          </p>
+          <p className="contenido__text">¡Éstas son las obras seleccionadas!</p>
+          <p className="contenido__text">Si presentaste la obra, ya te hemos contactado. En caso de no haber sido contactado aun te pedimos que nos escribas.</p>
           <Obras />
         </div>
         <Faq/>
