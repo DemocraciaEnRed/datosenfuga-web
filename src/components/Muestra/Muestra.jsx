@@ -4,6 +4,7 @@ import { logos }  from '../../constants'
 import Sticky from './Sticky/Sticky'
 import Faq from './Faq/Faq'
 import Obras from './Obras/Obras'
+import Typeform from '../Typeform/Typeform'
 
 const Muestra = () => {
 
@@ -193,10 +194,8 @@ const Muestra = () => {
             ¡Te invitamos a que te inscribas para asistir al evento! <br /> <br />
             La <b>inscripcion</b> para asistir <b>no es obligatoria</b> podes presentarte al evento sin inscripcion previa, pero <b>nos ayuda a preparar las instalaciones sabiendo la cantidad de participantes</b>. Puedes incribirte aunque luego no puedas asistir o no estes seguro. 
           </p>
-  
-          <button className='muestra_button'>
-            <a href="https://forms.gle/2TC4MJHvryLK4BDw7" target="_blank" rel="noopener noreferrer">Anotate</a>
-          </button>
+          
+          <Typeform title={'ANOTATE'} formID={'ypi6aKLF'}/>
 
           <div className="spacer_muestra">
             <img src={logos.spacer} alt="" /> 
