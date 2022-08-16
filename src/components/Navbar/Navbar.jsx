@@ -30,6 +30,9 @@ const Navbar = () => {
         <li>
           <HashLink to="/#organizaciones">Quiénes somos</HashLink>
         </li>
+        <li>
+          <HashLink to="/#entrevistas">Entrevistas</HashLink>
+        </li>
       </ul>
       {/* menu mobile */}
       <div className="app__navbar-mobile">
@@ -56,6 +59,9 @@ const Navbar = () => {
               </li>
               <li>
                 <HashLink to="/#organizaciones">Quiénes somos</HashLink>
+              </li>
+              <li>
+                <HashLink to="/#entrevistas">Entrevistas</HashLink>
               </li>
             </ul>
           </div>  
