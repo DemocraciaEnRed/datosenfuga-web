@@ -1,0 +1,80 @@
+.entrevistas {
+  min-height: 70vw;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  
+  &__title {
+    color: #FF2E00;
+    font-style: italic;
+    font-weight: 800;
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50vw;
+
+    iframe {
+      width: 70vw;
+      height: 39.5vw;
+      margin-bottom: 10%;
+    }
+
+    .entrevistas__swiper{
+      width: 80%;
+    }
+    .swiper-slide{
+      display: flex;
+      justify-content: center;
+    }
+    .swiper-button-next {
+      content: url('../../../assets/iconos/arrowNext.svg');
+    }
+
+    .swiper-button-prev {
+      content: url('../../../assets/iconos/arrowPrev.svg');
+    }
+  } 
+}
+
+@media screen and (min-width: 1542px) {
+  .entrevistas {
+      &__title {
+          font-size: 1.6vw;
+          line-height: 2.5vw;
+      }
+
+      &__box {
+          iframe {
+              margin-top: 5vw;
+              width: 1080px;
+              height: 609px;
+          }
+      }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .entrevistas {
+    &__title {
+      padding-bottom: 5vh;
+    }
+    &__box {
+        .entrevistas__swiper{
+            width: 100%;
+        }
+
+        iframe {
+            $width: 83vw;
+            width: $width;
+            height: calc($width * 0.5625);
+        }
+    }
+  }
+}
