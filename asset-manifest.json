@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.56784ee1.css",
-    "main.js": "/static/js/main.b1cb534a.js",
+    "main.js": "/static/js/main.0e114d3f.js",
     "static/media/gifCanilla2.gif": "/static/media/gifCanilla2.5ff775e3163cf58b9a73.gif",
     "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
     "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.4c30d71445169daa071d.pdf",
@@ -12,7 +12,7 @@
     "static/media/timelineSorianello.png": "/static/media/timelineSorianello.d976358c5421a5343e1f.png",
     "static/media/BasesyCondiciones-DatosEnFuga.pdf": "/static/media/BasesyCondiciones-DatosEnFuga.99ae72877b73bbb281b9.pdf",
     "static/media/locked.png": "/static/media/locked.aaa3e19a9c392cce500c.png",
-    "static/media/ortmann.png": "/static/media/ortmann.8c45dc404e91f57b8978.png",
+    "static/media/ortmann.png": "/static/media/ortmann.7f0c32e76cea4c2c19dd.png",
     "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.0009c8fdd42b9f5766b20f0efae9bbd8.svg",
     "index.html": "/index.html",
     "static/media/button.svg": "/static/media/button.42ee749ecdd9c83b54eb860ee075d4b8.svg",
@@ -31,10 +31,10 @@
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
     "main.56784ee1.css.map": "/static/css/main.56784ee1.css.map",
-    "main.b1cb534a.js.map": "/static/js/main.b1cb534a.js.map"
+    "main.0e114d3f.js.map": "/static/js/main.0e114d3f.js.map"
   },
   "entrypoints": [
     "static/css/main.56784ee1.css",
-    "static/js/main.b1cb534a.js"
+    "static/js/main.0e114d3f.js"
   ]
 }
