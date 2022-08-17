@@ -63,9 +63,10 @@
 @media screen and (max-width: 960px) {
   .entrevistas {
     &__title {
-      padding-bottom: 5vh;
+      padding-bottom: 10vh;
     }
     &__box {
+      margin-bottom: 10vh;
         .entrevistas__swiper{
             width: 100%;
         }
