@@ -1,29 +1,28 @@
 import { eventPhotos } from "../../../assets/evento";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation, Lazy } from "swiper";
+import { Navigation, Lazy, Scrollbar } from "swiper";
 import "swiper/scss";
 import "swiper/scss/lazy";
 import "swiper/scss/navigation";
-import "swiper/scss/pagination";
+import "swiper/scss/scrollbar";
 import "./PhotosCarrousel.scss";
 
 const PhotosCarrousel = () => {
-
   return (
     <div className="photosCarrousel__swiper">
       <Swiper
         loop={true}
         lazy={true}
-        slidesPerView={3}
-        slidesPerGroup={1}
-        spaceBetween={10}
-        pagination={{
-            type: "progressbar",
-          }}
-        centeredSlides={true}
-        autoplay={{ delay: 3000 }}
         navigation={true}
-        modules={[Lazy, Pagination, Navigation]}
+        scrollbar={{
+          draggable: true,
+          hide: false,
+        }}
+        breakpoints={{769: {slidesPerView: 3}}}
+        slidesPerView={1}
+        // spaceBetween={10}
+        centeredSlides={true}
+        modules={[Scrollbar, Lazy, Navigation]}
       >
         {eventPhotos.map((photo) => {
           let name = photo.split("/static/media/")[1].split(".")[0];
@@ -32,7 +31,9 @@ const PhotosCarrousel = () => {
               {({ isActive }) => (
                 <>
                   <img
-                    className={`swiper-lazy ${isActive? 'active': 'inactive'}`}
+                    className={`swiper-lazy ${
+                      isActive ? "active" : "inactive"
+                    }`}
                     src={photo}
                     alt={name}
                   />

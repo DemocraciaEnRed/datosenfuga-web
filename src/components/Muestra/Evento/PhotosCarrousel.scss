@@ -1,31 +1,39 @@
 .photosCarrousel__swiper {
-  $swiper-color: #ff2e00;
+  .swiper-wrapper {
+    max-height: 700px;
+  }
   .swiper-button-next {
-    color: $swiper-color;
     content: url("../../../assets/iconos/arrowNext.svg");
   }
 
   .swiper-button-prev {
-    color: $swiper-color;
     content: url("../../../assets/iconos/arrowPrev.svg");
   }
-  .swiper-pagination-progressbar{
-    background:none;
+
+  .swiper-scrollbar {
+    background: rgba(178, 34, 34, 0.562);
   }
-  .swiper-pagination-progressbar-fill {
-    background: $swiper-color;
+  .swiper-scrollbar-drag {
+    background: rgba(223, 32, 32, 0.911);
+    cursor: pointer;
   }
   img {
-    padding: 7vw 0;
+    margin: auto;
     width: 100%;
+    border-radius: 2px;
     &.active {
-      transform: scale(1.3);
-      transition: transform 0.1s;
+      transform: none;
     }
     &.inactive {
       transform: scale(0.6);
-      transition: transform 0.1s;
-      z-index: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .photosCarrousel__swiper {
+    .swiper-wrapper {
+      max-height: 500px;
     }
   }
 }

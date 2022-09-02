@@ -86,7 +86,7 @@ const Muestra = () => {
           </p>
 
           <div className="spacer_muestra">
-            <img src={logos.spacer} alt="" />
+            <img src={logos.spacer} alt="spacer" />
           </div>
 
           <p id="postulaTuObra" className="contenido__title">
@@ -121,7 +121,7 @@ const Muestra = () => {
           </button>
 
           <div className="spacer_muestra">
-            <img src={logos.spacer} alt="" />
+            <img src={logos.spacer} alt="spacer" />
           </div>
 
           <p id="eventoInscripciones" className="contenido__title">
@@ -219,7 +219,7 @@ const Muestra = () => {
           </p>
 
           <div className="spacer_muestra">
-            <img src={logos.spacer} alt="" />
+            <img src={logos.spacer} alt="spacer" />
           </div>
 
           <p id="eventoInscripciones" className="contenido__title">
@@ -254,7 +254,7 @@ const Muestra = () => {
           </button>
 
           <div className="spacer_muestra">
-            <img src={logos.spacer} alt="" />
+            <img src={logos.spacer} alt="spacer" />
           </div>
 
           <p id="postulaTuObra" className="contenido__title">
@@ -334,7 +334,7 @@ const Muestra = () => {
           </p>
 
           <div className="spacer_muestra">
-            <img src={logos.spacer} alt="" />
+            <img src={logos.spacer} alt="spacer" />
           </div>
 
           <p id="eventoInscripciones" className="contenido__title">
@@ -378,7 +378,7 @@ const Muestra = () => {
           <Typeform title={"CONFIRMAR ASISTENCIA"} formID={"ypi6aKLF"} />
 
           <div className="spacer_muestra">
-            <img src={logos.spacer} alt="" />
+            <img src={logos.spacer} alt="spacer" />
           </div>
 
           <p id="eventoObras" className="contenido__title">
@@ -411,7 +411,6 @@ const Muestra = () => {
         </div>
         <div className="sticky__wrapper">
           <Sticky />
-
           <div className="app__muestra-contenido">
             <p id="sobreLaMuestra" className="contenido__title">
               SOBRE LA MUESTRA
@@ -434,13 +433,16 @@ const Muestra = () => {
             </p>
 
             <div className="spacer_muestra">
-              <img src={logos.spacer} alt="" />
+              <img src={logos.spacer} alt="spacer" />
             </div>
 
             <p id="eventoObras" className="contenido__title">
               OBRAS
             </p>
             <Obras display={3} />
+            <div className="spacer_muestra">
+              <img src={logos.spacer} alt="spacer" />
+            </div>
           </div>
         </div>
         <Evento />
