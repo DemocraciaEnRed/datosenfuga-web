@@ -57,7 +57,9 @@
     min-height: auto;
     border-bottom: 1px solid #cfcfcf;
     z-index: 1;
+    justify-content: space-around;
     ul {
+      width: 100%;
       background: none;
       border-left: none;
       display: flex;
