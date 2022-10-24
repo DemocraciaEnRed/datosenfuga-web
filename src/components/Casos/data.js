@@ -6,7 +6,7 @@ export const casos = [
     avatar: avatars.anon,
     mouseOver: avatars.caso1,
     name: "Joaquín Sorianello",
-    tooltip: "Denunciado por reportar vulnerabilidades en el sistema de votación con Boleta Única Electrónica",
+    tooltip: "Denunciado por reportar vulnerabilidades en el sistema de votación con Boleta Única Electrónica.",
     occupation: "Desarrollador de software",
     year: "2015",
     subtitle:"Quiso alertar sobre la facilidad de cometer un fraude informático con el sistema de votación con Boleta Única Electrónica y lo denunciaron penalmente.",
@@ -54,6 +54,23 @@ export const casos = [
       child13: "\n\nAdemás, no fueron detectadas transferencias de dinero u otro tipo de operaciones que impidieran el recupero de los fondos, así como tampoco la adopción de ningún otro tipo de maniobra que tuviera por objeto encubrir, enmascarar y/o dificultar el rastreo de la procedencia y origen de dichas operaciones.",
     },
     timeline:false,
+    video:false,
+  },
+  {
+    id: 3,
+    avatar: avatars.anon,
+    mouseOver: avatars.caso3,
+    name: "Javier Smaldone",
+    tooltip: "Involucrado en el caso de #LaGorraLeaks, por denuncias previas al sistema de Boleta unica electronica.",
+    occupation: "Programador informático",
+    year:"2019",
+    subtitle:"A través de su cuenta de Twitter alertó en reiteradas oportunidades la posibilidad de vulnerar el sistema de Boleta Única Electrónica. Sin muchas pruebas ni explicaciones, lo involucraron por una investigación que hizo la Policía Federal sobre #LaGorraLeaks: el robo de 700 gigabytes de documentos internos de la Policía que se conoció en agosto último",
+    content:{
+      child1:"En octubre de 2019 fue demorado por una investigación por la filtración de documentos internos de la Policía de la Ciudad de Buenos Aires, la Policía Federal y la Prefectura Naval. #LaGorraLeaks2.0 fue el usuario responsable de filtrar en redes sociales dicha información: un robo de alrededor de 700 gigabytes entre documentos, audios y copias de seguridad que dejó al descubierto la vulnerabilidad de la ciberseguridad argentina.\n\n",
+      child2: "En un podcast para Spotify, consideró su caso como el de un “perejil digital”. ¿A qué se refiere? Él venía advirtiendo y denunciando en sus redes distintas fallas en el sistema de la Boleta Única y cree que, luego de la filtración de datos de la PFA por parte de otro usuario, lo responsabilizaron por eso.\n\n",
+      child3:"Javier cree que lo culpabilizaron, entre otros motivos, por usar lenguaje informático en sus denuncias contra la BUE. Entonces, se considera un perejil por haber culpado a un inocente.",
+    },
+    timeline:true,
     video:false,
   }
 ];

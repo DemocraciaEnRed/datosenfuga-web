@@ -13,5 +13,15 @@ export const dataTimeline =
                 '→ “Me tocó poner el cuerpo para que no nos roben la democracia”.'
             ],
             button: {title:"Te contamos los hechos en primera persona", label:"Charla TEDx de Joaquín" ,url:"https://www.youtube.com/watch?v=mVNzL0l5U3k&ab_channel=TEDxTalks"},
+        },
+        {
+            id: 3,
+            title: "Javier Smaldone",
+            avatar: avatars.timeline2,
+            quotes: [
+                '→ “En la Ciudad lo que falló de la empresa MSA fue la transmisión segura de datos, porque usó claves para cada escuela y por un error expuso esa llave en un servidor de Internet. Si nadie lo hubiese advertido (como lo hizo Sorianello) se podrían haber modificado datos, sin que nadie sospeche del sistema”',
+                '→ “El sistema de Boleta Electrónica incluye un chip, que se puede destruir, leer y modificar desde una distancia variable de 50 centímetros y posiblemente más. Cada chip está numerado. Por lo cual, si el presidente de mesa o el sistema logra identificar el número de chip que se le asigna a un votante, después puede identificar quién votó a quién. Ese número es inalterable, viene de fábrica”.'
+            ],
+            button: {title:"Te contamos los hechos en primera persona", label:"Charla TEDx de Joaquín" ,url:"https://www.youtube.com/watch?v=mVNzL0l5U3k&ab_channel=TEDxTalks"},
         }
     ]
