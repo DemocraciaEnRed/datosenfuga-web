@@ -1,18 +1,17 @@
 .paper {
-    background-image: url("../../../assets/otros/paperBg.png");
-    background-size: auto 100%;
+    background-image: url("../../../assets/papers/books.png");
+    background-size: auto 80%;
     background-repeat: no-repeat;
-    background-position-x: -300px;
-    background-position-y: center;
     position: relative;
+    background-position-x: -10vw;
     padding: 4vw 0;
     &__content {
         display: flex;
         flex-direction: column;
-        text-align: center;
-        align-items: center;
+        text-align: left;
+        align-items: flex-start;
         max-width: 73vw;
-        margin: auto;
+        margin-left: 30vw;
         font-family: 'Raleway', sans-serif;
     }  
     &__title {
@@ -20,6 +19,7 @@
         position: absolute;
         top: 25%;
         font-size: 90px;
+        display: none;
     }
     &__button {
         display: flex;
@@ -30,7 +30,7 @@
         border-radius: 8px;
         padding: 11px 18px;
         border-style: none;
-        margin: 2.5vw;
+        margin: 2.5vw 0;
         font-family: 'Open Sans', sans-serif;
         & a {
             text-decoration: none;
@@ -55,10 +55,20 @@
             font-weight: 800;
         }
     }
+    &__pdfCopys {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        align-items: center;
+        color: #848484;
+    }
 }
 
 @media screen and (max-width: 960px) {
     .paper {
+        background-size: auto 80%;
         &__title {
             left: -20px;
             top: 30%;
@@ -72,12 +82,16 @@
         position: static;
         flex-direction: column;
         align-items: center;
+        background-position-x: center;
+        background-size: auto 40%;
+        background-position-y: center;
         &__title {
             writing-mode: horizontal-tb;
             position: static;
             top: auto;
             font-size: 36px;
             padding-bottom: 25px;
+            display: inline;
         }
         &__content {
             max-width: 90%;
@@ -94,6 +108,8 @@
 @media screen and (max-width: 428px) {
     .paper {
         background-position-x: center;
+        background-size: auto 25%;
+        background-position-y: -100px;
         &__title {
             font-size: 30px;
         }
@@ -109,6 +125,9 @@
         &__text{
             font-size: 16px;
             line-height: 25px;
+        }
+        &__pdfCopys {
+            padding: 5vw 0;
         }
     }
 }
