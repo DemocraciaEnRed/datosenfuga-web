@@ -1,9 +1,9 @@
-import Selector from "./ActividadesSelector/ActividadesSelector"
+import ActividadesSelector from "./ActividadesSelector/ActividadesSelector"
 
 const Actividades = () => {
   return (
     <div className="actividades">
-        <Selector></Selector>
+        <ActividadesSelector/>
     </div>
   )
 }
