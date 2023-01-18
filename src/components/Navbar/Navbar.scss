@@ -82,12 +82,12 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 900px) {
   .app__navbar-links {
     flex-wrap: wrap;
     li {
       width: max-content;
-      font-size: 14px;
+      font-size: 16px;
       margin: 8px 4px;
     }
   }
