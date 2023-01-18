@@ -45,7 +45,8 @@
     color: #FFFFFF;
     margin-top: 24px;
   }
-  &__panelName {
+  &__panelTitle {
+    margin-top: 5.8vw;
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 800;
@@ -53,5 +54,15 @@
     line-height: 41px;
     text-transform: uppercase;
     color: rgba(255, 46, 0, 0.85);
+  }
+  &__resources {
+    margin-top: 10vh;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
   }
 }

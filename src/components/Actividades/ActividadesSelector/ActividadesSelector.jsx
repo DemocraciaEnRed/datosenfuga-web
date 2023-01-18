@@ -9,7 +9,7 @@ const ActividadesSelector = ({activity, setActivity}) => {
       <p className="selector__subtitle">{actividadesData.subTitle}</p>
       <div className="selector__selectionCards">
         {actividadesData.activities.map((a) =>
-        <button onClick={() => setActivity(a.id)} key={a.id} className={`${activity === a.id && 'active'}`}>
+        <button onClick={() => setActivity(a.id)} key={a.id} className={`${activity === a.id ? 'active' : ''}`}>
           <p className="selector__cardTitle" >
             {a.title}
           </p>

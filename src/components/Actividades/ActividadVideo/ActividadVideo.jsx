@@ -1,11 +1,12 @@
 import React from 'react'
+import { logos } from "../../../constants"
 import "./ActividadVideo.scss"
 
 const ActividadVideo = ({ data }) => {
       return (
         <div className='actividadVideo'>
           <div>
-            <iframe width="600" height="410" src="https://www.youtube.com/embed/RkS_jXVQP1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+            <iframe src={data.urlVideo} title="Encuentro Regional de Políticas Públicas de Seguridad Informática" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
           </div>
           <div className='actividadVideo__members'>
             <p className='membersTitle'>¿Quiénes lo conforman?</p>
@@ -13,10 +14,10 @@ const ActividadVideo = ({ data }) => {
             {
               data.moderators.map((d) => {
                 return (
-                  <div className='members__info'>
-                    <img src={d.image} alt="" className='memberImage' />
+                  <div className='members__info' key={d.id}>
+                    <img src={d.image} alt={d.name} className='memberImage' />
                     <div className='memberData'>
-                      <p className='memberData__name'>{d.name}</p>
+                      <p className='memberData__name'>{d.name} <img src={logos.linkedin} alt={`Linkedin ${d.name}`} className='icon' /> <img src={logos.twitterbg} alt={`Linkedin ${d.name}`} className='icon' /></p>
                       <p className='memberData__position'>{d.position}</p>
                     </div>
                   </div>
@@ -27,7 +28,7 @@ const ActividadVideo = ({ data }) => {
             {
               data.exhibitors.map((d) => {
                 return (
-                  <div className='members__info'>
+                  <div className='members__info' key={d.id}>
                     <img src={d.image} alt="" className='memberImage' />
                     <div className='memberData'>
                       <p className='memberData__name'>{d.name}</p>

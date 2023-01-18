@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react"
-import PanelTabs from "./PanelTabs/PanelTabs"
+import './Actividad.scss'
 import actividadesData from "../data"
 import ActividadVideo from "../ActividadVideo/ActividadVideo"
-import './Actividad.scss'
+import PanelTabs from "./PanelTabs/PanelTabs"
+import PanelHighlighted from "./PanelHighlighted/PanelHighlighted"
 
 const Actividad = ({ activity }) => {
     
@@ -13,6 +14,7 @@ const Actividad = ({ activity }) => {
     if (activity !== 0) {
         const { activities } = actividadesData
         const data = activities.find(act => act.id === activity)
+        const panelData = data.panels.find(p => panel === p.id)
         return (
             <div className="actividad__container">
                 <div className="actividad__wrapper">
@@ -20,9 +22,11 @@ const Actividad = ({ activity }) => {
                     <p className="actividad__subtitle">{data.subtitle}</p>
                     <p className="actividad__aboutTitle">{data.aboutTitle}</p>
                     <p className="actividad__aboutText">{data.aboutSubtitle}</p>
-                    <PanelTabs data={data.panelTabs} panel={panel} setPanel={setPanel}/>
-                    <h2>panel 1: nombre del panel</h2>
-                    <ActividadVideo data={data.activityMembers} />
+                    <PanelTabs data={data.panels} panel={panel} setPanel={setPanel}/>
+                    <h2 className="actividad__panelTitle">{panelData.title}</h2>
+                    <ActividadVideo data={panelData.videos} />
+                    <PanelHighlighted data={panelData.highlighted}/>
+                    <h2 className="actividad__resources">Recursos</h2>
                 </div>
             </div>
         )

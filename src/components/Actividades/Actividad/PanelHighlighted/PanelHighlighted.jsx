@@ -1,8 +1,11 @@
-const PanelHighlighted = () => {
+import './PanelHighlighted.scss'
+import PanelTimeline from "./PanelTimeline/PanelTimeline"
+
+const PanelHighlighted = ({data}) => {
   return (
-    <div>
-        <h3>CONTENIDOS DESTACADOS</h3>
-        <p>TIMELINE</p>
+    <div className="panel-highlighted">
+        <h3 className='panel-highlighted__title'>CONTENIDOS DESTACADOS</h3>
+        <PanelTimeline data={data}/>
     </div>
   )
 }
