@@ -22,8 +22,8 @@ const actividadesData = {
                             name: 'Agustín Frizzera',
                             position: 'Director Ejecutivo de "Democracia en Red"',
                             image: actividades.agustinF,
-                            linkedinUrl: 'https://www.linkedin.com/feed/',
-                            twitterUrl: 'https://twitter.com'
+                            linkedinUrl: '',
+                            twitterUrl: ''
                         },
                     ],
                     exhibitors: [

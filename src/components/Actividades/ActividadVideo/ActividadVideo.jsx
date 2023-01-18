@@ -31,7 +31,7 @@ const ActividadVideo = ({ data }) => {
                   <div className='members__info' key={d.id}>
                     <img src={d.image} alt="" className='memberImage' />
                     <div className='memberData'>
-                      <p className='memberData__name'>{d.name}</p>
+                      <p className='memberData__name'>{d.name} {d.linkedinUrl !== '' ? <a href={d.linkedinUrl} target="_blank" rel="noreferrer"><img src={logos.linkedin} alt={`Linkedin ${d.name}`} className='icon' /></a> : ''} {d.twitterUrl !== '' ? <a href={d.twitterUrl} target="_blank" rel="noreferrer"><img src={logos.twitterbg} alt={`Linkedin ${d.name}`} className='icon' /></a>  : ''}</p>
                       <p className='memberData__position'>{d.position}</p>
                     </div>
                   </div>
