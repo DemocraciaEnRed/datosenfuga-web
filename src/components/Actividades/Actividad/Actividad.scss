@@ -43,4 +43,13 @@
     line-height: 27px;
     color: #FFFFFF;
   }
+  &__panelName {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: rgba(255, 46, 0, 0.85);
+  }
 }

@@ -8,19 +8,21 @@ const Actividad = ({ activity }) => {
     if (activity !== 0) {
         const { activities } = actividadesData
         const data = activities.find(act => act.id === activity)
-        return (
-            <div className="actividad__container">
-                <div className="actividad__wrapper">
-                    <p className="actividad__title">Actividad</p>
-                    <p className="actividad__subtitle">Hacia un marco...</p>
-                    <p className="actividad__aboutTitle">sobre el encuentro</p>
-                    <p className="actividad__aboutText">es un espacio...</p>
-                    <PanelTabs data={data.panelTabs} panel={panel} setPanel={setPanel}/>
-                    <h2>panel 1: nombre del panel</h2>
-                    <h2>aca va el video</h2>
+        console.log(data.id)
+        if(data.id === activity) {
+            return (
+                <div className="actividad__container">
+                    <div className="actividad__wrapper">
+                        <p className="actividad__title">{actividadesData.activitieTitle}</p>
+                        <p className="actividad__subtitle">{actividadesData.activitieSubtitle}</p>
+                        <p className="actividad__aboutTitle">Sobre el encuentro</p>
+                        <p className="actividad__aboutText">{actividadesData.activitieInfo}</p>
+                        <PanelTabs data={data.panelTabs} panel={panel} setPanel={setPanel}/>
+                        <h2 className="actividad__panelName">{data.panelName}</h2>
+                    </div>
                 </div>
-            </div>
-        )
+            )
+        }
     }
 }
 
