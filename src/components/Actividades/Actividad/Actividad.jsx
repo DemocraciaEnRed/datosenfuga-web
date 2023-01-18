@@ -15,7 +15,7 @@ const Actividad = ({ activity }) => {
                     <p className="actividad__subtitle">Hacia un marco...</p>
                     <p className="actividad__aboutTitle">sobre el encuentro</p>
                     <p className="actividad__aboutText">es un espacio...</p>
-                    <PanelTabs data={data.panelTabs} />
+                    <PanelTabs data={data.panelTabs} panel={panel} setPanel={setPanel}/>
                     <h2>panel 1: nombre del panel</h2>
                     <h2>aca va el video</h2>
                 </div>

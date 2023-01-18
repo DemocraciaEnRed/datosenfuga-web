@@ -21,7 +21,22 @@ const actividadesData = {
         id: 2,
         title: 'Jornada Justicia 4.0: Algoritmos y prueba digital',
         panelTabs: [
-            {}
+            {
+                id: 0,
+                name:'Panel 1'
+            },
+            {
+                id: 1,
+                name:'Panel 2'
+            },
+            {
+                id: 2,
+                name:'Panel 3'
+            },
+            {
+                id: 3,
+                name:'Panel 4'
+            }
         ]
     }]
 }

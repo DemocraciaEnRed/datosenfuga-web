@@ -17,7 +17,7 @@ const Actividades = () => {
   return (
     <>
       <div className="actividades">
-        <ActividadesSelector />
+        <ActividadesSelector activity={activity} setActivity={setActivity}/>
         <Actividad activity={activity}/>
       </div>  
         <Organizaciones />
