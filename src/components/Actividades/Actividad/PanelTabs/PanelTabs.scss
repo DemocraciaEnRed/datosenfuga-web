@@ -5,21 +5,26 @@
     justify-content: center;
   }
   &__buttonsContainer {
+    margin-top: 3.5vw;
     width: auto;
     height: 60px;
     border: 3px solid #FFF;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     & button {
-      width: 125px;
-      border-radius: 13px;
       cursor: pointer;
-    }
-    & .active {
-      background: #FFFFFF;
-      color: #000000;
+      text-transform: uppercase;
+      width: 125px;
+      background-color: #000;
+      color: #fff;
+      border-radius: 6px;
+      border: none;
+      &.active {
+        background-color: #fff;
+        color: #000;
+      }
     }
   }
 }

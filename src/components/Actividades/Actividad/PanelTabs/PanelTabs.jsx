@@ -6,7 +6,7 @@ const PanelTabs = ({data, panel, setPanel}) => {
       <div className="paneltabs__buttonsContainer">
           {data.map( tabs => {
               return(
-              <button key={tabs.id + tabs.name}>{tabs.name}</button>)
+              <button onClick={()=>{setPanel(tabs.id)}} key={tabs.id + tabs.name} className={panel === tabs.id && 'active'}>{tabs.name}</button>)
               }
           )}
       </div>

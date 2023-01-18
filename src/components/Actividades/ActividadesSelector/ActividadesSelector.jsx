@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 const ActividadesSelector = ({activity, setActivity}) => {
   return (
-    <div className="actividades__container">
-      <h1 className="actividades__title">{actividadesData.mainTitle}</h1>
-      <p className="actividades__subtitle">{actividadesData.subTitle}</p>
-      <div className="actividades__selectionCard">
+    <div className="selector__container">
+      <h1 className="selector__title">{actividadesData.mainTitle}</h1>
+      <p className="selector__subtitle">{actividadesData.subTitle}</p>
+      <div className="selector__selectionCards">
         {actividadesData.activities.map((a) =>
         <button onClick={() => setActivity(a.id)} key={a.id} className={`${activity === a.id && 'active'}`}>
-          <p className="actividades__cardTitle" >
+          <p className="selector__cardTitle" >
             {a.title}
           </p>
         </button>
