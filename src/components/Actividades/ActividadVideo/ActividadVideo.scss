@@ -1,0 +1,63 @@
+.actividadVideo {
+  margin-top: 144px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  &__members {
+    .membersTitle {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 33px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    .membersRole {
+      margin-top: 17px;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.85);
+      padding-left: 10px;
+    }
+    .members__info {
+      padding-top: 15px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      color: #fff;
+      img {
+        width: 75px;
+        height: 75px;
+      }
+      .memberData {
+        padding-left: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &__name {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          color: rgba(255, 0, 0, 0.85);
+        }
+        &__position {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          color: rgba(255, 255, 255, 0.85);
+        }
+      }
+    }
+  }
+}

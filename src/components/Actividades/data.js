@@ -1,3 +1,5 @@
+import { actividades } from "../../constants"
+
 const actividadesData = {
     mainTitle: 'Encuentros en el marco del proyecto',
     subTitle: 'Selecciona uno de los encuentros para acceder a la grabacion de los paneles y su detalle',
@@ -6,18 +8,77 @@ const actividadesData = {
         title: 'Encuentro Regional de Políticas Públicas de Seguridad Informática',
         subtitle: 'Hacia un marco regulatorio para el reporte de vulnerabilidades en el Cono Sur.',
         aboutTitle: 'Sobre el encuentro',
-        aboutSubtitle:' Es un espacio para que autoridades nacionales y regionales, expertas en materia de ciberseguridad, puedan exponer experiencias sobre las políticas públicas implementadas en sus respectivos países facilitando que se genere un debate e intercambio de desafíos actuales, buenas prácticas y potenciales colaboraciones a nivel regional en esta temática.',
+        aboutSubtitle:'Es un espacio para que autoridades nacionales y regionales, expertas en materia de ciberseguridad, puedan exponer experiencias sobre las políticas públicas implementadas en sus respectivos países facilitando que se genere un debate e intercambio de desafíos actuales, buenas prácticas y potenciales colaboraciones a nivel regional en esta temática.',
         panelTabs: [
             {
                 id: 0,
-                name:'Panel 1'
+                name:'Panel 1',
+                activityMembers: {
+                    moderators: [
+                        {
+                            id: 0,
+                            name: 'Agustín Frizzera',
+                            position: 'Director Ejecutivo de "Democracia en Red"',
+                            image: actividades.agustinF
+                        },
+                    ],
+                    exhibitors: [
+                        {
+                            id: 0,
+                            name: 'Beatriz Busaniche',
+                            position: 'Fundación Vía Libre, Argentina',
+                            image: actividades.beatrizB
+                        },
+                        {
+                            id: 1,
+                            name: 'Gaspar Pisanu',
+                            position: 'AccessNow, Argentina',
+                            image: actividades.gasparP
+                        },
+                        {
+                            id: 2,
+                            name: 'María Trevisani Vespa',
+                            position: 'Observatorio de Derecho Informático Argentino',
+                            image: actividades.mariaT
+                        }
+                    ]
+                }
             },
             {
                 id: 1,
                 name:'Panel 2'
             }
         ],
-        
+        activityMembers: {
+            moderators: [
+                {
+                    id: 0,
+                    name: 'Agustín Frizzera',
+                    position: 'Director Ejecutivo de "Democracia en Red"',
+                    image: actividades.agustinF
+                },
+            ],
+            exhibitors: [
+                {
+                    id: 0,
+                    name: 'Beatriz Busaniche',
+                    position: 'Fundación Vía Libre, Argentina',
+                    image: actividades.beatrizB
+                },
+                {
+                    id: 1,
+                    name: 'Gaspar Pisanu',
+                    position: 'AccessNow, Argentina',
+                    image: actividades.gasparP
+                },
+                {
+                    id: 2,
+                    name: 'María Trevisani Vespa',
+                    position: 'Observatorio de Derecho Informático Argentino',
+                    image: actividades.mariaT
+                }
+            ]
+        }
     },
     {
         id: 2,

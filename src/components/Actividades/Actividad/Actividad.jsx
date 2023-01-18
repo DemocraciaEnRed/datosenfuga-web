@@ -1,6 +1,7 @@
+import { useState, useEffect } from "react"
 import PanelTabs from "./PanelTabs/PanelTabs"
 import actividadesData from "../data"
-import { useState, useEffect } from "react"
+import ActividadVideo from "../ActividadVideo/ActividadVideo"
 import './Actividad.scss'
 
 const Actividad = ({ activity }) => {
@@ -21,7 +22,7 @@ const Actividad = ({ activity }) => {
                     <p className="actividad__aboutText">{data.aboutSubtitle}</p>
                     <PanelTabs data={data.panelTabs} panel={panel} setPanel={setPanel}/>
                     <h2>panel 1: nombre del panel</h2>
-                    <h2>aca va el video</h2>
+                    <ActividadVideo data={data.activityMembers} />
                 </div>
             </div>
         )
