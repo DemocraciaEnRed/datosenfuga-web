@@ -1,0 +1,20 @@
+.paneltabs {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &__buttonsContainer {
+    width: 250px;
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    & button {
+      width: 125px;
+      border-radius: 13px;
+    }
+  }
+}

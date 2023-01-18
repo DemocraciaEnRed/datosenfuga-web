@@ -13,7 +13,9 @@ const actividadesData = {
                 id: 1,
                 name:'Panel 2'
             }
-        ]
+        ],
+        activitieTitle: 'Encuentro Regional de Políticas Públicas de Seguridad Informática',
+        activitieSubtitle: 'Hacia un marco regulatorio para el reporte de vulnerabilidades en el Cono Sur.'
     },
     {
         id: 2,

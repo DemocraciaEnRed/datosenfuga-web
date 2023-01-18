@@ -10,13 +10,15 @@ const Actividad = ({ activity }) => {
         const data = activities.find(act => act.id === activity)
         return (
             <div className="actividad__container">
-                <h2>Actividad</h2>
-                <p>Hacia un marco...</p>
-                <h2>sobre el encuentro</h2>
-                <p>es un espacio...</p>
-                <PanelTabs data={data.panelTabs} />
-                <h2>panel 1: nombre del panel</h2>
-                <h2>aca va el video</h2>
+                <div className="actividad__wrapper">
+                    <p className="actividad__title">Actividad</p>
+                    <p className="actividad__subtitle">Hacia un marco...</p>
+                    <p className="actividad__aboutTitle">sobre el encuentro</p>
+                    <p className="actividad__aboutText">es un espacio...</p>
+                    <PanelTabs data={data.panelTabs} />
+                    <h2>panel 1: nombre del panel</h2>
+                    <h2>aca va el video</h2>
+                </div>
             </div>
         )
     }

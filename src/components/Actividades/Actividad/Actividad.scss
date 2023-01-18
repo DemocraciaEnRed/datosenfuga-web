@@ -1,0 +1,46 @@
+.actividad {
+  &__container {
+    width: 100%;
+    height: 80vh;
+    background-color: #000000;
+  }
+  &__wrapper {
+    padding: 5vw;
+  }
+  &__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #FF0000;
+    padding-top: 25px;
+  }
+  &__subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__aboutTitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__aboutText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+}
