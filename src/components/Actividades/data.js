@@ -120,6 +120,20 @@ const actividadesData = {
                         ]
                     }
 
+                ],
+                resourcesButton: [
+                    {
+                        id: 0,
+                        name: 'CÓDIGO PENAL (ART. 153 BIS, 157 BIS Y 183)',
+                        url: 'http://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/141790/norma.htm',
+                        color: '#FF0000'
+                    },
+                    {
+                        id: 1,
+                        name: 'Ekoparty',
+                        url: 'https://www.ekoparty.org/',
+                        color: '#FF0000'
+                    }
                 ]
             },
             {
