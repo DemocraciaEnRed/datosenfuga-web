@@ -22,8 +22,8 @@ const actividadesData = {
                             name: 'Agustín Frizzera',
                             position: 'Director Ejecutivo de "Democracia en Red"',
                             image: actividades.agustinF,
-                            linkedinUrl: '',
-                            twitterUrl: ''
+                            linkedinUrl: 'https://www.linkedin.com/in/agustin-frizzera-a33a792a/',
+                            twitterUrl: 'https://twitter.com/agustinfrizzera'
                         },
                     ],
                     exhibitors: [
@@ -32,16 +32,16 @@ const actividadesData = {
                             name: 'Beatriz Busaniche',
                             position: 'Fundación Vía Libre, Argentina',
                             image: actividades.beatrizB,
-                            linkedinUrl: '',
-                            twitterUrl: ''
+                            linkedinUrl: 'https://www.linkedin.com/in/beatriz-busaniche-ba3a7569/',
+                            twitterUrl: 'https://twitter.com/beabusaniche'
                         },
                         {
                             id: 2,
                             name: 'Gaspar Pisanu',
                             position: 'AccessNow, Argentina',
                             image: actividades.gasparP,
-                            linkedinUrl: '',
-                            twitterUrl: ''
+                            linkedinUrl: 'https://www.linkedin.com/in/gaspar-pisanu-8403717a/',
+                            twitterUrl: 'https://twitter.com/PisanuGaspar'
                         },
                         {
                             id: 3,
@@ -144,8 +144,8 @@ const actividadesData = {
                             name: 'Gustavo Sain',
                             position: 'Ex Director Nacional de Ciberseguridad de Argentina',
                             image: actividades.gustavoS,
-                            linkedinUrl: '',
-                            twitterUrl: ''
+                            linkedinUrl: 'https://www.linkedin.com/in/gustavo-sain-37496950/',
+                            twitterUrl: 'https://twitter.com/grsain'
                         },
                         {
                             id: 2,
@@ -160,7 +160,7 @@ const actividadesData = {
                             name: 'Gabriela Ratti',
                             position: 'Directora de Ciberseguridad y Protección de la Información de Paraguay',
                             image: actividades.gabrielaR,
-                            linkedinUrl: '',
+                            linkedinUrl: 'https://www.linkedin.com/in/gabriela-ratti/',
                             twitterUrl: ''
                         },
                         {
@@ -168,8 +168,8 @@ const actividadesData = {
                             name: 'Daniel Álvarez Valenzuela',
                             position: 'Coordinador Nacional de Ciberseguridad de Chile ',
                             image: actividades.danielAV,
-                            linkedinUrl: '',
-                            twitterUrl: ''
+                            linkedinUrl: 'https://www.linkedin.com/in/danielalvarezvalenzuela/',
+                            twitterUrl: 'https://twitter.com/simenon'
                         }
                     ]
                 },
