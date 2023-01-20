@@ -15,13 +15,13 @@ const NavLinks = () => {
                 <HashLink smooth to="/#entrevistas">Entrevistas</HashLink>
             </li>
             <li>
-                <HashLink smooth to="/actividades">Actividades</HashLink>
-            </li>
-            <li>
                 <HashLink to="/casos">Casos</HashLink>
             </li>
             <li>
                 <HashLink to="/muestra">Muestra</HashLink>
+            </li>
+            <li>
+                <HashLink to="/acciones">Acciones</HashLink>
             </li>
             <li>
                 <HashLink smooth to="/#organizaciones">Quiénes somos</HashLink>

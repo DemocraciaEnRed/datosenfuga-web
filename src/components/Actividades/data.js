@@ -157,7 +157,7 @@ const actividadesData = {
                     ],
                     exhibitors: [
                         {
-                            id: 1,
+                            id: 0,
                             name: 'Gustavo Sain',
                             position: 'Ex Director Nacional de Ciberseguridad de Argentina',
                             image: actividades.gustavoS,
@@ -165,7 +165,7 @@ const actividadesData = {
                             twitterUrl: 'https://twitter.com/grsain'
                         },
                         {
-                            id: 2,
+                            id: 1,
                             name: 'Franz Rojas',
                             position: 'Responsable del Centro de Gestión de Incidentes Informáticos de Bolivia',
                             image: actividades.franzR,
@@ -173,7 +173,7 @@ const actividadesData = {
                             twitterUrl: ''
                         },
                         {
-                            id: 3,
+                            id: 2,
                             name: 'Gabriela Ratti',
                             position: 'Directora de Ciberseguridad y Protección de la Información de Paraguay',
                             image: actividades.gabrielaR,
@@ -181,7 +181,7 @@ const actividadesData = {
                             twitterUrl: ''
                         },
                         {
-                            id: 4,
+                            id: 3,
                             name: 'Daniel Álvarez Valenzuela',
                             position: 'Coordinador Nacional de Ciberseguridad de Chile ',
                             image: actividades.danielAV,
@@ -377,36 +377,54 @@ const actividadesData = {
                             id: 0,
                             name: 'Agustín Frizzera',
                             position: 'Director Ejecutivo de "Democracia en Red"',
-                            image: actividades.agustinF
+                            image: actividades.agustinF,
+                            linkedinUrl: 'https://www.linkedin.com/in/agustin-frizzera-a33a792a/',
+                            twitterUrl: 'https://twitter.com/agustinfrizzera'
                         },
                     ],
                     exhibitors: [
                         {
+                            id: 0,
+                            name: 'Julieta Di Corleto',
+                            position: 'Encargada de la Secretaría General de Capacitación y jurisprudencia del Ministerio Público de la Defensa',
+                            image: actividades.beatrizB,
+                            linkedinUrl: '',
+                            twitterUrl: ''
+                        },
+                        {
                             id: 1,
-                            name: 'Beatriz Busaniche',
-                            position: 'Fundación Vía Libre, Argentina',
-                            image: actividades.beatrizB
+                            name: 'Rodrigo Iglesias',
+                            position: 'Observatorio de Derecho Informático Argentino, Argentina',
+                            image: actividades.beatrizB,
+                            linkedinUrl: '',
+                            twitterUrl: ''
                         }
                     ]
                 },
                 highlighted: [
                     {
                         id: 0,
-                        qn: '¿Cuál ?',
+                        qn: 'Presentaciones:',
                         answ: [
                             {
-                                t: '00:00:47',
-                                name: 'Beatriz',
+                                t: '00:00:52',
+                                name: 'Julieta',
                                 dialog: {
-                                    ch1: 'El Estado ...'
+                                    ch1: 'El objetivo de ésta actividad es presentar la discusión sobre el uso de evidencia digital en los procesos judiciales con una perspectiva de Derechos Humanos. Creemos que este enfoque es el que nos da buenas herramientas para debatir y garantizar seguridad, para respetar y generar una conciencia sobre la importancia del respeto de la privacidad y la intimidad.'
                                 }
                             },
                             {
-                                t: '00:04:05',
-                                name: 'Gaspar',
+                                t: '00:08:21',
+                                name: 'Rodrigo',
                                 dialog: {
-                                    ch1: <b>Problema social:</b>,
-                                    ch2: 'A nivel regional...'
+                                    ch1: 'por resolución del Ministerio de Seguridad (720/2020) se dió por derogado el protocolo de actuación que también había salido por resolución (144/2020), por lo cuál no hay actualmente una investigación con un protocolo de investigación sobre fuentes abiertas y es un buen momento para que las organizaciones en apoyo del Ministerio Público de la Defensa, puedan establecer los parámetros adecuados para poder hacer una investigación con todas las garantías constitucionales posibles.',
+                                }
+                            },
+                            {
+                                t: '00:10:36',
+                                name: 'Agustín',
+                                dialog: {
+                                    ch1: 'Me parece que el diálogo con las instituciones es indispensable; muchas veces en nuestras organizaciones tenemos un saber que se queda encapsulado y el diálogo con personas que tienen responsabilidades públicas es algo que no podemos soslayar. Debería ser el principal aporte que deberíamos hacer desde nuestras organizaciones. Tenemos un problema con la protección de datos personales, tenemos un problema con la introducción de inteligencia artificial en nuestras instituciones, tenemos un problema con la gobernanza de datos, hay costumbres, procedimientos, protocolos y normativas que ya no reflejan determinada manera a la que nos hemos acostumbrado de hacer las cosas y esto es un problema. Entonces me parece que estos espacios son esenciales.',
                                 }
                             }
                         ]
@@ -439,25 +457,74 @@ const actividadesData = {
                 highlighted: [
                     {
                         id: 0,
-                        qn: '¿Cuál ?',
+                        qn: 'Cristian va a realizar una presentación sobre “vigilancia electrónica asistida por inteligencia artificial y selectividad algorítmica”.',
                         answ: [
                             {
-                                t: '00:00:47',
-                                name: 'Beatriz',
+                                t: '00:47:36',
+                                name: 'Cristian',
                                 dialog: {
-                                    ch1: 'El Estado ...'
-                                }
-                            },
-                            {
-                                t: '00:04:05',
-                                name: 'Gaspar',
-                                dialog: {
-                                    ch1: <b>Problema social:</b>,
-                                    ch2: 'A nivel regional...'
+                                    ch1: 'Cada actividad que realizamos queda registrada digitalmente y ese registro digital implica que hubo una migración en una gran parte de lo que es la prueba corpórea física o tangible a la prueba digital. Esto tuvo impacto en algunos códigos procesales y en otros no. A nivel Nacional, tanto el código procesal penal federal como el código procesal penal de la nación no tienen regulada la prueba digital. Por ejemplo, el Código Procesal Penal de Corrientes se atrevió a regular 5 medios de prueba en torno a la evidencia digital.',
+                                    ch2: <ol>
+                                        <li>
+                                            Vigilancia Acústica
+                                        </li>
+                                        <li>
+                                            Vigilancia de comunicaciones electrónicas
+                                        </li>
+                                        <li>
+                                            Vigilancia mediante acceso remoto
+                                        </li>
+                                        <li>
+                                            Vigilancia mediante dispositivos de localización
+                                        </li>
+                                        <li>
+                                            Dispositivos de captación de imágenes
+                                        </li>
+                                    </ol>
                                 }
                             }
                         ]
                     },
+                    {
+                        id: 1,
+                        qn: 'Sebastián, ¿cómo funciona el reconocimiento facial?',
+                        answ: [
+                            {
+                                t: '01:09:42',
+                                name: 'Sebastián',
+                                dialog: {
+                                    ch: 'Venimos hablando previamente de sesgos y de falsos positivos  y quiero ahondar en cómo esto viene ocurriendo …'
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        id: 2,
+                        qn: 'Sebastián nos va a hablar de sistemas informáticos de caja negra en la justicia, avance tecnológico o retroceso de derechos.',
+                        answ: [
+                            {
+                                t: '01:09:42',
+                                name: 'Beatriz',
+                                dialog: {
+                                    ch: 'Tenemos que entender la tecnología como un proceso social, económico, político y por qué no jurídico en el cual tenemos voz y voto'
+                                }
+                            },
+                            {
+                                t: '01:41:16',
+                                name: 'Beatriz',
+                                dialog: {
+                                    ch: 'Cuándo hablamos de regulaciones fuertes, estamos hablando de regulaciones legales.'
+                                }
+                            },
+                            {
+                                t: '01:42:34',
+                                name: 'Beatriz',
+                                dialog: {
+                                    ch: 'Cuando las tecnologías suponen la afectación de los derechos fundamentales de las personas, no debemos resignar las potestades que tenemos para regular con regulación litigable en un tribunal. Con regulaciòn que nos permita identificar responsabilidad civil o penal. Si tenemos que hacernos cargo de que cómo sociedades éstas tecnologías no llegan a operar en el vacío, llegan a operar en un sistema donde ya tenemos un sistema de derechos.'
+                                }
+                            }
+                        ]
+                    }
                 ]
             },
             {
@@ -486,25 +553,95 @@ const actividadesData = {
                 highlighted: [
                     {
                         id: 0,
-                        qn: '¿Cuál ?',
+                        qn: 'En primer lugar, va a exponer Gustavo Presman sobre “Desafìos actuales en el peritaje de teléfonos celulares',
                         answ: [
                             {
-                                t: '00:00:47',
-                                name: 'Beatriz',
+                                t: '00:03:15',
+                                name: 'Gustavo',
                                 dialog: {
-                                    ch1: 'El Estado ...'
+                                    ch1: 'No es la inteligencia artificial la que va a definir una situación, la que va a emitir una sentencia. La tecnología en general es una herramienta y es algo para aportar verdad en aquellos temas que se desconocen. Pero definitivamente es claro que los operadores judiciales empiecen a inmiscuirse un poco en temas tecnológicos.  También es importante incorporar profesionales informáticos en las distintas fiscalías, defensorías y los distintos estamentos para empezar a diseñar las pruebas para controlarlas, para acompañarlas.'
                                 }
                             },
                             {
-                                t: '00:04:05',
-                                name: 'Gaspar',
+                                t: '00:05:09',
+                                name: 'Gustavo',
                                 dialog: {
-                                    ch1: <b>Problema social:</b>,
-                                    ch2: 'A nivel regional...'
+                                    ch1: 'Estos 5 puntos hoy definen el escenario de peritaje de cualquier teléfono celular o más ampliamente como me gusta llamarle, dispositivos móviles: ',
+                                    ch2: <ol>
+                                        <li>
+                                            El bloqueo y el cifrado del dispositivo
+                                        </li>
+                                        <li>
+                                            La arquitectura restringida
+                                        </li>
+                                        <li>
+                                            El cifrado de las aplicaciones y la codificación de datos
+                                        </li>
+                                        <li>
+                                            Las herramientas y el ciclo de vida
+                                        </li>
+                                        <li>
+                                            La experticia necesaria
+                                        </li>
+                                    </ol>
                                 }
                             }
                         ]
                     },
+                    {
+                        id: 1,
+                        qn: 'Ahora expone Antonella Bentin, que va a exponer sobre “Desbloqueo compulsivo de dispositivos electrónicos vs. la garantía contra la autoincriminación”',
+                        answ: [
+                            {
+                                t: '00:23:12',
+                                name: 'Antonella',
+                                dialog: {
+                                    ch1: 'Hay dos casos puntuales: Riley vs California y Carpenter. Uno trata sobre la requisa de teléfonos celulares y el otro sobre geolocalización y ambos fallos hacen mucho hincapié respecto a lo que es la reconstrucción de la vida privada que se puede hacer a través del teléfono celular, a través de toda la información que le entregamos a las aplicaciones que tenemos hoy en día en nuestros dispositivos.'
+                                }
+                            },
+                            {
+                                t: '00:24:55',
+                                name: 'Antonella',
+                                dialog: {
+                                    ch1: 'Hay dos momentos diferenciados en cuanto a desbloqueo:',
+                                    ch2: <ol>
+                                        <li>
+                                            Durante el allanamiento
+                                        </li>
+                                        <li>
+                                            En el laboratorio - Imposibilidad de desbloqueo a través de softwares de extracción forense
+                                        </li>
+                                    </ol>
+                                }
+                            },
+                        ]
+                    },
+                    {
+                        id: 2,
+                        qn: 'Ahora expone Ana Haydeé Di Iorio que nos va a exponer sobre “Las pericias informáticas. Buenas prácticas en el tratamiento de la evidencia digital',
+                        answ: [
+                            {
+                                t: '00:43:22',
+                                name: 'Ana',
+                                dialog: {
+                                    ch1: 'Cada delito y cada prueba de cada delito, va a ser más digital que lo que lo precede. Entonces, sabemos que hay muchas fuentes de información que pueden convertirse después en fuentes de prueba y que nosotros dejamos una huella en cada uno de los actos que vamos realizando a lo largo de nuestra vida.'
+                                }
+                            },
+                        ]
+                    },
+                    {
+                        id: 3,
+                        qn: 'Cerramos este panel con la presentación de Jonathan Polansky sobre el “Concepto de peritaje en el entorno digital, obtención de imágenes forenses y extracciones”',
+                        answ: [
+                            {
+                                t: '1:05:04',
+                                name: 'Jonathan',
+                                dialog: {
+                                    ch1: 'La tecnología digital nos hace muchas veces cuestionarnos y preguntarnos la esencia de algunos actos jurídicos, algunos principios sobre los cuáles se levanta la persecución penal, al principio de territorialidad que está en crisis ya desde hace un tiempo con la existencia de investigaciones que requieren acceder a información almacenada en la nube, almacenada en servidores que se encuentran en otro país'
+                                }
+                            },
+                        ]
+                    }
                 ]
             },
             {
@@ -533,21 +670,20 @@ const actividadesData = {
                 highlighted: [
                     {
                         id: 0,
-                        qn: '¿Cuál ?',
+                        qn: 'Vamos a ir por el lado de la identidad digital, protección de datos personales y estándares de ciberseguridad. Para eso me acompañan la Dra. PhD Johanna Faliero y el Dr. Gustavo Eduardo Aboso',
                         answ: [
                             {
-                                t: '00:00:47',
-                                name: 'Beatriz',
+                                t: '02:09:21',
+                                name: 'Johanna',
                                 dialog: {
-                                    ch1: 'El Estado ...'
+                                    ch1: 'Parece el derecho a estas alturas no saber defenderse de ciertos avances de carácter tecnorreducionista que se están realizando en el ámbito de nuestra era de datos y que van permanentemente infiltrándose en los diferentes poderes, en los diferentes organismos, en las diferentes instituciones y organizaciones. Y es en este sentido que podemos señalar que ya no hay sectores limpios de intereses de carácter corporativo. Sin embargo, la industria no se ha detenido allí en permear el sector no gubernamental sino que también inunda el sector de carácter académico. Hoy en día tenemos muchísimo edutainment, una fusión entre educación y entretenimiento, donde ese entretenimiento de carácter educativo está imbuido de una suerte de carácter técnico comercial legal que pisa fuerte tanto en universidades como en centros de carácter calificado donde se funde la temática de carácter educativo con el impulso de ciertos proyectos específicos en temáticas tecnológicas y que tienen que ver con la imposición de determinados modelos de negocios  y de productos particularmente de la industria de la inteligencia artificial.'
                                 }
                             },
                             {
-                                t: '00:04:05',
-                                name: 'Gaspar',
+                                t: '',
+                                name: 'Gustavo',
                                 dialog: {
-                                    ch1: <b>Problema social:</b>,
-                                    ch2: 'A nivel regional...'
+                                    ch1: 'Cuando el Ministerio Público Fiscal nos discute si se hace un informe o un peritaje, en realidad está ocultando algo mucho más grave y es que los defensores lo debemos que saber: el problema de la anomia. Esto significa que no tenemos normas procesales por ejemplo, para determinar cuándo una geolocalización puede ser realizada y si es necesaria la autorización judicial. Si es necesario por ejemplo, para la identificación de una dirección IP y los metadatos o datos de tráfico están asociados a esa dirección, si es necesaria una autorización judicial. Claramente el problema se lleva al área de la prueba pericial, pero el problema es otro. El problema es de anomia, que no tenemos dentro de los códigos procesales vigilancia acústica, no tenemos monitoreo remoto, monitoreo en tiempo real, no tenemos utilización de malware, no tenemos un montón de herramientas jurídicas informáticas que se están utilizando hoy en día y sin embargo pasa a ser si el 212 del Código Procesal Penal de la Nación, abarca el tema de la geolocalización  de la dirección IP. Entonces, la discusión que se tiene que dar, por lo menos la defensa, debe partir del plano constitucional. Hablamos de la autodeterminación de la informática, la autodeterminación que ya viene prefijada en nuestra Constitución por aplicación de los artículos 18, 28 y 43 del Código Penal. Es decir, hay un principio de autodeterminación informativa que se relaciona con cosas que no tienen que ver con el proceso penal.',
                                 }
                             }
                         ]
