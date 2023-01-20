@@ -54,7 +54,7 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {   
+                    {
                         id: 0,
                         qn: '¿Cuál es el problema en Argentina en materia de ciberseguridad? / ¿Cuál es el diagnóstico?',
                         answ: [
@@ -68,7 +68,7 @@ const actividadesData = {
                             {
                                 t: '00:04:05',
                                 name: 'Gaspar',
-                                dialog:{
+                                dialog: {
                                     ch1: <b>Problema social:</b>,
                                     ch2: ' A nivel regional, Argentina ha atendido muy poco la cuestión tecnológica y ha sido poco discutida en cualquier espacio público.Trabajamos en reporte de incidentes que es el servicio madre que alimenta toda la rueda y también en reportes de vulnerabilidades, entre otros servicios. Nuestro pull de clientes es cualquier organización paraguaya o persona paraguaya y lo aprovechamos en favor nuestro y obviamente lo que son las estratégias y políticas nacionales de ciberseguridad también parten desde nuestro evento. Es muy interesante participar de este tipo de espacios para aprender tanto de las experiencias positivas como de las negativas'
                                 }
@@ -79,10 +79,10 @@ const actividadesData = {
                                 dialog: {
                                     ch1: 'Hay problemas en los sistemas informáticos que no son seguros, hay problemas de ciberseguridad que tienen que ver con una falta de políticas general. No hay medición de riesgos, no se toman medidas para saber que se puede hacer y cómo dar respuesta a ello.'
                                 }
-                            },
+                            }
                         ]
                     },
-                    {   
+                    {
                         id: 1,
                         qn: '¿Tenemos que cambiar una ley?, ¿Se puede interpretar el código penal que hoy tenemos de manera diferente para que esta situación cambie?',
                         answ: [
@@ -109,7 +109,7 @@ const actividadesData = {
                             }
                         ]
                     },
-                    {   
+                    {
                         id: 2,
                         qn: 'En vistas de un proyecto de ley de protección de datos personales, Gaspar te pregunto ¿Cómo lo ves?, ¿Cómo lo analizas?',
                         answ: [
@@ -191,29 +191,135 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {   
+                    {
                         id: 0,
-                        qn: '¿Cuál es el problema en Argentina en materia de ciberseguridad?/¿Cuál es el diagnóstico?',
+                        qn: '¿Qué sentido le encuentran ustedes a esto de los encuentros regionales?, ¿Cuál es el saldo que se llevan de estos encuentros?, ¿Cuáles son sus experiencias en sus respectivos países?',
                         answ: [
                             {
-                                t: '00:00:47',
-                                name: 'Beatriz',
+                                t: '01:20:00',
+                                name: 'Franz',
                                 dialog: {
-                                    ch: 'El Estado tiene una doble vía: tiene que ser responsable sobre los datos y además tiene que ser garante frente a terceros y en ese panorama tenemos un Estado que lamentablemente está vaciado completamente de capacidades para dirimir con las responsabilidades que tiene sobre la mesa.'
+                                    ch: 'Somos un csirt y respondiendo al tema de los incidentes, me parece muy buena la iniciativa que se promuevan este tipo de encuentros porque es importante mirar hacia afuera sobre cómo están trabajando los otros países en temas de ciberseguridad. Efectivamente hay iniciativas por ejemplo a través de la Organización de los Estados Americanos, hay uno que es Csirt América del cuál también somos parte como institución y efectivamente brindan este tipo de capacitaciones en temas de asesoramiento y de asistencia técnica.'
                                 }
                             },
                             {
-                                t: '00:04:05',
-                                name: 'Gaspar',
+                                t: '01:24:06',
+                                name: 'Gabriela',
                                 dialog: {
-                                    ch: {}
+                                    ch: 'Trabajamos en reporte de incidentes que es el servicio madre que alimenta toda la rueda y también en reportes de vulnerabilidades, entre otros servicios. Nuestro pull de clientes es cualquier organización paraguaya o persona paraguaya y lo aprovechamos en favor nuestro y obviamente lo que son las estratégias y políticas nacionales de ciberseguridad también parten desde nuestro evento. Es muy interesante participar de este tipo de espacios para aprender tanto de las experiencias positivas como de las negativas.'
+                                }
+                            },
+                            {
+                                t: '01:25:25',
+                                name: 'Gustavo',
+                                dialog: {
+                                    ch: 'Celebro este evento para el intercambio de experiencias acá con colegas de la región.'
+                                }
+                            },
+                            {
+                                t: '01:26:20',
+                                name: 'Gustavo',
+                                dialog: {
+                                    ch: 'La Dirección Nacional de Ciberseguridad tiene 3 funciones básicas:',
+                                    ch1: <ul>
+                                        <li>
+                                            Elevar los estándares de seguridad de la información de todo el sector público nacional.
+                                        </li>
+                                        <li>
+                                            La gestión de incidentes de seguridad informáticos sabemos que se diferencia de lo que es un ciberdelito; puede constituirlo o no, pero es diferente.
+                                        </li>
+                                        <li>
+                                            Protección de infraestructuras críticas de información a nivel nacional.
+                                        </li>
+                                    </ul>
+                                }
+                            },
+                            {
+                                t: '01:27:40',
+                                name: 'Daniel',
+                                dialog: {
+                                    ch: 'En el caso de Chile, nosotros estamos en un proceso de construcción de institucionalidad, donde se diferenciaron las áreas políticas de las áreas de gestión de incidentes.'
+                                }
+                            },
+                            {
+                                t: '01:29:15',
+                                name: 'Daniel',
+                                dialog: {
+                                    ch: 'Nosotros tenemos una política de ciberseguridad vigente desde el año 2017. Hay una cuestión que no pasa mucho en la región en materia de ciberseguridad pero nosotros logramos transformar el instrumento de planificación primaria en un instrumento de política de estado. Mi mensaje principal para el proceso de discusión política en ciberseguridad es que este tiene que ser un diálogo multinivel, multipartidario, múltiples partes interesadas donde lo técnico, lo político, lo regulatorio, lo académico, confluya y donde hay que buscar objetivos comunes. Si ustedes me preguntan el éxito teórico de la estratégia chilena fue porque el documento de política nacional de seguridad es un documento que tienen muchas madres y padres entonces la gente lo siente como propio.'
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        id: 1,
+                        qn: 'Daniel, ¿antes de llegar a este documento nacional de políticas públicas en materia de ciberseguridad que fue primigenio, cuál fue el espacio donde se gestó? Es decir, ¿hubo una política pública de designar previamente a eso una autoridad?',
+                        answ: [
+                            {
+                                t: '01:33:00',
+                                name: 'Daniel',
+                                dialog: {
+                                    ch: 'No es que lo técnico no importe pero tienes que meterle política a esto si quieres que se transforme en una preocupación de Estado.\nCuando se crea el comité interministerial, se crea lo que se llama la Secretaría Ejecutiva del comité interministerial que si bien formalmente se radicó en defensa, nosotros hicimos que el proceso participativo fuera simbólicamente en un edificio civil e hicimos audiencias públicas.'
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        id: 2,
+                        qn: 'Hay una gran experiencia en lo que ha pasado en Chile, no solamente desde lo político y los consensos, sino también desde lo comunicacional en materia política. Poder comunicarse con las autoridades y poner esto en valor...',
+                        answ: [
+                            {
+                                t: '01:39:45',
+                                name: 'Daniel',
+                                dialog: {
+                                    ch: 'No podemos seguir hablando de ciber con tecnicismo porque provoca un rechazo automático. Por lo tanto esto hay que transformarlo en asunto o problemas que las autoridades puedan comprender en un sentido didáctico.'
+                                }
+                            },
+                            {
+                                t: '01:42:37',
+                                name: 'Daniel',
+                                dialog: {
+                                    ch: 'Comunicacionalmente hay que traducir esto al lenguaje que puedan comprender autoridades políticas que tienen múltiples responsabilidades y que la jerga técnica no nos bloquea.'
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        id: 3,
+                        qn: 'Gustavo, habiendo estado dentro de este monstruo administrativo que es el Estado argentino con su caos, con su superposición de competencias, ¿cuál es tu análisis de la situación actual respecto a cómo están hechos los diseños institucionales en esto?, ¿cuál es tu análisis respecto a cuáles son las prácticas técnicas que tenemos hoy en día?',
+                        answ: [
+                            {
+                                t: '01:46:26',
+                                name: 'Gustavo',
+                                dialog: {
+                                    ch: 'Lo primero que tuvimos que hacer fue crear una norma basada en ISO 27.001 - 27.002 y Estándares Nist con el mayor nivel de ejecutividad sacado requisitos mínimos para las políticas de seguridad de la información del sector público nacional. ¡Fundamental! porque administran los archivos y las bases con datos personales de nuestros ciudadanos, acompañado de un registro de puntos focales. Que cada organismo tenga un punto focal, un enlace con la Dirección Nacional de Ciberseguridad que vaya notificando su plan de cumplimiento de esa norma.'
                                 }
                             },
                         ]
                     },
+                    {
+                        id: 4,
+                        qn: 'Según la experiencia de Paraguay, Gabriela dijiste que según su marco normativo se habla de ecosistema y que eso les permite no solamente trabajar los reportes dentro del sector público. ¿Podrás contarnos un poco más sobre eso?',
+                        answ: [
+                            {
+                                t: '01:56:52',
+                                name: 'Gabriela',
+                                dialog: {
+                                    ch: 'Nosotros lo hicimos al revés; desde lo operativo, lo técnico a ir elevando el nivel de madurez. Tenemos estadísticas de los reportes desde el 2013 hasta ahora sin que en ese momento siquiera el Csirt tuviera las atribuciones legales para atender incidentes. Años después cuando dijimos hay que tener una estratégia nacional entonces fue mucho más fácil trabajar sobre algo que ya existía. Por eso establecimos como objetivo y como atribución de la institución una frase que no molestó a nadie porque refería a construir un ecosistema digital confiable, resiliente, entre todos los actores que forman parte del ecosistema digital. No es algo que se dio por casualidad, se dió porque las personas adecuadas buscaron un consenso sin llegar a escalar a un plano penal o político donde obviamente la conversación siempre va a ser más compleja. No es algo que se debatió en el congreso y sabemos que en algún momento tenemos que plantear en algún momento un proyecto de ley.'
+                                }
+                            },
+                            {
+                                t: '02:03:40',
+                                name: 'Gabriela',
+                                dialog: {
+                                    ch: 'Nosotros el estándar nacional que adoptamos no fue ni las ISO ni marcos de gestión que requieren un cambio cultural, sino bases operativas como el CIS Control.'
+                                }
+                            },
+                        ]
+                    },
+
                 ]
-            }
-        ],
+            },
+        ]
     },
     {
         id: 2,
@@ -246,7 +352,7 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {   
+                    {
                         id: 0,
                         qn: '¿Cuál ?',
                         answ: [
@@ -261,7 +367,7 @@ const actividadesData = {
                                 t: '00:04:05',
                                 name: 'Gaspar',
                                 dialog: {
-                                    ch1: '<b>Problema social:<b>',
+                                    ch1: <b>Problema social:</b>,
                                     ch2: 'A nivel regional...'
                                 }
                             }
@@ -293,7 +399,7 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {   
+                    {
                         id: 0,
                         qn: '¿Cuál ?',
                         answ: [
@@ -308,7 +414,7 @@ const actividadesData = {
                                 t: '00:04:05',
                                 name: 'Gaspar',
                                 dialog: {
-                                    ch1: '<b>Problema social:<b>',
+                                    ch1: <b>Problema social:</b>,
                                     ch2: 'A nivel regional...'
                                 }
                             }
@@ -340,7 +446,7 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {   
+                    {
                         id: 0,
                         qn: '¿Cuál ?',
                         answ: [
@@ -355,7 +461,7 @@ const actividadesData = {
                                 t: '00:04:05',
                                 name: 'Gaspar',
                                 dialog: {
-                                    ch1: '<b>Problema social:<b>',
+                                    ch1: <b>Problema social:</b>,
                                     ch2: 'A nivel regional...'
                                 }
                             }
@@ -387,7 +493,7 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {   
+                    {
                         id: 0,
                         qn: '¿Cuál ?',
                         answ: [
@@ -402,7 +508,7 @@ const actividadesData = {
                                 t: '00:04:05',
                                 name: 'Gaspar',
                                 dialog: {
-                                    ch1: '<b>Problema social:<b>',
+                                    ch1: <b>Problema social:</b>,
                                     ch2: 'A nivel regional...'
                                 }
                             }
