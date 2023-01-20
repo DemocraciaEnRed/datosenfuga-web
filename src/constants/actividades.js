@@ -1,12 +1,12 @@
 import agustinF from "../assets/actividades/agustinFrizzera.png"
-import beatrizB from "../assets/actividades/beatrizBusaniche.png"
-import gasparP from "../assets/actividades/gasparPisanu.png"
-import mariaT from "../assets/actividades/mariaTrevisani.png"
-import tomasP from "../assets/actividades/tomasPomar.png"
-import franzR from "../assets/actividades/franzRojas.png"
-import gustavoS from "../assets/actividades/gustavoSain.png"
-import gabrielaR from "../assets/actividades/gabrielaRatti.png"
-import danielAV from "../assets/actividades/danielAValenzuela.png"
+import beatrizB from "../assets/actividades/beatrizBusaniche.jfif"
+import gasparP from "../assets/actividades/gasparPisandu.jfif"
+import mariaT from "../assets/actividades/mariaTrevisani.jfif"
+import tomasP from "../assets/actividades/tomasPomar.jpg"
+import franzR from "../assets/actividades/franzRojas.jpg"
+import gustavoS from "../assets/actividades/gustavoSain.jpg"
+import gabrielaR from "../assets/actividades/gabrielaRatti.jpg"
+import danielAV from "../assets/actividades/danielAValenzuela.jpg"
 
 export const actividades = {
   agustinF,
