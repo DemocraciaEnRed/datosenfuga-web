@@ -27,7 +27,7 @@ const Actividad = ({ activity }) => {
                     <h2 className="actividad__panelTitle">{panelData.title}</h2>
                     <ActividadVideo data={panelData.videos} />
                     <PanelHighlighted data={panelData.highlighted} />
-                    <h2 className="actividad__resources">Recursos</h2>
+                    {(panelData.resourcesButton) && <h2 className="actividad__resources">Recursos</h2>}
                     {(panelData.resourcesButton) && <RecursosButton data={panelData.resourcesButton} />}
                 </div>
             </div>

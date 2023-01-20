@@ -371,7 +371,7 @@ const actividadesData = {
                 name: 'Panel 1',
                 title: 'Panel 1',
                 videos: {
-                    urlVideo: 'https://www.youtube.com/embed/RkS_jXVQP1g',
+                    urlVideo: 'https://www.youtube.com/embed/VcmIax35RaY',
                     moderators: [
                         {
                             id: 0,
@@ -387,7 +387,7 @@ const actividadesData = {
                             id: 0,
                             name: 'Julieta Di Corleto',
                             position: 'Encargada de la Secretaría General de Capacitación y jurisprudencia del Ministerio Público de la Defensa',
-                            image: actividades.beatrizB,
+                            image: actividades.julietaDC,
                             linkedinUrl: '',
                             twitterUrl: ''
                         },
@@ -395,7 +395,7 @@ const actividadesData = {
                             id: 1,
                             name: 'Rodrigo Iglesias',
                             position: 'Observatorio de Derecho Informático Argentino, Argentina',
-                            image: actividades.beatrizB,
+                            image: actividades.rodrigoI,
                             linkedinUrl: '',
                             twitterUrl: ''
                         }
@@ -429,6 +429,20 @@ const actividadesData = {
                             }
                         ]
                     },
+                ],
+                resourcesButton: [
+                    {
+                        id: 0,
+                        name: 'Resolución 720/2020',
+                        url: 'https://www.boletinoficial.gob.ar/detalleAviso/primera/274655/20221031',
+                        color: '#FF0000'
+                    },
+                    {
+                        id: 1,
+                        name: 'Resolución 144/2020',
+                        url: 'https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%83%C2%B3n-144-2020-338229',
+                        color: '#FF0000'
+                    }
                 ]
             },
             {
@@ -436,21 +450,49 @@ const actividadesData = {
                 name: 'Panel 2',
                 title: 'Panel 2',
                 videos: {
-                    urlVideo: 'https://www.youtube.com/embed/RkS_jXVQP1g',
+                    urlVideo: 'https://www.youtube.com/embed/VcmIax35RaY',
                     moderators: [
                         {
                             id: 0,
-                            name: 'Agustín Frizzera',
-                            position: 'Director Ejecutivo de "Democracia en Red"',
-                            image: actividades.agustinF
+                            name: 'Florencia Caffarone',
+                            position: 'Director Ejecutivo de Democracia en Red',
+                            image: actividades.florenciaC,
+                            linkedinUrl: 'https://www.linkedin.com/in/florenciacaffarone/',
+                            twitterUrl: 'https://twitter.com/pitucaffarone'
                         },
                     ],
                     exhibitors: [
                         {
+                            id: 0,
+                            name: 'Rodrigo Iglesias',
+                            position: 'Observatorio de Derecho Informático Argentino, Argentina',
+                            image: actividades.rodrigoI,
+                            linkedinUrl: '',
+                            twitterUrl: ''
+                        },
+                        {
                             id: 1,
+                            name: 'Christian Sueiro',
+                            position: 'Secretario Letrado de la Defensoría General de la Nación',
+                            image: actividades.christianS,
+                            linkedinUrl: '',
+                            twitterUrl: 'https://twitter.com/SueiroChristian'
+                        },
+                        {
+                            id: 2,
+                            name: 'Sebastián Waisbrot',
+                            position: 'Observatorio de Derecho Informático Argentino, Argentina',
+                            image: actividades.sebastianW,
+                            linkedinUrl: '',
+                            twitterUrl: 'https://twitter.com/seppo0011'
+                        },
+                        {
+                            id: 3,
                             name: 'Beatriz Busaniche',
-                            position: 'Fundación Vía Libre, Argentina',
-                            image: actividades.beatrizB
+                            position: 'Fundación Vía Libre',
+                            image: actividades.beatrizB,
+                            linkedinUrl: 'https://www.linkedin.com/in/beatriz-busaniche-ba3a7569/',
+                            twitterUrl: 'https://twitter.com/beabusaniche'
                         }
                     ]
                 },
@@ -525,6 +567,14 @@ const actividadesData = {
                             }
                         ]
                     }
+                ],
+                resourcesButton: [
+                    {
+                        id: 0,
+                        name: 'Código Procesal Penal de Corrientes',
+                        url: 'http://www.saij.gob.ar/2945-local-corrientes-codigo-procesal-penal-para-provincia-corrientes-lpw0002945-1971-02-19/123456789-0abc-defg-549-2000wvorpyel',
+                        color: '#FF0000'
+                    }
                 ]
             },
             {
@@ -532,21 +582,49 @@ const actividadesData = {
                 name: 'Panel 3',
                 title: 'Panel 3',
                 videos: {
-                    urlVideo: 'https://www.youtube.com/embed/RkS_jXVQP1g',
+                    urlVideo: 'https://www.youtube.com/embed/n5HAJFZ-yZE',
                     moderators: [
                         {
                             id: 0,
-                            name: 'Agustín Frizzera',
-                            position: 'Director Ejecutivo de "Democracia en Red"',
-                            image: actividades.agustinF
+                            name: 'Lucía Montenegro',
+                            position: 'Policía de Seguridad Aeroportuaria',
+                            image: actividades.luciaM,
+                            linkedinUrl: 'https://www.linkedin.com/in/luc%C3%ADa-montenegro-0925b34a/',
+                            twitterUrl: ''
                         },
                     ],
                     exhibitors: [
                         {
+                            id: 0,
+                            name: 'Gustavo Presman',
+                            position: 'Director de Estudio de Informática Forense',
+                            image: actividades.gustavoP,
+                            linkedinUrl: 'https://www.linkedin.com/in/gpresman/',
+                            twitterUrl: 'https://twitter.com/gpresman'
+                        },
+                        {
                             id: 1,
-                            name: 'Beatriz Busaniche',
-                            position: 'Fundación Vía Libre, Argentina',
-                            image: actividades.beatrizB
+                            name: 'Antonella Bentin',
+                            position: 'Ministerio Público de la Defensa',
+                            image: actividades.antonellaB,
+                            linkedinUrl: 'https://www.linkedin.com/in/antonella-bentin-9759ab236/',
+                            twitterUrl: ''
+                        },
+                        {
+                            id: 2,
+                            name: 'Ana Haydeé Di Iorio',
+                            position: 'Instructora Informática en Poder Judicial',
+                            image: actividades.anaHaydee,
+                            linkedinUrl: 'https://www.linkedin.com/in/anadiiorio/',
+                            twitterUrl: 'https://twitter.com/anadiiorio'
+                        },
+                        {
+                            id: 3,
+                            name: 'Jonathan A. Polansky',
+                            position: "General Attorney's Office of Argentina",
+                            image: actividades.jonathanAP,
+                            linkedinUrl: 'https://www.linkedin.com/in/jpolansky/?originalSubdomain=ar',
+                            twitterUrl: ''
                         }
                     ]
                 },
@@ -649,21 +727,33 @@ const actividadesData = {
                 name: 'Panel 4',
                 title: 'Panel 4',
                 videos: {
-                    urlVideo: 'https://www.youtube.com/embed/RkS_jXVQP1g',
+                    urlVideo: 'https://www.youtube.com/embed/n5HAJFZ-yZE',
                     moderators: [
                         {
                             id: 0,
                             name: 'Agustín Frizzera',
-                            position: 'Director Ejecutivo de "Democracia en Red"',
-                            image: actividades.agustinF
+                            position: 'Director Ejecutivo de Democracia en Red',
+                            image: actividades.agustinF,
+                            linkedinUrl: 'https://www.linkedin.com/in/agustin-frizzera-a33a792a/',
+                            twitterUrl: 'https://twitter.com/agustinfrizzera'
                         },
                     ],
                     exhibitors: [
                         {
+                            id: 0,
+                            name: 'Dra. PhD Johanna Caterina Faliero',
+                            position: 'Doctora en Derecho con Tesis Doctoral Distinguida en Protección de Datos Personales',
+                            image: actividades.draFaliero,
+                            linkedinUrl: '',
+                            twitterUrl: 'https://twitter.com/JoyCfTw'
+                        },
+                        {
                             id: 1,
-                            name: 'Beatriz Busaniche',
-                            position: 'Fundación Vía Libre, Argentina',
-                            image: actividades.beatrizB
+                            name: 'Dr. Gustavo Eduardo Aboso',
+                            position: 'Defensoría de Cámara N°1* Penal, Contravencional y de Faltas',
+                            image: actividades.drAboso,
+                            linkedinUrl: '',
+                            twitterUrl: ''
                         }
                     ]
                 },
@@ -688,6 +778,14 @@ const actividadesData = {
                             }
                         ]
                     },
+                ],
+                resourcesButton: [
+                    {
+                        id: 0,
+                        name: 'Art. 18, 28, 43 y 212 del Código Procesal Penal',
+                        url: 'http://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/383/texact.htm',
+                        color: '#FF0000'
+                    }
                 ]
             },
         ]

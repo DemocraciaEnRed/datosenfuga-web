@@ -11,13 +11,14 @@ import sebastianW from "../assets/actividades/sebastianWaisbrot.jfif"
 import rodrigoI from "../assets/actividades/rodrigoIglesias.jfif"
 import luciaM from "../assets/actividades/luciaMontenegro.jfif"
 import julietaDC from "../assets/actividades/julietaDiCorleto.jpg"
-import jonathanAP from "../assets/actividades/JonathanAPolansky.jfif"
+import jonathanAP from "../assets/actividades/jonathanAPolansky.jfif"
 import gustavoP from "../assets/actividades/gustavoPresman.jfif"
 import draFaliero from "../assets/actividades/johannaCaterinaFaliero.jpg"
 import florenciaC from "../assets/actividades/florCaffarone.png"
 import drAboso from "../assets/actividades/gustavoEduardoAboso.jfif"
 import antonellaB from "../assets/actividades/antonellaBentin.jfif"
 import anaHaydee from "../assets/actividades/AnaHaydeéDiIorio.jfif"
+import christianS from "../assets/actividades/christianSueiro.jpg"
 
 export const actividades = {
   agustinF,
@@ -39,5 +40,6 @@ export const actividades = {
   florenciaC,
   drAboso,
   antonellaB,
-  anaHaydee
+  anaHaydee,
+  christianS
 }
