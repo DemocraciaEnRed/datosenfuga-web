@@ -317,6 +317,44 @@ const actividadesData = {
                         ]
                     },
 
+                ],
+                resourcesButton: [
+                    {
+                        id: 0,
+                        name: 'CSirt',
+                        url: 'https://www.welivesecurity.com/la-es/2015/05/18/que-es-como-trabaja-csirt-respuesta-incidentes/',
+                        color: '#FF0000'
+                    },
+                    {
+                        id: 1,
+                        name: 'Política de ciberseguridad chilena',
+                        url: 'https://digital.gob.cl/biblioteca/estrategias/politica-nacional-de-ciberseguridad-2017-2022/',
+                        color: '#FF0000'
+                    },
+                    {
+                        id: 2,
+                        name: 'ISO 27.001',
+                        url: 'https://www.normas-iso.com/iso-27001/',
+                        color: '#32F991'
+                    },
+                    {
+                        id: 3,
+                        name: 'ISO 27.002',
+                        url: 'https://www.normas-iso.com/?s=27002',
+                        color: '#32F991'
+                    },
+                    {
+                        id: 4,
+                        name: 'Estándares Nist',
+                        url: 'https://www.nist.gov/standards',
+                        color: '#0094FF'
+                    },
+                    {
+                        id: 5,
+                        name: 'CIS Control',
+                        url: 'https://www.cisecurity.org/controls',
+                        color: '#0094FF'
+                    }
                 ]
             },
         ]
