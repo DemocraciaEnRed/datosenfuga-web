@@ -1,8 +1,18 @@
-.panel-timeline__question{
-    color: red;
-    font-size: 18px;
-    margin-top: 41px;
-}
-.panel-timeline__answers-hidden{
-    display: none;
+.panel-timeline {
+    &__question {
+        color: red;
+        font-size: 18px;
+        margin-top: 41px;
+    }
+
+    &__answers-hidden {
+        display: none;
+    }
+
+    &__toggle {
+        text-decoration-line: underline;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: 1vw
+    }
 }

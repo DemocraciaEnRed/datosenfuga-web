@@ -3,24 +3,53 @@ import './PanelTimeline.scss';
 import TimelineAnswers from './TimelineAnswers';
 
 const PanelTimeline = ({ data }) => {
-    const [hidden, setHidden] = useState(true)
+    const [answShown, setAnswShown] = useState([])
+
+    const showAnswer = (idAnsw) => {
+        if (answShown.length > 0) {
+            if (answShown.find(x => x === idAnsw) !== undefined) { return true }
+            return false
+        }
+    }
+
+    const spliceAnswer = (idAnsw) => {
+        const copy = [...answShown]
+        const answIndex = copy.findIndex((id) => id === idAnsw);
+        copy.splice(answIndex, 1);
+        return copy
+    }
+
+    const addAnswer = (idAnsw) => {
+        if (answShown.length > 0) {
+            const copy = [...answShown]
+            copy.push(idAnsw)
+            return copy
+        }
+        return [idAnsw]
+    }
+
     return (
-        <div>
-            {data.map(({ qn, answ }) => {
+        <div className="panel-timeline">
+            {data.map(({ id, qn, answ }) => {
                 return (
-                    <div key={qn.name + Math.floor(Math.random() * 10)}>
+                    <div key={id + answ[0].t + answ[0].name}>
                         <h4 className="panel-timeline__question">{qn}</h4>
-                        <div className={hidden ? 'panel-timeline__answers-hidden' : ''}>
-                            <TimelineAnswers answ={answ} setHidden={setHidden}/>
-                        </div>
-                        <div className={hidden ? '' : 'panel-timeline__answers-hidden'}>
-                            <p style={{ textDecorationLine: 'underline', cursor:'pointer', marginTop: '30px' }} onClick={()=>setHidden(false)}>Ver respuestas de los y las panelistas</p>
-                        </div>
+                        {showAnswer(id) ?
+                            <>
+                                <div>
+                                    <TimelineAnswers answ={answ} />
+                                </div>
+                                <div>
+                                    <p className='panel-timeline__toggle' onClick={() => setAnswShown(spliceAnswer(id))}>Ocultar respuestas</p>
+                                </div>
+                            </>
+                            :
+                            <p className='panel-timeline__toggle' onClick={() => setAnswShown(addAnswer(id))}>Ver respuestas de los y las panelistas</p>
+                        }
                     </div>
                 )
             })}
-
-        </div>
+        </div >
     )
 }
 

@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import './TimelineAnswers.scss';
-const TimelineAnswers = ({ answ, setHidden }) => {
+const TimelineAnswers = ({ answ }) => {
     let tlineKey = 0;
     return (
         <>
@@ -28,19 +28,7 @@ const TimelineAnswers = ({ answ, setHidden }) => {
                     )
                 }
                 )}
-
             </div>
-            <p
-                style={{
-                    textDecorationLine: 'underline',
-                    cursor: 'pointer',
-                    marginTop: '30px',
-                    position: 'relative',
-                    marginLeft:'1vw'
-                }}
-                onClick={() => setHidden(true)}>
-                Ocultar respuestas
-            </p>
         </>
     )
 }

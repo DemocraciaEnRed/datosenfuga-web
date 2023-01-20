@@ -54,7 +54,8 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {
+                    {   
+                        id: 0,
                         qn: '¿Cuál es el problema en Argentina en materia de ciberseguridad? / ¿Cuál es el diagnóstico?',
                         answ: [
                             {
@@ -81,7 +82,8 @@ const actividadesData = {
                             },
                         ]
                     },
-                    {
+                    {   
+                        id: 1,
                         qn: '¿Tenemos que cambiar una ley?, ¿Se puede interpretar el código penal que hoy tenemos de manera diferente para que esta situación cambie?',
                         answ: [
                             {
@@ -107,7 +109,8 @@ const actividadesData = {
                             }
                         ]
                     },
-                    {
+                    {   
+                        id: 2,
                         qn: 'En vistas de un proyecto de ley de protección de datos personales, Gaspar te pregunto ¿Cómo lo ves?, ¿Cómo lo analizas?',
                         answ: [
                             {
@@ -188,7 +191,8 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {
+                    {   
+                        id: 0,
                         qn: '¿Cuál es el problema en Argentina en materia de ciberseguridad?/¿Cuál es el diagnóstico?',
                         answ: [
                             {
@@ -242,7 +246,8 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {
+                    {   
+                        id: 0,
                         qn: '¿Cuál ?',
                         answ: [
                             {
@@ -288,7 +293,8 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {
+                    {   
+                        id: 0,
                         qn: '¿Cuál ?',
                         answ: [
                             {
@@ -334,7 +340,8 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {
+                    {   
+                        id: 0,
                         qn: '¿Cuál ?',
                         answ: [
                             {
@@ -380,7 +387,8 @@ const actividadesData = {
                     ]
                 },
                 highlighted: [
-                    {
+                    {   
+                        id: 0,
                         qn: '¿Cuál ?',
                         answ: [
                             {
