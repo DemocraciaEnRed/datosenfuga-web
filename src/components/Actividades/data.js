@@ -546,21 +546,21 @@ const actividadesData = {
                         answ: [
                             {
                                 t: '01:09:42',
-                                name: 'Beatriz',
+                                name: 'Sebastián',
                                 dialog: {
                                     ch: 'Tenemos que entender la tecnología como un proceso social, económico, político y por qué no jurídico en el cual tenemos voz y voto'
                                 }
                             },
                             {
                                 t: '01:41:16',
-                                name: 'Beatriz',
+                                name: 'Sebastián',
                                 dialog: {
                                     ch: 'Cuándo hablamos de regulaciones fuertes, estamos hablando de regulaciones legales.'
                                 }
                             },
                             {
                                 t: '01:42:34',
-                                name: 'Beatriz',
+                                name: 'Sebastián',
                                 dialog: {
                                     ch: 'Cuando las tecnologías suponen la afectación de los derechos fundamentales de las personas, no debemos resignar las potestades que tenemos para regular con regulación litigable en un tribunal. Con regulaciòn que nos permita identificar responsabilidad civil o penal. Si tenemos que hacernos cargo de que cómo sociedades éstas tecnologías no llegan a operar en el vacío, llegan a operar en un sistema donde ya tenemos un sistema de derechos.'
                                 }
