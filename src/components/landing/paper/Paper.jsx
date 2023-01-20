@@ -6,7 +6,6 @@ import rvPaper from "../../../assets/papers/DATOS EN FUGA_ Reportantes de Vulner
 const Paper = () => {
   return (
     <div className="paper" id="paper">
-      <div className="paper__background"></div>
       <h2 className="paper__title">PAPER</h2>
       <div className="paper__content">
         <p className="paper__text">
