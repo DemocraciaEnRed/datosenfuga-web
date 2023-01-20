@@ -4,7 +4,7 @@ import actividadesData from "../data"
 import ActividadVideo from "../ActividadVideo/ActividadVideo"
 import PanelTabs from "./PanelTabs/PanelTabs"
 import PanelHighlighted from "./PanelHighlighted/PanelHighlighted"
-import RecursosButton from "./RecursosButton/ResourcesButton"
+import ResourcesButton from "./RecursosButton/ResourcesButton"
 
 const Actividad = ({ activity }) => {
 
@@ -28,7 +28,7 @@ const Actividad = ({ activity }) => {
                     <ActividadVideo data={panelData.videos} />
                     <PanelHighlighted data={panelData.highlighted} />
                     {(panelData.resourcesButton) && <h2 className="actividad__resources">Recursos</h2>}
-                    {(panelData.resourcesButton) && <RecursosButton data={panelData.resourcesButton} />}
+                    {(panelData.resourcesButton) && <ResourcesButton data={panelData.resourcesButton} />}
                 </div>
             </div>
         )
