@@ -6,9 +6,10 @@ import { useParams } from 'react-router-dom'
 import './Actividades.scss'
 
 const Actividades = () => {
+  
   const [panel, setPanel] = useState(0)
-
   const [activity, setActivity] = useState(0)
+
   let { id } = useParams();
   useEffect(() => {
     if (id) {

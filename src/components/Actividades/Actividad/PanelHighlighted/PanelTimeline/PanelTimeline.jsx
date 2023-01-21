@@ -1,10 +1,13 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './PanelTimeline.scss';
 import TimelineAnswers from './TimelineAnswers';
 
 const PanelTimeline = ({ data }) => {
+
     const [answShown, setAnswShown] = useState([])
 
+    useEffect(()=>{setAnswShown([])},[data])
+    
     const showAnswer = (idAnsw) => {
         if (answShown.length > 0) {
             if (answShown.find(x => x === idAnsw) !== undefined) { return true }
