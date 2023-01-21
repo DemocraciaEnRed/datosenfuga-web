@@ -17,7 +17,7 @@ import draFaliero from "../assets/actividades/johannaCaterinaFaliero.jpg"
 import florenciaC from "../assets/actividades/florCaffarone.png"
 import drAboso from "../assets/actividades/gustavoEduardoAboso.jfif"
 import antonellaB from "../assets/actividades/antonellaBentin.jfif"
-import anaHaydee from "../assets/actividades/AnaHaydeéDiIorio.jfif"
+import anaHaydee from "../assets/actividades/anaHaydeeDiIorio.jfif"
 import christianS from "../assets/actividades/christianSueiro.jpg"
 
 export const actividades = {
