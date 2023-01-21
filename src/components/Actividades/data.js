@@ -20,7 +20,7 @@ const actividadesData = {
                         {
                             id: 0,
                             name: 'Agustín Frizzera',
-                            position: 'Director Ejecutivo de "Democracia en Red"',
+                            position: 'Director Ejecutivo de Democracia en Red',
                             image: actividades.agustinF,
                             linkedinUrl: 'https://www.linkedin.com/in/agustin-frizzera-a33a792a/',
                             twitterUrl: 'https://twitter.com/agustinfrizzera'
@@ -376,7 +376,7 @@ const actividadesData = {
                         {
                             id: 0,
                             name: 'Agustín Frizzera',
-                            position: 'Director Ejecutivo de "Democracia en Red"',
+                            position: 'Director Ejecutivo de Democracia en Red',
                             image: actividades.agustinF,
                             linkedinUrl: 'https://www.linkedin.com/in/agustin-frizzera-a33a792a/',
                             twitterUrl: 'https://twitter.com/agustinfrizzera'
