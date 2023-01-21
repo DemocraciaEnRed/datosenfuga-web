@@ -369,7 +369,7 @@ const actividadesData = {
             {
                 id: 0,
                 name: 'Panel 1',
-                title: 'Panel 1',
+                title: 'Panel 1: Presentación',
                 videos: {
                     urlVideo: 'https://www.youtube.com/embed/VcmIax35RaY',
                     moderators: [
@@ -448,7 +448,7 @@ const actividadesData = {
             {
                 id: 1,
                 name: 'Panel 2',
-                title: 'Panel 2',
+                title: 'Panel 2: Dime a quién te pareces y te diré que has hecho. Discusiones en torno a las técnicas de reconocimiento facial',
                 videos: {
                     urlVideo: 'https://www.youtube.com/embed/VcmIax35RaY',
                     moderators: [
@@ -580,7 +580,7 @@ const actividadesData = {
             {
                 id: 2,
                 name: 'Panel 3',
-                title: 'Panel 3',
+                title: 'Panel 3: Mis dispositivos me condenan. Discusiones en torno a la prueba digital y los límites constitucionales para su producción',
                 videos: {
                     urlVideo: 'https://www.youtube.com/embed/n5HAJFZ-yZE',
                     moderators: [
@@ -725,7 +725,7 @@ const actividadesData = {
             {
                 id: 3,
                 name: 'Panel 4',
-                title: 'Panel 4',
+                title: 'Panel 4: Conferencias de cierre. Identidad digital y protección de datos personales y estándares en ciberseguridad',
                 videos: {
                     urlVideo: 'https://www.youtube.com/embed/n5HAJFZ-yZE',
                     moderators: [
