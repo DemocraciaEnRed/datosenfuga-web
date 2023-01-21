@@ -1,0 +1,56 @@
+.paneltabs {
+  &__container {
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+  }
+  &__buttonsContainer {
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    & button {
+      cursor: pointer;
+      font-size: 24px;
+      text-transform: uppercase;
+      width: 226px;
+      background-color: #000;
+      color: #fff;
+      border-radius: 6px;
+      border: none;
+      &.active {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px)  {
+  .paneltabs {
+    &__buttonsContainer{
+      height: 45px;
+      border-radius: 7px;
+      & button {
+        font-size: 16px;
+        border-radius: 4px;
+        width: 150px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .paneltabs {
+    &__buttonsContainer{
+      height: 100%;
+      flex-direction: column;
+      & button {
+        height: 60px;
+        width: 226px;
+        font-size: 24px;
+      }
+    }
+  }
+}

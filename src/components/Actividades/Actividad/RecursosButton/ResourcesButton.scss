@@ -1,0 +1,48 @@
+.resourcesButton {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    &__container {
+      margin-top: 5vh;
+      width: 1050px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      .button {
+        width: 500px;
+        height: 60px;
+        border-radius: 10px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        a {
+          text-decoration: none;
+          color: #000000;
+        }
+        &__text {
+          text-align: left;
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 25px;
+          text-transform: uppercase;
+          color: #000000;
+          padding-left: 30px;
+        }
+      }
+  }
+}
+
+@media screen and (max-width: 545px)  {
+  .resourcesButton {
+    &__container {
+      .button {
+        width: 80vw;
+      }
+    }
+  }
+}

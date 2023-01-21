@@ -1,0 +1,76 @@
+.actividad {
+  &__container {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #000000;
+  }
+  &__wrapper {
+    padding: 5vw;
+  }
+  &__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #FF0000;
+    margin-top: 46px;
+  }
+  &__subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__aboutTitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 58px;
+  }
+  &__aboutText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 24px;
+  }
+  &__panelTitle {
+    margin-top: 5.8vw;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: rgba(255, 46, 0, 0.85);
+  }
+  &__resources {
+    margin-top: 10vh;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
+
+@media screen and (max-width: 490px)  {
+  .actividad {
+    &__title {
+      font-size: 35px;
+    }
+  }
+}
