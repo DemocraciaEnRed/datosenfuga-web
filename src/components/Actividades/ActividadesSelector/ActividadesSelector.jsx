@@ -2,18 +2,21 @@ import './ActividadesSelector.scss';
 import actividadesData from '../data.js'
 import { Link } from "react-router-dom";
 
-const ActividadesSelector = ({activity, setActivity}) => {
+
+const ActividadesSelector = ({ activity, setPanel }) => {
   return (
     <div className="selector__container">
       <h1 className="selector__title">{actividadesData.mainTitle}</h1>
       <p className="selector__subtitle">{actividadesData.subTitle}</p>
       <div className="selector__selectionCards">
         {actividadesData.activities.map((a) =>
-        <button onClick={() => setActivity(a.id)} key={a.id} className={`${activity === a.id ? 'active' : ''}`}>
-          <p className="selector__cardTitle" >
-            {a.title}
-          </p>
-        </button>
+          <Link key={a.id} to={`/acciones/${a.id}`}>
+            <button key={a.id} onClick={() => setPanel(0)} className={`${activity === a.id ? 'active' : ''}`}>
+              <p className="selector__cardTitle" >
+                {a.title}
+              </p>
+            </button>
+          </Link>
         )}
       </div>
     </div>

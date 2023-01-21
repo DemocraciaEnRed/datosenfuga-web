@@ -6,6 +6,8 @@ import { useParams } from 'react-router-dom'
 import './Actividades.scss'
 
 const Actividades = () => {
+  const [panel, setPanel] = useState(0)
+
   const [activity, setActivity] = useState(0)
   let { id } = useParams();
   useEffect(() => {
@@ -17,8 +19,8 @@ const Actividades = () => {
   return (
     <>
       <div className="actividades">
-        <ActividadesSelector activity={activity} setActivity={setActivity}/>
-        <Actividad activity={activity}/>
+        <ActividadesSelector activity={activity} setPanel={setPanel} />
+        <Actividad activity={activity} panel={panel} setPanel={setPanel} />
       </div>  
         <Organizaciones />
     </>

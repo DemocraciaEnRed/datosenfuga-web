@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react"
 import './Actividad.scss'
 import actividadesData from "../data"
 import ActividadVideo from "../ActividadVideo/ActividadVideo"
@@ -6,11 +5,7 @@ import PanelTabs from "./PanelTabs/PanelTabs"
 import PanelHighlighted from "./PanelHighlighted/PanelHighlighted"
 import ResourcesButton from "./RecursosButton/ResourcesButton"
 
-const Actividad = ({ activity }) => {
-
-    const [panel, setPanel] = useState(0)
-
-    useEffect(() => setPanel(0), [activity]);
+const Actividad = ({ activity, panel, setPanel }) => {
 
     if (activity !== 0) {
         const { activities } = actividadesData
@@ -34,6 +29,5 @@ const Actividad = ({ activity }) => {
         )
     }
 }
-
 
 export default Actividad
