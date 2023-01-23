@@ -15,7 +15,7 @@ const Casos = () => {
     if (id) {
       let casoID = Number(id)
       if(casoID === undefined) {return}
-      else if(id > 1 && id <= casos.length){
+      else if(id > 0 && id <= casos.length){
         setCaso(casoID)
       } else {
         navigate("/notFound");
