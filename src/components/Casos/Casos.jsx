@@ -2,20 +2,26 @@ import "./Casos.scss";
 import { avatars } from "../../assets/casos";
 import { casos } from "./data";
 import { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import Brief from "./Brief/Brief";
 import Timeline from "./Timeline/Timeline";
 import CasosVideo from "./CasosVideo/CasosVideo";
 const Casos = () => {
   const [caso, setCaso] = useState(0);
   let { id } = useParams();
+  const navigate = useNavigate()
 
   useEffect(() => {
     if (id) {
       let casoID = Number(id)
-      setCaso(casoID)
+      if(casoID === undefined) {return}
+      else if(id > 1 && id <= casos.length){
+        setCaso(casoID)
+      } else {
+        navigate("/notFound");
+      }
     }
-  }, [id]);
+  }, [id, navigate]);
 
   return (
     <>
