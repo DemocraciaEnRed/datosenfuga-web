@@ -2,6 +2,8 @@
   margin-top: 144px;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  align-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
@@ -10,7 +12,7 @@
     width: 50vw;
   }
   &__members {
-    min-width: 30vw;
+    max-width: 30vw;
     .membersTitle {
       font-family: 'Open Sans';
       font-style: normal;
@@ -30,6 +32,7 @@
       text-transform: uppercase;
       color: rgba(255, 255, 255, 0.85);
       padding-left: 10px;
+      word-wrap: break-word;
     }
     .members__info {
       padding-top: 15px;
@@ -74,21 +77,28 @@
   }
 }
 
-
-@media screen and (max-width: 1024px)  {
+@media screen and (min-width: 425px) and (max-width: 767px) {
   .actividadVideo {
     iframe {
       height: 50vh;
-      width: 85vw;
+      width: 80vw;
+    }
+    &__members {
+      max-width: none;
     }
   }
 }
 
 @media screen and (max-width: 425px)  {
   .actividadVideo {
+    margin-top: 18px;
     iframe {
       height: 50vh;
       width: 90vw;
+    }
+    &__members {
+      max-width: none;
+      margin-top: 8px;
     }
   }
 }
