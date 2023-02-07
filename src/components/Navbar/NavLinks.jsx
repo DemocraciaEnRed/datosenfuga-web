@@ -21,7 +21,7 @@ const NavLinks = () => {
                 <HashLink to="/muestra">Muestra</HashLink>
             </li>
             <li>
-                <HashLink to="/acciones">Acciones</HashLink>
+                <HashLink to="/acciones">Encuentros</HashLink>
             </li>
             <li>
                 <HashLink smooth to="/#organizaciones">Quiénes somos</HashLink>

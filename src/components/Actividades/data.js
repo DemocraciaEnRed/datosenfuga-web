@@ -2,7 +2,7 @@ import { actividades } from "../../constants"
 
 const actividadesData = {
     mainTitle: 'Encuentros en el marco del proyecto',
-    subTitle: 'Selecciona uno de los encuentros para acceder a la grabacion de los paneles y su detalle',
+    subTitle: 'Seleccioná uno de los encuentros para acceder a la grabación de los paneles y su detalle',
     activities: [{
         id: 1,
         title: 'Encuentro Regional de Políticas Públicas de Seguridad Informática',
@@ -56,7 +56,7 @@ const actividadesData = {
                 highlighted: [
                     {
                         id: 0,
-                        qn: '¿Cuál es el problema en Argentina en materia de ciberseguridad? / ¿Cuál es el diagnóstico?',
+                        qn: '¿Cuál es el problema en Argentina en materia de ciberseguridad?, ¿Cuál es el diagnóstico?',
                         answ: [
                             {
                                 t: '00:00:47',
@@ -361,7 +361,7 @@ const actividadesData = {
     },
     {
         id: 2,
-        title: 'Jornada Justicia 4.0: Algoritmos y prueba digital',
+        title: 'Jornada Justicia 4.0: Algorítmos y prueba digital',
         subtitle: 'Discusiones ético-jurídicas desde una perspectiva de la defensa',
         aboutTitle: 'Sobre el encuentro',
         aboutSubtitle: 'Fue un encuentro para debatir sobre las implicancias de la incorporación de las nuevas tecnologías en la administración de justicia, desde la perspectiva de la defensa pública.\nLos retos y desafíos que supone la innovación tecnológica en la investigación y procesamiento de casos judiciales.',
