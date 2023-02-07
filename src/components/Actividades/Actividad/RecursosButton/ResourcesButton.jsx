@@ -2,8 +2,9 @@ import React from 'react'
 import "./ResourcesButton.scss"
 
 const ResourcesButton = ({ data }) => {
+  console.log(data.length)
   return (
-    <div className='resourcesButton'>
+    <div className={data.length > 1 ? 'resourcesButton' : 'resourcesButton flex-start'}>
       <div className='resourcesButton__container'>
         {
           data.map((d) => {
