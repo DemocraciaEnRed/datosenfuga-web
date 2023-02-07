@@ -783,7 +783,7 @@ const actividadesData = {
                     {
                         id: 0,
                         name: 'Art. 18, 28, 43 y 212 del Código Procesal Penal',
-                        url: 'http://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/383/texact.htm',
+                        url: 'http://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/239340/norma.htm',
                         color: '#FF0000'
                     }
                 ]
