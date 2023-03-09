@@ -6,29 +6,17 @@ import "swiper/css";
 import "swiper/scss/navigation";
 
 const Videos = () => {
-  // const nextbtn = document.querySelector(".swiper-button-next").addEventListener(onclick, () => {console.log("next")});
-  // const prevbtn = document.querySelector(".swiper-button-prev").addEventListener(onclick, () => {console.log("prev")});
+
+  const decorativeString = (color) => <h2 className={`videos__title--${color}`}>
+    #datos<span>en</span>fuga #datos<span>en</span>fuga #datos <span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span> fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos <span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>fuga
+  </h2>
+
   return (
     <div id="ABC" className="videos">
       <div className="videos__title">
-        <h2 className="videos__title--pink">
-          #datos<span>en</span>fuga #datos<span>en</span>fuga #datos
-          <span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>
-          fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos
-          <span>en</span>fuga
-        </h2>
-        <h2 className="videos__title--white">
-          #datos<span>en</span>fuga #datos<span>en</span>fuga #datos
-          <span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>
-          fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos
-          <span>en</span>fuga
-        </h2>
-        <h2 className="videos__title--green">
-          #datos<span>en</span>fuga #datos<span>en</span>fuga #datos
-          <span>en</span>fuga #datos<span>en</span>fuga #datos<span>en</span>
-          fuga #datos<span>en</span>fuga #datos<span>en</span>fuga #datos
-          <span>en</span>fuga
-        </h2>
+        {decorativeString('pink')}
+        {decorativeString('white')}
+        {decorativeString('green')}
       </div>
       <div className="videos__box">
         <h3 className="videos__subtitle">ABC de Ciberseguridad</h3>
@@ -51,17 +39,17 @@ const Videos = () => {
                   "*"
                 );
               document
-              .getElementById("video3")
-              .contentWindow.postMessage(
-                '{"event":"command","func":"pauseVideo","args":""}',
-                "*"
-              );
+                .getElementById("video3")
+                .contentWindow.postMessage(
+                  '{"event":"command","func":"pauseVideo","args":""}',
+                  "*"
+                );
               document
-              .getElementById("video4")
-              .contentWindow.postMessage(
-                '{"event":"command","func":"pauseVideo","args":""}',
-                "*"
-              );
+                .getElementById("video4")
+                .contentWindow.postMessage(
+                  '{"event":"command","func":"pauseVideo","args":""}',
+                  "*"
+                );
             }}
           >
             <SwiperSlide>
@@ -99,11 +87,6 @@ const Videos = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-
-        {/* <button className="videos__button">
-          <img src={videoIcon} alt="download" />
-          <span>Conoce otros casos como este</span>
-        </button> */}
       </div>
     </div>
   );

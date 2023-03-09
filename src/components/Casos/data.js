@@ -27,7 +27,8 @@ export const casos = [
       child14:<b>se determinó que había entrado al sistema, pero no de manera indebida ni causando daño alguno, sino que actuó con la (buena) intención de alertar sobre la facilidad de ejecutar un fraude informático.</b>
     },
     timeline:true,
-    video:true
+    video:true,
+    keywords: 'sistema de votación, Boleta Única Electrónica, vulnerabilidades, reportar'
   },
   {
     id: 2,
@@ -55,6 +56,7 @@ export const casos = [
     },
     timeline:false,
     video:false,
+    keywords: 'homebanking, Banco de la Nación Argentina, vulnerabilidades, identificar'
   },
   {
     id: 3,
@@ -72,5 +74,6 @@ export const casos = [
     },
     timeline:true,
     video:false,
+    keywords: 'sistema de Boleta unica electronica, fallas, denuncias, #LaGorraLeaks'
   }
 ];

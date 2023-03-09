@@ -6,6 +6,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import Brief from "./Brief/Brief";
 import Timeline from "./Timeline/Timeline";
 import CasosVideo from "./CasosVideo/CasosVideo";
+import Seo from "../SEO/Seo";
 const Casos = () => {
   const [caso, setCaso] = useState(0);
   let { id } = useParams();
@@ -14,8 +15,8 @@ const Casos = () => {
   useEffect(() => {
     if (id) {
       let casoID = Number(id)
-      if(casoID === undefined) {return}
-      else if(id > 0 && id <= casos.length){
+      if (casoID === undefined) { return }
+      else if (id > 0 && id <= casos.length) {
         setCaso(casoID)
       } else {
         navigate("/notFound");
@@ -23,8 +24,27 @@ const Casos = () => {
     }
   }, [id, navigate]);
 
+  const seoData = () => {
+    if (caso === 0) {
+      const data = {
+        title: "Casos",
+        description: "Conoce más sobre los casos y consecuencias de los #DatosenFuga"
+      }
+      return data;
+    } else {
+      const c = casos.find((c) => c.id === caso)
+      const data = {
+        title: `Caso ${c.name}`,
+        description: c.tooltip,
+        keywords: `${c.name}, ${c.year}, ciberseguridad, ${c.keywords}`
+      }
+      return data;
+    }
+  }
+
   return (
     <>
+      <Seo data={seoData()} />
       <div className="casos">
         <h2 className="casos__title">
           Conocé más sobre los casos y <br /> consecuencias de los #Datosenfuga
@@ -74,36 +94,6 @@ const Casos = () => {
               );
             }
           })}
-
-          {/*/////////////////////////////////////////////////// CASOS NO DESBLOQUEADOS PENDIENTES DE MAPEO */}
-          {/* CASO 2
-          <div className="casos__tooltip">
-            <img
-              src={avatars.locked}
-              alt="caso bloqueado"
-              onMouseOver={(event) =>
-                (event.target.nextSibling.style.visibility = "visible")
-              }
-              onMouseOut={(event) =>
-                (event.target.nextSibling.style.visibility = "hidden")
-              }
-            />
-            <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
-          </div> */}
-          {/* CASO 3
-          <div className="casos__tooltip">
-            <img
-              src={avatars.locked}
-              alt="caso bloqueado"
-              onMouseOver={(event) =>
-                (event.target.nextSibling.style.visibility = "visible")
-              }
-              onMouseOut={(event) =>
-                (event.target.nextSibling.style.visibility = "hidden")
-              }
-            />
-            <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
-          </div> */}
           {/* CASO 4 */}
           <div className="casos__tooltip">
             <img
@@ -147,12 +137,12 @@ const Casos = () => {
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
           </div>
         </div>
-      {caso !== 0 && 
-        <>
-          <Brief id={caso} />
-          <CasosVideo id={caso} />
-          <Timeline id={caso} />
-        </>
+        {caso !== 0 &&
+          <>
+            <Brief id={caso} />
+            <CasosVideo id={caso} />
+            <Timeline id={caso} />
+          </>
         }
       </div>
     </>
