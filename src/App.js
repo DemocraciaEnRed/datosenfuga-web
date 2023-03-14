@@ -4,11 +4,11 @@ import Loader from "./components/loader/Loader";
 import AppRouter from "./components/AppRouter";
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 1500);
+  // setTimeout(() => {
+  //   setLoading(false);
+  // }, 1500);
 
   if (loading) {
     return (

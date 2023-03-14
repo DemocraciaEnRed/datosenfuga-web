@@ -1,7 +1,7 @@
 import "./Paper.scss";
 import dload from "../../../assets/iconos/iconoDownload.svg";
-import pgPaper from "../../../assets/papers/DATOS EN FUGA _ Panorama General.pdf";
-import rvPaper from "../../../assets/papers/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf";
+import pgPaper from "../../../assets/papers/DATOS-EN-FUGA_Panorama-General.pdf";
+import rvPaper from "../../../assets/papers/DATOS-EN-FUGA_Reportantes-de-Vulnerabilidades.pdf";
 
 const Paper = () => {
   return (

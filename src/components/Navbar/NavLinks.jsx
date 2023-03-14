@@ -1,30 +1,30 @@
-import { HashLink } from "react-router-hash-link";
+import { Link } from 'react-router-dom';
 const NavLinks = () => {
     return (
         <>
             <li>
-                <HashLink smooth to="/">Proyecto</HashLink>
+                <Link smooth to="/">Proyecto</Link>
             </li>
             <li>
-                <HashLink smooth to="/#paper">Paper</HashLink>
+                <a href="/#paper">Paper</a>
             </li>
             <li>
-                <HashLink smooth to="/#ABC">ABC</HashLink>
+                <a href="/#ABC">ABC</a>
             </li>
             <li>
-                <HashLink smooth to="/#entrevistas">Entrevistas</HashLink>
+                <a href="/#entrevistas">Entrevistas</a>
             </li>
             <li>
-                <HashLink to="/casos">Casos</HashLink>
+                <Link to="/casos">Casos</Link>
             </li>
             <li>
-                <HashLink to="/muestra">Muestra</HashLink>
+                <Link to="/muestra">Muestra</Link>
             </li>
             <li>
-                <HashLink to="/encuentros">Encuentros</HashLink>
+                <Link to="/encuentros">Encuentros</Link>
             </li>
             <li>
-                <HashLink smooth to="/#organizaciones">Quiénes somos</HashLink>
+                <a href="/#organizaciones">Quiénes somos</a>
             </li>
         </>
     )
