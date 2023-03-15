@@ -1,13 +1,12 @@
 import './Sticky.scss'
-import { Link } from 'react-router-dom';
 const Sticky = () => {
   return (
     <div className="app__muestra__sticky">
         <ul>
-          <li><Link to='/muestra/#sobreLaMuestra'>Sobre la muestra</Link></li>
-          <li><Link to='/muestra/#eventoObras'>Obras seleccionadas</Link></li>
+          <li><a href='#sobreLaMuestra'>Sobre la muestra</a></li>
+          <li><a href='#eventoObras'>Obras seleccionadas</a></li>
           {/* <li><a href='#eventoInscripciones'>Evento - inscripción</a></li> */}
-          <li><Link to='/muestra/#reviviLaMuestra'>Reviví la muestra</Link></li>
+          <li><a href='#reviviLaMuestra'>Reviví la muestra</a></li>
         </ul>
       </div>
   )
