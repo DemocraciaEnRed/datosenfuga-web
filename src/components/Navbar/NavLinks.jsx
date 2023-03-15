@@ -3,7 +3,7 @@ const NavLinks = () => {
     return (
         <>
             <li>
-                <Link smooth to="/">Proyecto</Link>
+                <Link to="/">Proyecto</Link>
             </li>
             <li>
                 <a href="/#paper">Paper</a>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component, useEffect } from "react";
 import "./Muestra.scss";
 import { logos } from "../../constants";
 import Sticky from "./Sticky/Sticky";
@@ -7,17 +7,22 @@ import Obras from "./Obras/Obras";
 // import Typeform from "../Typeform/Typeform";
 import Evento from "./Evento/Evento";
 import Seo from "../SEO/Seo";
+import useScrollAfterMount from "../hooks/useScrollAfterMount";
 
 
 const Muestra = () => {
-const seoData = {
-  title: 'Arte y Datos',
-  description: 'La única muestra de arte sobre el uso de datos.',
-  keywords:'Arte, Experiencia multidisciplinaria, Infraestructuras, Sistemas de información, Plataformas, Datos personales, Acceso a datos, Ciudadanía, Penalización, Reportar vulnerabilidades.'
-};
+
+  useScrollAfterMount()
+
+  const seoData = {
+    title: 'Arte y Datos',
+    description: 'La única muestra de arte sobre el uso de datos.',
+    keywords: 'Arte, Experiencia multidisciplinaria, Infraestructuras, Sistemas de información, Plataformas, Datos personales, Acceso a datos, Ciudadanía, Penalización, Reportar vulnerabilidades.'
+  };
+
   return (
     <>
-      <Seo data={seoData}/>
+      <Seo data={seoData} />
       <div className="app__muestra">
         {/* Header naranja */}
         <div className="app__muestra-header-obras">
