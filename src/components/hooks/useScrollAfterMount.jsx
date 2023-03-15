@@ -6,7 +6,14 @@ const useScrollAfterMount = () => {
     useEffect(() => {
         if (location.hash) {
             const scrollElem = document.querySelector(location.hash);
-            scrollElem && window.scrollTo(0, scrollElem.offsetTop - 20);
+            if (scrollElem){
+                if(location.pathname === '/muestra'){
+                    // el nav con position sticky desfaza el offset top.
+                    window.scrollTo(0,scrollElem.offsetTop + 513)
+                }else{
+                    window.scrollTo(0, scrollElem.offsetTop);
+                }
+            }
         }
     }, []
     )
