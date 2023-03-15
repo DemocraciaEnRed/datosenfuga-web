@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.2485e740.css",
-    "main.js": "/static/js/main.fd5d0f7a.js",
+    "main.css": "/static/css/main.3b3e3e29.css",
+    "main.js": "/static/js/main.fc94221d.js",
     "static/media/calle_vista.png": "/static/media/calle_vista.90ac5dd1f76a32c34117.png",
     "static/media/gifCanilla2.gif": "/static/media/gifCanilla2.5ff775e3163cf58b9a73.gif",
     "static/media/books.png": "/static/media/books.c6c6f445faff0da35dc4.png",
     "static/media/carpeta_fotos.png": "/static/media/carpeta_fotos.8e3932511c37fdb99c22.png",
-    "static/media/gifLoader.gif": "/static/media/gifLoader.54fb5fd42f3629e5442d.gif",
     "static/media/Datos_028.jpg": "/static/media/Datos_028.d927ee7cdffd97b00303.jpg",
     "static/media/Datos_140.jpg": "/static/media/Datos_140.24307b867f6444e7e917.jpg",
     "static/media/Datos_124.jpg": "/static/media/Datos_124.4603541c9e61338ddbd0.jpg",
@@ -19,7 +18,7 @@
     "static/media/Datos_038.jpg": "/static/media/Datos_038.8d0c9da9516fc616987e.jpg",
     "static/media/Datos_019.jpg": "/static/media/Datos_019.051076a92a2b08ac08b4.jpg",
     "static/media/Datos_012.jpg": "/static/media/Datos_012.a10f48a8ab2daeb0e635.jpg",
-    "static/media/DATOS EN FUGA _ Panorama General.pdf": "/static/media/DATOS EN FUGA _ Panorama General.4c30d71445169daa071d.pdf",
+    "static/media/DATOS-EN-FUGA_Panorama-General.pdf": "/static/media/DATOS-EN-FUGA_Panorama-General.4c30d71445169daa071d.pdf",
     "static/media/Datos_104.jpg": "/static/media/Datos_104.822eb0ad738a6df662d0.jpg",
     "static/media/Datos_082.jpg": "/static/media/Datos_082.f26ba0f164a985a8493d.jpg",
     "static/media/Datos_047.jpg": "/static/media/Datos_047.56134ab7496deccc1191.jpg",
@@ -40,7 +39,7 @@
     "static/media/Datos_001.jpg": "/static/media/Datos_001.375ecbbee9c74f0fd85a.jpg",
     "static/media/Datos_024.jpg": "/static/media/Datos_024.0276688ea742a4a3f3fe.jpg",
     "static/media/Datos_118.jpg": "/static/media/Datos_118.775c1b75883bc8a08a02.jpg",
-    "static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.pdf": "/static/media/DATOS EN FUGA_ Reportantes de Vulnerabilidades.cc8440b556c836af3ef7.pdf",
+    "static/media/DATOS-EN-FUGA_Reportantes-de-Vulnerabilidades.pdf": "/static/media/DATOS-EN-FUGA_Reportantes-de-Vulnerabilidades.cc8440b556c836af3ef7.pdf",
     "static/media/Datos_023.jpg": "/static/media/Datos_023.c6dbade90c1791617dc2.jpg",
     "static/media/Datos_002.jpg": "/static/media/Datos_002.1bfb0564b0a791b2c14a.jpg",
     "static/media/Datos_109.jpg": "/static/media/Datos_109.b8ae7ff29958cae9dafa.jpg",
@@ -82,9 +81,9 @@
     "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.0009c8fdd42b9f5766b20f0efae9bbd8.svg",
     "static/media/button.svg": "/static/media/button.42ee749ecdd9c83b54eb860ee075d4b8.svg",
     "static/media/postulaciones.svg": "/static/media/postulaciones.c28aa203f3d28398b072e5350d72be04.svg",
+    "index.html": "/index.html",
     "static/media/iconoTwiter.svg": "/static/media/iconoTwiter.d1ba8cd7640d9f564897902db51199ff.svg",
     "static/media/evento.svg": "/static/media/evento.b69d1a1cbd900c7526684ccf24976ac1.svg",
-    "index.html": "/index.html",
     "static/media/iconoTwitterBg.svg": "/static/media/iconoTwitterBg.db98bfdf5ee809b9f0d1aa03a17e1317.svg",
     "static/media/publicacion.svg": "/static/media/publicacion.05b9c67e0ced1174a962a713040840ec.svg",
     "static/media/convocatoria.svg": "/static/media/convocatoria.145bac470d20986ecc061caa46eadf7a.svg",
@@ -98,11 +97,11 @@
     "static/media/burgerMenu.svg": "/static/media/burgerMenu.e074d0825ca9743fb97d8c0cddc96621.svg",
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
-    "main.2485e740.css.map": "/static/css/main.2485e740.css.map",
-    "main.fd5d0f7a.js.map": "/static/js/main.fd5d0f7a.js.map"
+    "main.3b3e3e29.css.map": "/static/css/main.3b3e3e29.css.map",
+    "main.fc94221d.js.map": "/static/js/main.fc94221d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2485e740.css",
-    "static/js/main.fd5d0f7a.js"
+    "static/css/main.3b3e3e29.css",
+    "static/js/main.fc94221d.js"
   ]
 }
