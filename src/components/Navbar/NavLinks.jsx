@@ -4,28 +4,28 @@ const NavLinks = () => {
     return (
         <>
             <li>
-                <HashLink smooth to="/">Proyecto</HashLink>
+                <Link to="/">Proyecto</Link>
             </li>
             <li>
-                <HashLink smooth to="/#paper">Paper</HashLink>
+                <a href="/#paper">Paper</a>
             </li>
             <li>
-                <HashLink smooth to="/#ABC">ABC</HashLink>
+                <a href="/#ABC">ABC</a>
             </li>
             <li>
-                <HashLink smooth to="/#entrevistas">Entrevistas</HashLink>
+                <a href="/#entrevistas">Entrevistas</a>
             </li>
             <li>
-                <HashLink to="/casos">Casos</HashLink>
+                <Link to="/casos">Casos</Link>
             </li>
             <li>
-                <HashLink to="/muestra">Muestra</HashLink>
+                <Link to="/muestra">Muestra</Link>
             </li>
             <li>
-                <HashLink to="/acciones">Encuentros</HashLink>
+                <Link to="/encuentros">Encuentros</Link>
             </li>
             <li>
-                <HashLink smooth to="/#organizaciones">Quiénes somos</HashLink>
+                <a href="/#organizaciones">Quiénes somos</a>
             </li>
             <li>
                 <a href="https://drive.google.com/file/d/1E98MIeIvUPRuz2jz_EODQy4TKd3Xahnw/view" className="link-pdf" target="_blank" rel="noreferrer">Amparo  <img src={logos.pdf}  alt="pdf logo" /></a>

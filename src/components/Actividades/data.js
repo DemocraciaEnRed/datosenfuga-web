@@ -9,13 +9,16 @@ const actividadesData = {
         subtitle: 'Hacia un marco regulatorio para el reporte de vulnerabilidades en el Cono Sur.',
         aboutTitle: 'Sobre el encuentro',
         aboutSubtitle: 'Es un espacio para que autoridades nacionales y regionales, expertas en materia de ciberseguridad, puedan exponer experiencias sobre las políticas públicas implementadas en sus respectivos países facilitando que se genere un debate e intercambio de desafíos actuales, buenas prácticas y potenciales colaboraciones a nivel regional en esta temática.',
+        seoTitle:'Encuentro regional de ciberseguridad',
+        seoDescription: 'Encuentro regional de políticas públicas de seguridad informática.',
+        keywords: 'Seguridad Informática, autoridades regionales, ciberseguridad, políticas públicas, buenas prácticas',
         panels: [
             {
                 id: 0,
                 name: 'Panel 1',
                 title: 'Panel 1: Realidad y desafíos de la detección de vulnerabilidades con miras al fortalecimiento de la ciberseguridad',
                 videos: {
-                    urlVideo: 'https://www.youtube.com/embed/RkS_jXVQP1g',
+                    urlVideo: 'https://www.youtube.com/embed/8HAWxEe6xFk',
                     moderators: [
                         {
                             id: 0,
@@ -144,7 +147,7 @@ const actividadesData = {
                 name: 'Panel 2',
                 title: 'Panel 2: Hacia políticas públicas para la correcta atención del reporte de vulnerabilidades',
                 videos: {
-                    urlVideo: 'https://www.youtube.com/embed/RkS_jXVQP1g',
+                    urlVideo: 'https://www.youtube.com/embed/AcjQJydELn4',
                     moderators: [
                         {
                             id: 0,
@@ -365,6 +368,9 @@ const actividadesData = {
         subtitle: 'Discusiones ético-jurídicas desde una perspectiva de la defensa',
         aboutTitle: 'Sobre el encuentro',
         aboutSubtitle: 'Fue un encuentro para debatir sobre las implicancias de la incorporación de las nuevas tecnologías en la administración de justicia, desde la perspectiva de la defensa pública.\nLos retos y desafíos que supone la innovación tecnológica en la investigación y procesamiento de casos judiciales.',
+        seoTitle: 'Justicia 4.0: Algoritmos y prueba digital',
+        seoDescription: 'Discusiones ético-jurídicas desde una perspectiva de la defensa.',
+        keywords: 'nuevas tecnologías, justicia, casos judiciales, debatir, innovación tecnológica, investigación',
         panels: [
             {
                 id: 0,

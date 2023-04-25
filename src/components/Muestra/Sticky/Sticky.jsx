@@ -1,13 +1,12 @@
 import './Sticky.scss'
-import { HashLink } from "react-router-hash-link";
 const Sticky = () => {
   return (
     <div className="app__muestra__sticky">
         <ul>
-          <li><HashLink to='/muestra/#sobreLaMuestra'>Sobre la muestra</HashLink></li>
-          <li><HashLink to='/muestra/#eventoObras'>Obras seleccionadas</HashLink></li>
+          <li><a href='#sobreLaMuestra'>Sobre la muestra</a></li>
+          <li><a href='#eventoObras'>Obras seleccionadas</a></li>
           {/* <li><a href='#eventoInscripciones'>Evento - inscripción</a></li> */}
-          <li><HashLink to='/muestra/#reviviLaMuestra'>Reviví la muestra</HashLink></li>
+          <li><a href='#reviviLaMuestra'>Reviví la muestra</a></li>
         </ul>
       </div>
   )
