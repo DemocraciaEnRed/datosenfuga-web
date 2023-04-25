@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b3e3e29.css",
-    "main.js": "/static/js/main.fc94221d.js",
+    "main.css": "/static/css/main.eab97c57.css",
+    "main.js": "/static/js/main.08746230.js",
     "static/media/calle_vista.png": "/static/media/calle_vista.90ac5dd1f76a32c34117.png",
     "static/media/gifCanilla2.gif": "/static/media/gifCanilla2.5ff775e3163cf58b9a73.gif",
     "static/media/books.png": "/static/media/books.c6c6f445faff0da35dc4.png",
@@ -81,6 +81,7 @@
     "static/media/iconoInstagram.svg": "/static/media/iconoInstagram.0009c8fdd42b9f5766b20f0efae9bbd8.svg",
     "static/media/button.svg": "/static/media/button.42ee749ecdd9c83b54eb860ee075d4b8.svg",
     "static/media/postulaciones.svg": "/static/media/postulaciones.c28aa203f3d28398b072e5350d72be04.svg",
+    "static/media/iconoPdf.svg": "/static/media/iconoPdf.449e87da1af75b5acdbab8f68c8f9aad.svg",
     "index.html": "/index.html",
     "static/media/iconoTwiter.svg": "/static/media/iconoTwiter.d1ba8cd7640d9f564897902db51199ff.svg",
     "static/media/evento.svg": "/static/media/evento.b69d1a1cbd900c7526684ccf24976ac1.svg",
@@ -97,11 +98,11 @@
     "static/media/burgerMenu.svg": "/static/media/burgerMenu.e074d0825ca9743fb97d8c0cddc96621.svg",
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
-    "main.3b3e3e29.css.map": "/static/css/main.3b3e3e29.css.map",
-    "main.fc94221d.js.map": "/static/js/main.fc94221d.js.map"
+    "main.eab97c57.css.map": "/static/css/main.eab97c57.css.map",
+    "main.08746230.js.map": "/static/js/main.08746230.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b3e3e29.css",
-    "static/js/main.fc94221d.js"
+    "static/css/main.eab97c57.css",
+    "static/js/main.08746230.js"
   ]
 }
