@@ -1,4 +1,3 @@
-import React, { Component, useEffect } from "react";
 import "./Muestra.scss";
 import { logos } from "../../constants";
 import Sticky from "./Sticky/Sticky";

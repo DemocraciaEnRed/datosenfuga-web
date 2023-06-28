@@ -8,24 +8,6 @@
   padding: 1rem;
   background: #000;
 
-  .link-pdf {
-    background-color: rgba(255, 46, 0, 0.85);
-    border-radius: 10px;
-    width: 75px;
-    padding: 2px 15px;
-    font-size: 13px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    & img {
-      padding-left: 2px;
-    }
-    &:hover {
-      text-shadow: none;
-    }
-  }
-
   &-links {
     display: flex;
     flex-direction: row;

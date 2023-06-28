@@ -1,0 +1,86 @@
+.container {
+    padding: 5vw;
+}
+
+.banner {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h1 {
+        font-size: 40px;
+        font-family: 'Open Sans';
+        font-weight: 800;
+        text-align: center;
+    }
+
+    & p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        & a {
+            text-decoration: none;
+            color: #F1F1F1;
+            text-transform: uppercase;
+            font-family: 'Open Sans';
+        }
+    }
+}
+
+.comic {
+    background-color: #000;
+
+    &__titles {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        color: #F1F1F1;
+    }
+}
+
+button {
+    text-transform: uppercase;
+    background-color: #CC4356;
+    color: #F1F1F1;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    padding: 5px 28px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+        padding-left: 15px;
+    }
+
+    &:hover {
+        text-shadow: none;
+    }
+
+    & a {
+        text-decoration: none;
+        color: #F1F1F1;
+        text-transform: uppercase;
+        font-family: 'Open Sans';
+    }
+}

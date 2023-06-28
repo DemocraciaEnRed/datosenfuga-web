@@ -7,10 +7,11 @@ import Casos from "./Casos/Casos";
 import Muestra from "./Muestra/Muestra";
 import Actividades from "./Actividades/Actividades";
 import NotFound from "./landing/NotFound/NotFound";
+import Amparo from "./Amparo/Amparo";
 
 const AppRouter = () => {
   const [hasMounted, setHasMounted] = useState(false);
-  
+
   useEffect(() => {
     setHasMounted(true);
   }, []);
@@ -29,6 +30,7 @@ const AppRouter = () => {
         <Route path="/muestra" element={<Muestra />} />
         <Route path="/encuentros" element={<Actividades />} />
         <Route path="/encuentros/:id" element={<Actividades />} />
+        <Route path="/amparo" element={<Amparo />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
