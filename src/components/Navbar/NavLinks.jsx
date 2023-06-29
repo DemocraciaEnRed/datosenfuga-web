@@ -26,6 +26,9 @@ const NavLinks = () => {
             <li>
                 <HashLink smooth to="/#organizaciones">Quiénes somos</HashLink>
             </li>
+            <li>
+                <HashLink smooth to="/amparo">Amparo</HashLink>
+            </li>
         </>
     )
 }
