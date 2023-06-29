@@ -71,10 +71,16 @@ h2 {
 }
 
 @media screen and (max-width: 426px) {
-    .desktop-img {
-        display: none;
+    .comic {
+        &__image {
+            .desktop-img {
+                display: none;
+            }
+        
+            .mobile-img {
+                display: block;
+            }
+        }
     }
-    .mobile-img {
-        display: block;
-    }
+    
 }
