@@ -1,34 +1,27 @@
-h2 {
-    margin: 15px 0 15px 0;
-}
-
-.scrollable {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-bottom: 30px;
-
-
-    & .swipe {
-        display: none;
-    }
-
-    & img {
-        max-width: 100%;
-    }
-}
-
+// h2 {
+//     margin: 15px 0 15px 0;
+// }
 .comic {
+    background-color: #000;
+
+    &__titles {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        color: #F1F1F1;
+        margin: 40px auto 20px auto;
+        max-width: 1656px;
+        font-family: 'Open Sans';
+        text-transform: uppercase;
+    }
+
     &__image {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
 
-        & img {
+        img {
             max-width: 100%;
         }
 
@@ -47,10 +40,26 @@ h2 {
         row-gap: 20px;
         column-gap: 30px;
 
-        & {
-            img {
-                max-width: 100%;
-            }
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .scrollable {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-bottom: 30px;
+
+        .swipe {
+            display: none;
+        }
+
+        img {
+            max-width: 100%;
         }
     }
 }
@@ -69,14 +78,12 @@ h2 {
         }
 
         &__imagesContainer {
-            & {
-                img {
-                    max-width: 100%;
-                }
+            img {
+                max-width: 100%;
             }
         }
 
-        & .scrollable {
+        .scrollable {
             justify-content: flex-start;
             overflow-x: scroll;
             overflow-y: hidden;
@@ -87,7 +94,7 @@ h2 {
                 padding-bottom: 40px;
             }
 
-            & img {
+            img {
                 max-width: none;
                 max-height: 280px;
             }
@@ -96,7 +103,7 @@ h2 {
                 display: none;
             }
 
-            & .swipe {
+            .swipe {
                 color: #fafafa;
                 display: flex;
                 position: absolute;
@@ -110,6 +117,14 @@ h2 {
                     content: url("../../../assets/iconos/arrowNext.svg");
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .comic {
+        &__titles {
+            font-size: 30px;
         }
     }
 }

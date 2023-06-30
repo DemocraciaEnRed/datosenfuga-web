@@ -11,6 +11,40 @@
     margin: 5vh 5vw;
     text-align: center;
 
+    button {
+        text-transform: uppercase;
+        background-color: #fff;
+        color: #CC4356;
+        border: 2px solid #CC4356;
+        border-radius: 50px;
+        font-weight: 700;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 5px 28px;
+        width: 290px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            padding-left: 10px;
+        }
+
+        &:hover {
+            text-shadow: none;
+        }
+
+        & a {
+            text-decoration: none;
+            color: #F1F1F1;
+            text-transform: uppercase;
+            font-family: 'Open Sans';
+        }
+    }
+
     &__link {
         text-decoration: none;
         color: #F1F1F1;
@@ -22,6 +56,7 @@
         font-size: 40px;
         font-family: 'Open Sans';
         font-weight: 400;
+
         span {
             font-weight: 800;
         }
@@ -58,54 +93,6 @@
     }
 }
 
-.comic {
-    background-color: #000;
-
-    &__titles {
-        text-align: center;
-        font-size: 40px;
-        font-weight: 700;
-        color: #F1F1F1;
-        margin: 40px auto 20px auto;
-        max-width: 1656px;
-        font-family: 'Open Sans';
-        text-transform: uppercase;
-    }
-}
-
-button {
-    text-transform: uppercase;
-    background-color: #fff;
-    color: #CC4356;
-    border: 2px solid #CC4356;
-    border-radius: 50px;
-    font-weight: 700;
-    cursor: pointer;
-    font-size: 14px;
-    padding: 5px 28px;
-    width: 290px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-
-    & img {
-        padding-left: 10px;
-    }
-
-    &:hover {
-        text-shadow: none;
-    }
-
-    & a {
-        text-decoration: none;
-        color: #F1F1F1;
-        text-transform: uppercase;
-        font-family: 'Open Sans';
-    }
-}
 
 @media screen and (max-width: 425px) {
     .banner {
@@ -115,12 +102,6 @@ button {
 
         &__subtitle {
             font-size: 16px;
-        }
-    }
-
-    .comic {
-        &__titles {
-            font-size: 30px;
         }
     }
 }

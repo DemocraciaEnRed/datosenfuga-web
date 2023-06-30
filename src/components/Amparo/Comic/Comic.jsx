@@ -1,9 +1,7 @@
-import React from "react";
 import { comic } from "../../../assets/amparo";
 import "./Comic.scss";
 
 const Comic = () => {
-  // const comicSlides1 = [comic.comic1]
   return (
     <>
       <h2 className="comic__titles">
@@ -12,7 +10,7 @@ const Comic = () => {
       </h2>
       <div className='scrollable'>
         <img src={comic.d1} alt="image1" />
-        <div className="swipe">Desliza <i className="arrow"></i></div>
+        <div className="animate__animated animate__flash animate__slower animate__repeat-2 swipe">Desliza <i className="arrow"></i></div>
       </div>
       <div className="comic__image">
         <img src={comic.d2} alt="La emergencia sanitaria en nuestro país terminó oficialmente el 31/12/22. Ahhh, pero la DA 431/2020 sigue todavía vigente." className="desktop-img" />
@@ -36,11 +34,11 @@ const Comic = () => {
       </h2>
       <div className="scrollable extra__padding">
         <img src={comic.d78} alt="Cambridge Analytica usó los datos de 87 millones de usuarios de Facebook para favorecer la campaña de Trump." />
-        <div className="swipe">Desliza <i className="arrow"></i></div>
+        <div className="animate__animated animate__flash animate__slower animate__repeat-2 swipe">Desliza <i className="arrow"></i></div>
       </div>
       <div className="scrollable extra__padding">
         <img src={comic.d9} alt="image9" />
-        <div className="swipe">Desliza <i className="arrow"></i></div>
+        <div className="animate__animated animate__flash animate__slower animate__repeat-2 swipe">Desliza <i className="arrow"></i></div>
       </div>
     </>
   );
