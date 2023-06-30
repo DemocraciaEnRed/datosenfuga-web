@@ -65,7 +65,7 @@ const Muestra = () => {
             <p id="eventoObras" className="contenido__title">
               OBRAS
             </p>
-            <Obras display={3} />
+            <Obras />
             <div className="spacer_muestra">
               <img src={logos.spacer} alt="spacer" />
             </div>

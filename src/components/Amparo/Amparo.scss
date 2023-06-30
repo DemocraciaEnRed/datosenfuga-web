@@ -3,27 +3,38 @@
 }
 
 .banner {
-    height: 20vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5vh 5vw;
+    text-align: center;
+
+    &__link {
+        text-decoration: none;
+        color: #F1F1F1;
+        text-transform: uppercase;
+        font-family: 'Open Sans';
+    }
 
     & h1 {
         font-size: 40px;
         font-family: 'Open Sans';
-        font-weight: 800;
-        text-align: center;
+        font-weight: 400;
+        span {
+            font-weight: 800;
+        }
     }
 
-    & p {
+    &__subtitle {
         margin-top: 15px;
         margin-bottom: 15px;
         font-size: 20px;
-        text-align: center;
     }
 
     &__buttons {
+        margin-top: 15px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -38,6 +49,13 @@
             font-family: 'Open Sans';
         }
     }
+
+    & .principalButton {
+        width: 290px;
+        margin-top: 24px;
+        color: #fff;
+        background-color: #CC4356;
+    }
 }
 
 .comic {
@@ -48,20 +66,24 @@
         font-size: 40px;
         font-weight: 700;
         color: #F1F1F1;
+        margin: 40px auto 20px auto;
+        max-width: 1656px;
+        font-family: 'Open Sans';
+        text-transform: uppercase;
     }
 }
 
 button {
     text-transform: uppercase;
-    background-color: #CC4356;
-    color: #F1F1F1;
+    background-color: #fff;
+    color: #CC4356;
+    border: 2px solid #CC4356;
+    border-radius: 50px;
     font-weight: 700;
     cursor: pointer;
-    border-radius: 50px;
-    border: none;
     font-size: 14px;
     padding: 5px 28px;
-    width: 200px;
+    width: 290px;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -70,7 +92,7 @@ button {
     align-items: center;
 
     & img {
-        padding-left: 15px;
+        padding-left: 10px;
     }
 
     &:hover {
@@ -82,5 +104,23 @@ button {
         color: #F1F1F1;
         text-transform: uppercase;
         font-family: 'Open Sans';
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner {
+        & h1 {
+            font-size: 30px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+        }
+    }
+
+    .comic {
+        &__titles {
+            font-size: 30px;
+        }
     }
 }
