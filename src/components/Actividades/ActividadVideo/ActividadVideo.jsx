@@ -4,10 +4,11 @@ import "./ActividadVideo.scss"
 
 const ActividadVideo = ({ data }) => {
       return (
-        <div className='actividadVideo'>
-          <div>
+        // <div className='actividadVideo'>
+        <div>
+          {/* <div>
             <iframe src={data.urlVideo} title="Encuentro Regional de Políticas Públicas de Seguridad Informática" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
-          </div>
+          </div> */}
           <div className='actividadVideo__members'>
             <p className='membersTitle'>¿Quiénes lo conforman?</p>
             <p className='membersRole'>Moderador</p>
