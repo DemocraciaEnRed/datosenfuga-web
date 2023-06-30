@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.24b1526a.css",
-    "main.js": "/static/js/main.05362cb7.js",
+    "main.css": "/static/css/main.8e107c57.css",
+    "main.js": "/static/js/main.f878f3b9.js",
     "static/media/calle_vista.png": "/static/media/calle_vista.90ac5dd1f76a32c34117.png",
     "static/media/gifCanilla2.gif": "/static/media/gifCanilla2.5ff775e3163cf58b9a73.gif",
     "static/media/books.png": "/static/media/books.c6c6f445faff0da35dc4.png",
@@ -62,8 +62,6 @@
     "static/media/desktop4.png": "/static/media/desktop4.7a6430a81fa876bb426c.png",
     "static/media/gifCanilla.gif": "/static/media/gifCanilla.e5783cfde313a8d2a7a2.gif",
     "static/media/sorianello.png": "/static/media/sorianello.b93b9be3ed8ec9c77660.png",
-    "static/media/mobile9.png": "/static/media/mobile9.12e8a08b4a8757e44abf.png",
-    "static/media/mobile1.png": "/static/media/mobile1.ee3a283c5f4076dd9c97.png",
     "static/media/timelineSorianello.png": "/static/media/timelineSorianello.d976358c5421a5343e1f.png",
     "static/media/self.png": "/static/media/self.bf066bf5068e5c67c3a9.png",
     "static/media/luz_del_vacio.jpg": "/static/media/luz_del_vacio.1e2c4f359efe2bcc27ef.jpg",
@@ -71,15 +69,10 @@
     "static/media/julietaDiCorleto.jpg": "/static/media/julietaDiCorleto.a9e48f4766f372cb68da.jpg",
     "static/media/locked.png": "/static/media/locked.aaa3e19a9c392cce500c.png",
     "static/media/mobile6.png": "/static/media/mobile6.ba645a2b3f0cdeaa5cc6.png",
-    "static/media/mobile5.png": "/static/media/mobile5.84fca254f9faab5df154.png",
     "static/media/florCaffarone.png": "/static/media/florCaffarone.12456f005faf399bff55.png",
     "static/media/ortmann.png": "/static/media/ortmann.7f0c32e76cea4c2c19dd.png",
-    "static/media/mobile3.png": "/static/media/mobile3.686f3d5ac40d594878d6.png",
-    "static/media/mobile4.png": "/static/media/mobile4.5a11212ecd011c3bc027.png",
     "static/media/gustavoPresman.jfif": "/static/media/gustavoPresman.66a5df44d42d2b3bc51a.jfif",
     "static/media/sol_mi_pantalla.jpg": "/static/media/sol_mi_pantalla.8085487d17b2d25792e2.jpg",
-    "static/media/mobile7.png": "/static/media/mobile7.36ab624c417a953631d1.png",
-    "static/media/mobile8.png": "/static/media/mobile8.44c99c2175a82562e383.png",
     "static/media/gabrielaRatti.jpg": "/static/media/gabrielaRatti.8cb221aa3e37563383fe.jpg",
     "static/media/mobile2.png": "/static/media/mobile2.393849a25eec33fd66c5.png",
     "static/media/christianSueiro.jpg": "/static/media/christianSueiro.560bb6c2f2a6473794be.jpg",
@@ -115,11 +108,11 @@
     "static/media/burgerMenu.svg": "/static/media/burgerMenu.e074d0825ca9743fb97d8c0cddc96621.svg",
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
-    "main.24b1526a.css.map": "/static/css/main.24b1526a.css.map",
-    "main.05362cb7.js.map": "/static/js/main.05362cb7.js.map"
+    "main.8e107c57.css.map": "/static/css/main.8e107c57.css.map",
+    "main.f878f3b9.js.map": "/static/js/main.f878f3b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.24b1526a.css",
-    "static/js/main.05362cb7.js"
+    "static/css/main.8e107c57.css",
+    "static/js/main.f878f3b9.js"
   ]
 }
