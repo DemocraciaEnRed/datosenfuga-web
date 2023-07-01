@@ -94,7 +94,7 @@ const Casos = () => {
               );
             }
           })}
-          {/* CASO 4 */}
+          {/* 
           <div className="casos__tooltip">
             <img
               src={avatars.locked}
@@ -108,7 +108,7 @@ const Casos = () => {
             />
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
           </div>
-          {/* CASO 5 */}
+          
           <div className="casos__tooltip">
             <img
               src={avatars.locked}
@@ -122,7 +122,7 @@ const Casos = () => {
             />
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
           </div>
-          {/* CASO 6 */}
+          
           <div className="casos__tooltip">
             <img
               src={avatars.locked}
@@ -135,7 +135,7 @@ const Casos = () => {
               }
             />
             <span className="casos__tooltiptext">Próximamente podrás conocer este caso</span>
-          </div>
+          </div> */}
         </div>
         {caso !== 0 &&
           <>
