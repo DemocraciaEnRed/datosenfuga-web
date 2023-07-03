@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e107c57.css",
-    "main.js": "/static/js/main.f878f3b9.js",
+    "main.css": "/static/css/main.297e6d2f.css",
+    "main.js": "/static/js/main.0b7021b8.js",
     "static/media/calle_vista.png": "/static/media/calle_vista.90ac5dd1f76a32c34117.png",
     "static/media/gifCanilla2.gif": "/static/media/gifCanilla2.5ff775e3163cf58b9a73.gif",
     "static/media/books.png": "/static/media/books.c6c6f445faff0da35dc4.png",
@@ -108,11 +108,11 @@
     "static/media/burgerMenu.svg": "/static/media/burgerMenu.e074d0825ca9743fb97d8c0cddc96621.svg",
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
-    "main.8e107c57.css.map": "/static/css/main.8e107c57.css.map",
-    "main.f878f3b9.js.map": "/static/js/main.f878f3b9.js.map"
+    "main.297e6d2f.css.map": "/static/css/main.297e6d2f.css.map",
+    "main.0b7021b8.js.map": "/static/js/main.0b7021b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e107c57.css",
-    "static/js/main.f878f3b9.js"
+    "static/css/main.297e6d2f.css",
+    "static/js/main.0b7021b8.js"
   ]
 }
