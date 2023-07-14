@@ -64,6 +64,16 @@
     }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1850px) {
+    .comic {
+        &__imagesContainer {
+            img {
+                max-width: 30%;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .comic {
         &__image {
