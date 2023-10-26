@@ -15,7 +15,7 @@ const Faq = () => {
         </ol>
       </div>
       <div className="faq__centered">
-        <a className="faq__report-button" href="http://" type="button" target="_blank" rel="noopener noreferrer">HACÉ TU REPORTE ANÓNIMO</a>
+        <a className="faq__report-button" href="https://reportes.vialibre.ngo/" type="button" target="_blank" rel="noopener noreferrer">HACÉ TU REPORTE ANÓNIMO</a>
       </div>
       <hr />
       <h2 className="faq__title">¿QUÉ HACEMOS CON TUS REPORTES?</h2>

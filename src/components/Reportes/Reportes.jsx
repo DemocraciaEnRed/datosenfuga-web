@@ -13,7 +13,7 @@ const Reportes = () => {
                     <span className='header__title-globaleaks'>Sistema Basado en <strong>GLOBALEAKS</strong><img src={reportesImg.globaleaks} alt="logo globaleaks" /></span>
                 </div>
                 <h2 className='header__subtitle'>¿Encontraste una falla de seguridad y temes reportarla?</h2>
-                <a className="header__report-button" href="http://" type="button" target="_blank" rel="noopener noreferrer">¿Cómo reportar seguro?</a>
+                <a className="header__report-button" href="#reportes__squares" type="button">¿Cómo reportar seguro?</a>
             </header>
             <section className='reportes__info'>
                 <p className="reportes__info__desc">El sitio desarrollado por <b>Fundación Via Libre</b> con un sistema basado en <b>GlobalLeaks</b>, permite informar de forma anónima y protegida sobre <b>fallas en sistemas informáticos</b> que afecten los derechos de las personas. Podés reportarlas acá para que sean reparadas.</p>
@@ -32,7 +32,7 @@ const Reportes = () => {
                     })
                 }
                 </div>
-                <a className="reportes__report-button" href="http://" type="button" target="_blank" rel="noopener noreferrer">REPORTÁ</a>
+                <a className="reportes__report-button" href="https://reportes.vialibre.ngo/" type="button" target="_blank" rel="noopener noreferrer">REPORTÁ</a>
             </section>
             <Proteger/>
             <Faq />
