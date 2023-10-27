@@ -1,0 +1,44 @@
+.faq {
+  padding: 3vw;
+  background-color: #D9D9D9;
+
+  &__title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #212121;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__description {
+    text-align: center;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  &__list {
+    margin: 20px 0;
+    line-height: 27.24px;
+  }
+
+  &__centered {
+    text-align: center;
+  }
+
+  &__report-button {
+    display: inline-block;
+    padding: 1rem .75rem;
+    background-color: #CC4356;
+    color: #F1F1F1;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 1rem;
+  }
+
+  &__divider {
+    background-color: #000;
+    color: #000;
+    border: 1px solid #000;
+    margin: 35px;
+  }
+}
