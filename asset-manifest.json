@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.89e324f0.css",
-    "main.js": "/static/js/main.0b7021b8.js",
+    "main.css": "/static/css/main.abc83a99.css",
+    "main.js": "/static/js/main.0ff8303e.js",
     "static/media/calle_vista.png": "/static/media/calle_vista.90ac5dd1f76a32c34117.png",
     "static/media/gifCanilla2.gif": "/static/media/gifCanilla2.5ff775e3163cf58b9a73.gif",
     "static/media/books.png": "/static/media/books.c6c6f445faff0da35dc4.png",
@@ -81,6 +81,7 @@
     "static/media/agustinFrizzera.png": "/static/media/agustinFrizzera.a1493526c2c8f0e72dd7.png",
     "static/media/gasparPisandu.jfif": "/static/media/gasparPisandu.84591a8c195dc2c463e3.jfif",
     "static/media/sebastianWaisbrot.jfif": "/static/media/sebastianWaisbrot.9715aae33de847d2fca0.jfif",
+    "static/media/qant.png": "/static/media/qant.8b96d9be7a25ccd4722b.png",
     "static/media/gustavoSain.jpg": "/static/media/gustavoSain.97245ef9d9eca7d8e9b7.jpg",
     "static/media/rodrigoIglesias.jfif": "/static/media/rodrigoIglesias.3244d15e6d2bc9dc0dbe.jfif",
     "static/media/jonathanAPolansky.jfif": "/static/media/jonathanAPolansky.7e6f150e6ca361af9122.jfif",
@@ -108,11 +109,11 @@
     "static/media/burgerMenu.svg": "/static/media/burgerMenu.e074d0825ca9743fb97d8c0cddc96621.svg",
     "static/media/iconoVideo.svg": "/static/media/iconoVideo.ca3a5dc6b71bd4dad26c588f2459356d.svg",
     "static/media/spacer.svg": "/static/media/spacer.91d0b80ebbd221633e67dc9b8dbab97c.svg",
-    "main.89e324f0.css.map": "/static/css/main.89e324f0.css.map",
-    "main.0b7021b8.js.map": "/static/js/main.0b7021b8.js.map"
+    "main.abc83a99.css.map": "/static/css/main.abc83a99.css.map",
+    "main.0ff8303e.js.map": "/static/js/main.0ff8303e.js.map"
   },
   "entrypoints": [
-    "static/css/main.89e324f0.css",
-    "static/js/main.0b7021b8.js"
+    "static/css/main.abc83a99.css",
+    "static/js/main.0ff8303e.js"
   ]
 }
