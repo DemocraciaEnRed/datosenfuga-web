@@ -27,6 +27,9 @@ const NavLinks = () => {
                 <HashLink to="/encuentros">Encuentros</HashLink>
             </li>
             <li>
+                <HashLink smooth to="/reportes">Reportes</HashLink>
+            </li>
+            <li>
                 <HashLink smooth to="/#organizaciones">Quiénes somos</HashLink>
             </li>
         </>
