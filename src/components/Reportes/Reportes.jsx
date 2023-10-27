@@ -16,7 +16,7 @@ const Reportes = () => {
                 <a className="header__report-button" href="#reportes__squares" type="button">¿Cómo reportar seguro?</a>
             </header>
             <section className='reportes__info'>
-                <p className="reportes__info__desc">El sitio desarrollado por <b>Fundación Via Libre</b> con un sistema basado en <b>GlobalLeaks</b>, permite informar de forma anónima y protegida sobre <b>fallas en sistemas informáticos</b> que afecten los derechos de las personas. Podés reportarlas acá para que sean reparadas.</p>
+                <p className="reportes__info__desc reportes--text-container">El sitio desarrollado por <b>Fundación Via Libre</b> con un sistema basado en <b>GlobalLeaks</b>, permite informar de forma anónima y protegida sobre <b>fallas en sistemas informáticos</b> que afecten los derechos de las personas. Podés reportarlas acá para que sean reparadas.</p>
                 <div class="reportes__squares">
                 {
                     squaresData.map((square) => {
@@ -36,6 +36,10 @@ const Reportes = () => {
             </section>
             <Proteger/>
             <Faq />
+            <section className='reportes__about'>
+                <h2 className='reportes__about-title'>Sobre el proyecto</h2>
+                <p className='reportes__about-content reportes--text-container'>Desde Fundación Vía Libre, ODIA y Democracia en Red  realizamos todos los esfuerzos técnicos para no conservar datos personales a través de los reportes recibidos. Tal como se puede consultar en la sección “¿Cómo te protegemos?”, la información que envíes es absolutamente anónima para nosotros: la plataforma está diseñada de forma tal que únicamente conserva el contenido presentado en la denuncia y genera en consecuencia un código único para identificarla, sin quedar asociada a quien la realiza. No accedemos a ni conservamos registros que permitan individualizar o identificar a quienes completan el formulario: no empleamos ningún mecanismo para trazar tu conexión ni guardamos registro de las direcciones de red desde las que te hayas conectado o cualquier otro metadato que pueda identificarte. De todas formas, recomendamos como precaución general no incluir información personal y, en lo posible, acceder a través del navegador TOR.</p>
+            </section>
             
         </main>
     )

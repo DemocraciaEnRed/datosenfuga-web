@@ -60,7 +60,7 @@
     &__info {
         background-color: #212121;
         color: #ffffff;
-        padding: 1.5vw;
+        padding: 3vw;
         text-align: center;
 
         &__desc {
@@ -115,6 +115,15 @@
         color: #F1F1F1;
         text-decoration: none;
         text-transform: uppercase;
+    }
+    &__about{
+        background-color: #212121;
+        color:#F1F1F1;
+        padding: 3vw;
+        &-title{
+            text-align: center;
+            margin-bottom: 20px;
+        }
     }
 }
 
