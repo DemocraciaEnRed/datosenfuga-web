@@ -8,6 +8,7 @@ import Muestra from "./Muestra/Muestra";
 import Actividades from "./Actividades/Actividades";
 import NotFound from "./landing/NotFound/NotFound";
 import Amparo from "./Amparo/Amparo";
+import Reportes from "./Reportes/Reportes";
 
 const AppRouter = () => {
   const [hasMounted, setHasMounted] = useState(false);
@@ -31,6 +32,7 @@ const AppRouter = () => {
         <Route path="/encuentros" element={<Actividades />} />
         <Route path="/encuentros/:id" element={<Actividades />} />
         <Route path="/amparo" element={<Amparo />} />
+        <Route path="/reportes" element={<Reportes />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
