@@ -16,7 +16,7 @@ const squaresData2 = [{
 {
     "id": 3,
     "title": "Cifrado",
-    "subtitle": "Técnicas de cifrado solidas",
+    "subtitle": "Técnicas de cifrado sólidas",
     "img": reportesImg.cifrado
 },
 {
